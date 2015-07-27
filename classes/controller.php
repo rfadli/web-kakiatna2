@@ -146,7 +146,7 @@ class controller
 		$p['webtitle'] = $webtitle;
 		
 		$variable = array_merge($p, $variable);
-		$view = $this->getView(DOCVIEW.'template/template-kakiatna.php', $variable);
+		$view = $this->getView(DOCVIEW.'template/template.php', $variable);
 		echo $view;
 	}
 }

@@ -1,209 +1,441 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+
+<html lang="en-US" style="background:url(/public/images/patterns/9.png) 50% 50% repeat;">
+ <!--<![endif]-->
+
+<!-- head -->
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title><?php echo $webtitle; ?></title>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
-<?php echo $css; ?>
+<!-- meta -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Cake</title>
 
-<!--[if lte IE 8]>
-<meta HTTP-EQUIV="REFRESH" content="0; url=/welcome/lteie8">
+<meta name="description" content="Cake works with every business. No matter if you are cooker, blogger, designer or an astronaut - this wordpress theme is for everyone!" />
+<meta name="keywords" content="cake, wordpress, muffingroup, muffin builder, muffin options, page builder, theme, template, parallax, contact form 7, mega menu" />
+
+<link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />	
+
+
+<script>
+//<![CDATA[
+window.mfn_slider_vertical	= { autoplay:0 	};
+window.mfn_slider_portfolio 	= { autoPlay:0 };
+//]]>
+</script>
+
+<?php echo $css;?>
+
+	
+<style>
+.page-id-3716 h2 { word-wrap: break-word; }
+.page-id-4311 .icon_box .desc_wrapper .desc { padding: 0 40px; }
+.page-id-10459 .icon_box h4.title { word-wrap: break-word; }
+.page-id-10756 #Footer { display:none;}
+.page-id-10772 #Content { padding-top:0 !important;}
+#Top_bar.is-sticky #logo img { max-height:40px; width:auto !important;}
+</style>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+
 
 </head>
 
-<body>
+<!-- body -->
+<body class="page page-child parent-pageid-4311 page-template-default template-slider  color-custom layout-boxed sticky-header">
+<!-- #Wrapper -->
+<div id="Wrapper">
+	<!-- #Action_bar -->
+	<div id="Action_bar">
+		<ul id="menu-action-menu" class="top-bar-menu">
+			<li class="menu-item  current-menu-item page_item current_page_item "><a href="index.html">Home</a></li>
+			<li class="menu-item  "><a href="help.html">Help Center</a></li>
+			<li class="menu-item  "><a href="about-us.html">About us</a></li>
+			<li class="menu-item  "><a href="contact.html">Contact</a></li>
+			<li class="menu-item  menu-item-10792"><a href="#">Buy it</a></li>
+		</ul>
+		<div class="contact_info">
+			<p class="phone">
+				<i class="icon-phone"></i><a href="#">+61 (0) 3 8376 6284</a>
+			</p>
+			<p class="mail">
+				<i class="icon-mail-line"></i><a href="#">noreply@envato.com</a>
+			</p>
+		</div>
+	</div>
+	<!-- #Header -->
+	<header id="Header">
+	<!-- .header_placeholder 4sticky  -->
+	<div class="header_placeholder">
+	</div>
+	<div id="Top_bar">
+		<div class="container">
+			<div class="column one">
+				<!-- .logo -->
+				<div class="logo">
+					<h1><a id="logo" href="home-corporate.html" title="Cake"><img class="scale-with-grid" src="/public/upload/gambar/logo_dark.png" alt="Cake"/></a></h1>
+				</div>
+				<!-- .menu_wrapper -->
+				<div class="menu_wrapper">
+					<!-- .header_action_button -->
+					
+					<!-- .header_cart -->
+					
+					<!-- #searchform -->
+					
 
-	<!--Main Menu Start-->
-    <header class="header-section">
-    	
-        <!--Navigation Menu-->
-        <nav class="main-menu">
-        	<ul>
-        		<?php
-        		$db = Db::init();
-				$mn = $db->menu;
-				$q = array(
-					'contributor_id' => CLIENT_ID
-				);
-				$dd = $mn->find($q);
-				foreach($dd as $ddt)
-				{
-					
-				}
-        		?>
-            	
-            	<?php echo $sidebarmenu; ?>
-            </ul>
-        </nav>
-        
-        <div id="navbtn">
-            <a href="#">
-                <img src="/public/images/hide-menu.png" alt="responsive menu" />
-            </a>
-        </div>
-        <!--Navigation Menu End-->
-        
-        <!--Logo-->
-        <div class="logo">
-        	<a href="/"><img src="/public/media/logo2.png" height="61" alt="logo" /></a>
-        </div>
-        <!--Logo End-->
-        
-        <!--Social Media-->
-        <nav class="social-main">
-        	<ul>
-        		<?php
-        		$db = Db::init();
-				$pre = $db->preference;
-				$array = array(
-					'contributor_id' => CLIENT_ID
-				);
-				$b = $pre->findOne($array);	
-				$facebook = "#";
-				$twitter = "#";
-				$google = "#";
-				if(isset($b['_id']))
-				{
-					if(isset($b['twitter']))
-						$twitter = $b['twitter'];
-					if(isset($b['facebook']))
-						$facebook = $b['facebook'];
-					if(isset($b['google']))
-						$google = $b['google'];
-				}
-        		?>
-            	<li><a href="<?php echo $facebook; ?>"><img src="/public/images/social-icon/social-icon-facebook.png" alt="Facebook" onMouseOver="this.src='/public/images/social-icon/social-icon-facebook-hover.png';" onMouseOut="this.src='/public/images/social-icon/social-icon-facebook.png';" /></a></li>
-                <li><a href="<?php echo $twitter; ?>"><img src="/public/images/social-icon/social-icon-twitter.png" alt="Twitter" onMouseOver="this.src='/public/images/social-icon/social-icon-twitter-hover.png';" onMouseOut="this.src='/public/images/social-icon/social-icon-twitter.png';" /></a></li>
-                <li><a href="<?php echo $google; ?>"><img src="/public/images/social-icon/social-icon-google-plus.png" alt="Google Plus" onMouseOver="this.src='/public/images/social-icon/social-icon-google-plus-hover.png';" onMouseOut="this.src='/public/images/social-icon/social-icon-google-plus.png';" /></a></li>
-            </ul>
-        </nav>
-        <!--Social Media End-->
-        
-    </header>
-    <!--Main Menu End-->
-    
-    <!--All Content Start-->
-    <div class="wrapper">
-            
-           <?php echo $content; ?>
-            
-    </div>
-    <!--All Content End-->
-    
-    <div class="clearfix"></div>
-    
-    <!--Footer Start-->
-    <footer class="footer-section">
-    
-    	<!--Footer About Us-->
-    	<section class="footer-about">
-        	<div class="footer-content">
-                <figure>
-                    <img src="/public/media/LOGO_SUGAR_white.png" width="108" alt="footer logo" />
-                </figure>
-                <div class="footer-text">
-                	<?php
-                	$prefer = $db->preference;
-					$query = array(
-						'contributor_id' => CLIENT_ID
-					);
-					$mprefer = $prefer->findOne($query);
-					
-					echo '<br />';
-					echo '<p>'.$mprefer['description'].'</p>';
-                	?>
-                   
-                </div>
-            </div>
-        </section>
-        <!--Footer About Us End-->
-        
-        <!--Footer Contact-->
-        <section class="footer-contact">
-        	<h2 class="footer-title">CONTACT INFO</h2>
-        	<div class="footer-content">
-            	<ul>
-                	<li>
-                		<?php
-                		$client = $db->client;
-						$array = array(
-							"_id" => new mongoId(CLIENT_ID)
-						);
-						$mcli = $client->findOne($array);
+					<!-- #menu -->
+					<nav id="menu" class="menu-main-menu-container">
+					<ul id="menu-main-menu" class="menu">
+						<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="home-corporate.html"><b><span>Home</span></b></a></li>
+						<li class="menu-item  "><a href="/aboutus"><b><span style="color: #3C191A">About Us</span></b></a></li>
+						<li class="menu-item  "><a href="business.html"><b><span style="color: #3C191A">Business</span></b></a></li>
+						<li class="menu-item  "><a href="career.html"><b><span style="color: #3C191A">Career</span></b></a></li>
+						<li class="menu-item  "><a href="med.html"><b><span style="color: #3C191A">Media</span></b></a></li>
+						<li class="menu-item  "><a href="contact.html"><b><span style="color: #3C191A">Contact</span></b></a></li>
 						
-						echo '<div class="contact-list footer-text">';
-                        echo '<span>'.$mcli['company'].'</span>';
-                        echo '</div>';
-                		?>
-                    </li>
-                    <li>
-                    	<?php
-                    	echo '<div class="contact-list footer-text email">';
-                        echo '<span>'.$mcli['email'].'</span>';
-                        echo '</div>';
-                    	?>
-                    </li>
-                    <li>
-                    	<?php
-                    	echo '<div class="contact-list footer-text phone">';
-                        echo '<span>'.$mcli['phone'].'</span>';
-                        echo '</div>';
-                    	?>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!--Footer Contact End-->
-        
-        <!--Footer Subscribe-->
-        <section class="footer-subscribe">
-        	<h2 class="footer-title">NEWSLETTER</h2>
-        	<div class="footer-content">
-            	<div class="footer-text">
-                	<p>Subscribe now for free tips, update item and our promotion.</p>
-                </div>
-                <div class="subscribe-box">
-                	<form>
-                    	<input class="first-name" type="text" name="firstname" placeholder="First name *" required />
-                        <input class="last-name" type="text" name="lastname" placeholder="Last name *" required />
-                        <input class="email" type="text" name="email" placeholder="Your email address *" required />
-                        <input class="subscribe-button" type="submit" value="SUBSCRIBE"/>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <!--Footer Subscribe End-->
-        
-        <div class="clearfix"></div>
-        
-        <!--Footer Bottom-->
-        <section class="footer-bottom">
-        	<div class="copyright">
-            	Copyright © All Rights Reserved. <a href="#">yourdomain.com</a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </section>
-        <!--Footer Bottom End-->
-        
-        <!--Go To Top-->
-        <a href="#" class="back-to-top"></a>
-        <!--End-->
-        
-    </footer>
-    <!--Footer End-->
+					</ul>
+					</nav><a class="responsive-menu-toggle" href="#"><i class='icon-menu'></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
 
-	<?php echo $js; ?>
-    <?php echo $tambahan; ?>
-    
+	<div id="mfn-rev-slider">
+		<div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullscreen-container pd0">
+		<!-- START REVOLUTION SLIDER 4.6.9 fullscreen mode -->
+			<div id="rev_slider_4_1" class="rev_slider fullscreenbanner dnone">
+				<ul>	
+					<!-- SLIDE  -->
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
+						<!-- MAIN IMAGE -->
+						<img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!-- LAYERS -->
+
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption tp-fade" 
+							data-x="624" 
+							data-y="57"  
+							data-speed="300" 
+							data-start="500" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption tp-fade" 
+							data-x="91" 
+							data-y="165"  
+							data-speed="300" 
+							data-start="800" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption tp-fade" 
+							data-x="272" 
+							data-y="371"  
+							data-speed="300" 
+							data-start="1100" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption tp-fade tp-resizeme" 
+							data-x="226" 
+							data-y="473"  
+							data-speed="300" 
+							data-start="1400" 
+							data-easing="Power3.easeInOut" 
+							data-splitin="none" 
+							data-splitout="none"  
+							data-endelementdelay="0" 
+							 data-end="5700" 
+							data-endspeed="300" 
+
+							>
+							<a href='#' class='tp-button blue small'>See offer</a> 
+						</div>
+					</li>
+					<!-- SLIDE  -->
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
+						<!-- MAIN IMAGE -->
+						<img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!-- LAYERS -->
+
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption tp-fade" 
+							data-x="624" 
+							data-y="57"  
+							data-speed="300" 
+							data-start="500" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption tp-fade" 
+							data-x="91" 
+							data-y="165"  
+							data-speed="300" 
+							data-start="800" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption tp-fade" 
+							data-x="272" 
+							data-y="371"  
+							data-speed="300" 
+							data-start="1100" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption tp-fade tp-resizeme" 
+						 	data-x="226" 
+						 	data-y="473"  
+							data-speed="300" 
+							data-start="1400" 
+							data-easing="Power3.easeInOut" 
+							data-splitin="none" 
+							data-splitout="none" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+						 	data-end="5700" 
+							data-endspeed="300" 
+
+							><a href='#' class='tp-button blue small'>See offer</a> 
+						</div>
+					</li>
+				</ul>
+				<div class="tp-bannertimer tp-bottom" ></div>	
+			</div>
+			
+		</div>
+		<!-- END REVOLUTION SLIDER -->
+	</div>	
+	</header>
+
+
+	<!-- #Content -->
+	<?php echo $content; ?>
+
+	<!-- #Footer -->
+	<footer id="Footer" class="clearfix">
+
+	<div class="footer_copy">
+		<div class="container">
+			<div class="column one">
+				<a id="back_to_top" href="#"><i class="icon-up-open-big"></i></a>
+				<!-- Copyrights -->
+				<div class="copyright">
+					 &copy; 2015 Cake. All Rights Reserved. <a target="_blank" rel="nofollow" href="#">Max Themes</a>
+				</div>
+				<!-- Social -->
+				
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+
+
+
+
+
+<script type='text/javascript' src='/public/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/public/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.tools.min.js'></script>
+<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
+
+<script>
+//<![CDATA[
+jQuery(window).load(function(){
+var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
+//]]>
+</script>
+	
+
+<script type="text/javascript">
+
+	/******************************************
+		-	PREPARE PLACEHOLDER FOR SLIDER	-
+	******************************************/
+	
+
+	var setREVStartSize = function() {
+		var	tpopt = new Object();
+			tpopt.startwidth = 1200;
+			tpopt.startheight = 700;
+			tpopt.container = jQuery('#rev_slider_4_1');
+			tpopt.fullScreen = "on";
+			tpopt.forceFullWidth="off";
+
+		tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+	};
+
+	/* CALL PLACEHOLDER */
+	setREVStartSize();
+
+
+	var tpj=jQuery;
+	tpj.noConflict();
+	var revapi4;
+
+	tpj(document).ready(function() {
+
+	if(tpj('#rev_slider_4_1').revolution == undefined){
+		revslider_showDoubleJqueryError('#rev_slider_4_1');
+	}else{
+	   revapi4 = tpj('#rev_slider_4_1').show().revolution(
+		{	
+									dottedOverlay:"none",
+			delay:6000,
+			startwidth:1200,
+			startheight:700,
+			hideThumbs:200,
+
+			thumbWidth:100,
+			thumbHeight:50,
+			thumbAmount:1,
+			
+									
+			simplifyAll:"off",
+
+			navigationType:"none",
+			navigationArrows:"solo",
+			navigationStyle:"round",
+
+			touchenabled:"on",
+			onHoverStop:"on",
+			nextSlideOnWindowFocus:"off",
+
+			swipe_threshold: 0.7,
+			swipe_min_touches: 1,
+			drag_block_vertical: false,
+			
+									
+									
+			keyboardNavigation:"off",
+
+			navigationHAlign:"center",
+			navigationVAlign:"bottom",
+			navigationHOffset:0,
+			navigationVOffset:20,
+
+			soloArrowLeftHalign:"left",
+			soloArrowLeftValign:"center",
+			soloArrowLeftHOffset:70,
+			soloArrowLeftVOffset:0,
+
+			soloArrowRightHalign:"right",
+			soloArrowRightValign:"center",
+			soloArrowRightHOffset:70,
+			soloArrowRightVOffset:0,
+
+			shadow:0,
+			fullWidth:"off",
+			fullScreen:"on",
+
+									spinner:"spinner0",
+									
+			stopLoop:"off",
+			stopAfterLoops:-1,
+			stopAtSlide:-1,
+
+			shuffle:"off",
+
+			
+			forceFullWidth:"off",
+			fullScreenAlignForce:"off",
+			minFullScreenHeight:"",
+			hideTimerBar:"on",
+			hideThumbsOnMobile:"off",
+			hideNavDelayOnMobile:1500,
+			hideBulletsOnMobile:"off",
+			hideArrowsOnMobile:"off",
+			hideThumbsUnderResolution:0,
+
+									fullScreenOffsetContainer: ".header-bg #Top_bar",
+			fullScreenOffset: "",
+									hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			startWithSlide:0					});
+
+
+
+						}
+	});	/*ready*/
+
+</script>
+
+
+<script type='text/javascript' src='/public/js/jquery.form.min.js'></script>
+
+<script type='text/javascript' src='/public/js/frontend/add-to-cart.min.js'></script>
+<script type='text/javascript' src='/public/js/select2/select2.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery-blockui/jquery.blockUI.min.js'></script>
+<script type='text/javascript' src='/public/js/frontend/woocommerce.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery-cookie/jquery.cookie.min.js'></script>
+
+<script type='text/javascript' src='/public/js/frontend/cart-fragments.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/core.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/widget.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/mouse.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/sortable.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/tabs.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/accordion.min.js'></script>
+<script type='text/javascript' src='/public/js/owl-carousel/owl.carousel.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery.jplayer.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery.plugins.js'></script>
+<script type='text/javascript' src='/public/js/mfn.menu.js'></script>
+<script type='text/javascript' src='/public/js/scripts.js'></script>
+
+
+
 
 </body>
 </html>

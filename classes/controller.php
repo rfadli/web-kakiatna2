@@ -146,7 +146,7 @@ class controller
 		$p['webtitle'] = $webtitle;
 		
 		$variable = array_merge($p, $variable);
-		$view = $this->getView(DOCVIEW.'template/template', $variable);
+		$view = $this->getView(DOCVIEW.'template/template.php', $variable);
 		echo $view;
 	}
 }

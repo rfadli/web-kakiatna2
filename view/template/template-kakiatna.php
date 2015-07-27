@@ -413,7 +413,7 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 </script>
 
 
-<script type='text/javascript' src='/js/jquery.form.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery.form.min.js'></script>
 
 <script type='text/javascript' src='/public/js/frontend/add-to-cart.min.js'></script>
 <script type='text/javascript' src='/public/js/select2/select2.min.js'></script>

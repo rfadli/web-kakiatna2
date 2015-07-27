@@ -36,27 +36,27 @@ class controller
 		//$this->css->add('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Open+Sans+Condensed:300,700');
 
 		$this->js = new js;
-		$this->js->add("/public/js/owl-carousel/owl.carousel.css");
-		$this->js->add("/public/js/owl-carousel/owl.theme.css");
+		$this->js->add("/js/owl-carousel/owl.carousel.css");
+		$this->js->add("/js/owl-carousel/owl.theme.css");
 		//-------------//
-		$this->js->add("/public/js/jquery.form.min.js");
-		$this->js->add("/public/js/frontend/add-to-cart.min.js");
-		$this->js->add("/public/js/select2/select2.min.js");
-		$this->js->add("/public/js/jquery-blockui/jquery.blockUI.min.js");
-		$this->js->add("/public/js/frontend/woocommerce.min.js");
-		$this->js->add("/public/js/jquery-cookie/jquery.cookie.min.js");
-		$this->js->add("/public/js/frontend/cart-fragments.min.js");
-		$this->js->add("/public/js/jquery/ui/core.min.js");
-		$this->js->add("/public/js/jquery/ui/widget.min.js");
-		$this->js->add("/public/js/jquery/ui/mouse.min.js");
-		$this->js->add("/public/js/jquery/ui/sortable.min.js");
-		$this->js->add("/public/js/jquery/ui/tabs.min.js");
-		$this->js->add("/public/js/jquery/ui/accordion.min.js");
-		$this->js->add("/public/js/owl-carousel/owl.carousel.min.js");
-		$this->js->add("/public/js/jquery.jplayer.min.js");
-		$this->js->add("/public/js/jquery.plugins.js");
-		$this->js->add("/public/js/mfn.menu.js");
-		$this->js->add("/public/js/scripts.js");
+		$this->js->add("/js/jquery.form.min.js");
+		$this->js->add("/js/frontend/add-to-cart.min.js");
+		$this->js->add("/js/select2/select2.min.js");
+		$this->js->add("/js/jquery-blockui/jquery.blockUI.min.js");
+		$this->js->add("/js/frontend/woocommerce.min.js");
+		$this->js->add("/js/jquery-cookie/jquery.cookie.min.js");
+		$this->js->add("/js/frontend/cart-fragments.min.js");
+		$this->js->add("/js/jquery/ui/core.min.js");
+		$this->js->add("/js/jquery/ui/widget.min.js");
+		$this->js->add("/js/jquery/ui/mouse.min.js");
+		$this->js->add("/js/jquery/ui/sortable.min.js");
+		$this->js->add("/js/jquery/ui/tabs.min.js");
+		$this->js->add("/js/jquery/ui/accordion.min.js");
+		$this->js->add("/js/owl-carousel/owl.carousel.min.js");
+		$this->js->add("/js/jquery.jplayer.min.js");
+		$this->js->add("/js/jquery.plugins.js");
+		$this->js->add("/js/mfn.menu.js");
+		$this->js->add("/js/scripts.js");
 		
 		$phold = '<script type="text/javascript">'."\n";
 		$phold .= '$.fn.placeholder();'."\n";

@@ -13,18 +13,14 @@ class business_controller extends controller
 		);
 		$mcontent = $content->find($q);
 		
-		//$tw = $this->getLatestTweet();
 		$p = array(
 			'page_header' => "Dashboard",
 			'page_description' => "Dashboard",
 			'mcontent' => $mcontent,
-			//'lastest_tweet' => $tw['text'],
-			//'lastest_tweet_time' => $tw['time'],
 		);
 		$content = $this->getView(DOCVIEW.'business/index.php', $p);
 		$this->addView('content', $content);
 		
-		//$this->tambah();
 		$this->render(array());
 	}
 	

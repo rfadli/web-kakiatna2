@@ -23,7 +23,7 @@ class welcome_controller extends controller
 		$content = $this->getView(DOCVIEW.'welcome/index.php', $p);
 		$this->addView('content', $content);
 		
-		$this->tambah();
+		//$this->tambah();
 		$this->render(array());
 	}
 	

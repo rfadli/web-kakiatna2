@@ -435,8 +435,26 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 </script>
 
 
-<?php echo $js; ?>
-<?php echo $tambahan; ?>
+<script type='text/javascript' src='/public/js/jquery.form.min.js'></script>
+
+<script type='text/javascript' src='/public/js/frontend/add-to-cart.min.js'></script>
+<script type='text/javascript' src='/public/js/select2/select2.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery-blockui/jquery.blockUI.min.js'></script>
+<script type='text/javascript' src='/public/js/frontend/woocommerce.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery-cookie/jquery.cookie.min.js'></script>
+
+<script type='text/javascript' src='/public/js/frontend/cart-fragments.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/core.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/widget.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/mouse.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/sortable.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/tabs.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/accordion.min.js'></script>
+<script type='text/javascript' src='/public/js/owl-carousel/owl.carousel.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery.jplayer.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery.plugins.js'></script>
+<script type='text/javascript' src='/public/js/mfn.menu.js'></script>
+<script type='text/javascript' src='/public/js/scripts.js'></script>
 
 </body>
 </html>

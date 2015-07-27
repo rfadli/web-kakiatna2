@@ -14,8 +14,8 @@ class aboutus_controller extends controller
 		
 		//$tw = $this->getLatestTweet();
 		$p = array(
-			'page_header' => "Dashboard",
-			'page_description' => "Dashboard",
+			'page_header' => "About Us",
+			'page_description' => "About Us",
 			//'mcontent' => $mcontent,
 			//'lastest_tweet' => $tw['text'],
 			//'lastest_tweet_time' => $tw['time'],

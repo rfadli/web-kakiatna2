@@ -4,7 +4,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 
-<html lang="en-US" style="background:url(/public/images/patterns/9.png) 50% 50% repeat;">
+<html lang="en-US" style="background:url(../images/patterns/9.png) 50% 50% repeat;">
  <!--<![endif]-->
 
 <!-- head -->

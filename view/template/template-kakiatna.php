@@ -4,7 +4,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 
-<html lang="en-US" style="background:url(../images/patterns/9.png) 50% 50% repeat;">
+<html lang="en-US" style="background:url(/public/images/patterns/9.png) 50% 50% repeat;">
  <!--<![endif]-->
 
 <!-- head -->
@@ -19,7 +19,7 @@
 <meta name="description" content="Cake works with every business. No matter if you are cooker, blogger, designer or an astronaut - this wordpress theme is for everyone!" />
 <meta name="keywords" content="cake, wordpress, muffingroup, muffin builder, muffin options, page builder, theme, template, parallax, contact form 7, mega menu" />
 
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />	
+<link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />	
 
 
 <script>

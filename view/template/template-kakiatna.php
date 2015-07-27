@@ -54,6 +54,8 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 
 <link rel='stylesheet' id='Ubuntu-css'  href='http://fonts.googleapis.com/css?family=Ubuntu%3A100%2C300%2C400%2C400italic%2C700&amp;ver=4.2' type='text/css' media='all' />
 
+
+	
 <style>
 .page-id-3716 h2 { word-wrap: break-word; }
 .page-id-4311 .icon_box .desc_wrapper .desc { padding: 0 40px; }
@@ -102,7 +104,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 			<div class="column one">
 				<!-- .logo -->
 				<div class="logo">
-					<h1><a id="logo" href="home-corporate.html" title="Cake"><img class="scale-with-grid" src="upload/gambar/logo_dark.png" alt="Cake"/></a></h1>
+					<h1><a id="logo" href="home-corporate.html" title="Cake"><img class="scale-with-grid" src="/public/upload/gambar/logo_dark.png" alt="Cake"/></a></h1>
 				</div>
 				<!-- .menu_wrapper -->
 				<div class="menu_wrapper">
@@ -153,7 +155,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 							data-end="5700" 
 							data-endspeed="300" 
 
-							><img src="/public/pload/revslider/home_corporate/girl.png" alt=""> 
+							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->
@@ -282,7 +284,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 
 
 	<!-- #Content -->
-	<?php echo $content ?>
+	<?php echo $content; ?>
 
 	<!-- #Footer -->
 	<footer id="Footer" class="clearfix">
@@ -307,10 +309,10 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 
 
 
-<script type='text/javascript' src='js/jquery/jquery.js'></script>
-<script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='rs-plugin/js/jquery.themepunch.tools.min.js'></script>
-<script type='text/javascript' src='rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/public/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.tools.min.js'></script>
+<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
 
 <script>
 //<![CDATA[
@@ -455,6 +457,9 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 <script type='text/javascript' src='/public/js/jquery.plugins.js'></script>
 <script type='text/javascript' src='/public/js/mfn.menu.js'></script>
 <script type='text/javascript' src='/public/js/scripts.js'></script>
+
+
+
 
 </body>
 </html>

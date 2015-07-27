@@ -14,7 +14,7 @@ class controller
 		$this->tambahan = new tambahan;
 		$this->css = new css;
 		
-		$this->css->add("/css/cform.css");
+		$this->css->add("/public/css/cform.css");
 		$this->css->add("/css/tp_twitter_plugin.css");
 		$this->css->add("/rs-plugin/css/settings.css");
 		$this->css->add("/css/select.css");

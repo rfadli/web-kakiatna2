@@ -32,7 +32,7 @@
 								
 						        echo '<div class="column one post-photo-wrapper">';
 								echo '<div class="post-photo">';
-								echo '<img width="1200" height="570" src="upload/1-1200x570.jpg" class="scale-with-grid wp-post-image" alt="1" style="height: 413.6px;">';
+								echo '<img width="1200" height="570" src="'.$url.'" class="scale-with-grid wp-post-image" alt="1" style="height: 413.6px;">';
 								echo '</div>';
 								echo '</div>';
 							}

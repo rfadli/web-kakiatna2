@@ -80,7 +80,7 @@
 								<div class="column one author-box">
 									<div class="author-box-wrapper">
 										<div class="avatar-wrapper">
-											<img alt="Max Themes" src="upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64">
+											<img alt="Max Themes" src="/public/upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64">
 										</div>
 										<div class="desc-wrapper">
 											<h6><a href="#">Max Themes</a></h6>
@@ -100,7 +100,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/1-600x400.jpg" class="scale-with-grid wp-post-image" alt="1"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/1-600x400.jpg" class="scale-with-grid wp-post-image" alt="1"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> February 18, 2014</span>
 										<h6><a href="#">Content Builder for posts</a></h6>
@@ -110,7 +110,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> January 23, 2014</span>
 										<h6><a href="#">Post format HTML5 Video</a></h6>
@@ -120,7 +120,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/8-600x400.jpg" class="scale-with-grid wp-post-image" alt="8"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/8-600x400.jpg" class="scale-with-grid wp-post-image" alt="8"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> January 22, 2014</span>
 										<h6><a href="#">Post format Image. Especially for vertical images.</a></h6>

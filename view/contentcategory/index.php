@@ -74,7 +74,7 @@
 										echo '</p>';
 										echo '</div>';
 										echo '<div class="post-footer">';
-										echo '<a href="detil.html" class="post-more">Read more</a>';
+										echo '<a href="/contentdetil/index?id='.$key['_id'].'"" class="post-more">Read more</a>';
 										echo '<div class="button-comments">';
 										echo '<a href="#"><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i><i class="icon-comment-fa"></i></span><span class="label">4</span></a>';
 										echo '</div>';

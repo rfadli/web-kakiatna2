@@ -12,7 +12,7 @@
 							</div-->
 							<div class="column one column_column">
 								<div class="textcenter">
-									<img style="max-width: 230px;" src="upload/logo_dark_retina.png" alt=""/>
+									<img style="max-width: 230px;" src="/public/upload/logo_dark_retina.png" alt=""/>
 								</div>
 							</div>
 						</div>

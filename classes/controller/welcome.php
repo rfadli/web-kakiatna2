@@ -12,11 +12,18 @@ class welcome_controller extends controller
 		);
 		$mcontent = $content->find($q);
 		
+		$b = array(
+			'category_content' => new MongoId(SUBSIDIARIES),
+			'contributor_id' => CLIENT_ID,
+		);
+		$mslider = $content->find($b);
+		
 		//$tw = $this->getLatestTweet();
 		$p = array(
 			'page_header' => "Dashboard",
 			'page_description' => "Dashboard",
 			'mcontent' => $mcontent,
+			'mslider' => $mslider
 			//'lastest_tweet' => $tw['text'],
 			//'lastest_tweet_time' => $tw['time'],
 		);

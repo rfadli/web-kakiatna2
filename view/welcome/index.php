@@ -10,66 +10,53 @@
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 1 -->
-						<div class="tp-caption tp-fade" 
-							data-x="624" 
-							data-y="57"  
-							data-speed="300" 
-							data-start="500" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
-						</div>
+						<?php
+	                 	$curl = new Curl();
+						
+						foreach ($mslider as $key) 
+						{
+							$q = array(
+								'id' => trim($key['_id']),
+								'height' => 100,
+								'width' => 100
+							);
+							
+							$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
+							$rest = $curl->response;
+							
+							$json = json_decode($rest, TRUE);
+							
+							$url = '';
+							if($json['status'] == "OK")
+							{
+								$url = $json['url'];
+							}
+							
+							echo '<div class="tp-caption tp-fade"'; 
+							echo 'data-x="624"'; 
+							echo 'data-y="57"';  
+							echo 'data-speed="300"'; 
+							echo 'data-start="500"'; 
+							echo 'data-easing="Power3.easeInOut"'; 
+							echo 'data-elementdelay="0"'; 
+							echo 'data-endelementdelay="0"'; 
+							echo 'data-end="5700"'; 
+							echo 'data-endspeed="300"'; 
+							echo '><img src="'.$url.'" alt="">'; 
+							echo '</div>';
+						
+						}
+	                    ?>
+						
 
 						<!-- LAYER NR. 2 -->
-						<div class="tp-caption tp-fade" 
-							data-x="91" 
-							data-y="165"  
-							data-speed="300" 
-							data-start="800" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
-						</div>
+						
 
 						<!-- LAYER NR. 3 -->
-						<div class="tp-caption tp-fade" 
-							data-x="272" 
-							data-y="371"  
-							data-speed="300" 
-							data-start="1100" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
-						</div>
+						
 
 						<!-- LAYER NR. 4 -->
-						<div class="tp-caption tp-fade tp-resizeme" 
-							data-x="226" 
-							data-y="473"  
-							data-speed="300" 
-							data-start="1400" 
-							data-easing="Power3.easeInOut" 
-							data-splitin="none" 
-							data-splitout="none"  
-							data-endelementdelay="0" 
-							 data-end="5700" 
-							data-endspeed="300" 
-
-							>
-							<a href='#' class='tp-button blue small'>See offer</a> 
-						</div>
+						
 					</li>
 					<!-- SLIDE  -->
 					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
@@ -78,66 +65,54 @@
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 1 -->
-						<div class="tp-caption tp-fade" 
-							data-x="624" 
-							data-y="57"  
-							data-speed="300" 
-							data-start="500" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
-						</div>
+						<?php
+	                 	$curl = new Curl();
+						
+						foreach ($mslider as $key) 
+						{
+							$q = array(
+								'id' => trim($key['_id']),
+								'height' => 100,
+								'width' => 100
+							);
+							
+							$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
+							$rest = $curl->response;
+							
+							$json = json_decode($rest, TRUE);
+							
+							$url = '';
+							if($json['status'] == "OK")
+							{
+								$url = $json['url'];
+							}
+							
+							echo '<div class="tp-caption tp-fade"'; 
+							echo 'data-x="624"'; 
+							echo 'data-y="57"';  
+							echo 'data-speed="300"'; 
+							echo 'data-start="500"'; 
+							echo 'data-easing="Power3.easeInOut"'; 
+							echo 'data-elementdelay="0"'; 
+							echo 'data-endelementdelay="0"'; 
+							echo 'data-end="5700"'; 
+							echo 'data-endspeed="300"'; 
+							echo '><img src="'.$url.'" alt="">'; 
+							echo '</div>';
+						
+						}
+	                    ?>
+						
+						
 
 						<!-- LAYER NR. 2 -->
-						<div class="tp-caption tp-fade" 
-							data-x="91" 
-							data-y="165"  
-							data-speed="300" 
-							data-start="800" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
-						</div>
+						
 
 						<!-- LAYER NR. 3 -->
-						<div class="tp-caption tp-fade" 
-							data-x="272" 
-							data-y="371"  
-							data-speed="300" 
-							data-start="1100" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
-						</div>
+						
 
 						<!-- LAYER NR. 4 -->
-						<div class="tp-caption tp-fade tp-resizeme" 
-						 	data-x="226" 
-						 	data-y="473"  
-							data-speed="300" 
-							data-start="1400" 
-							data-easing="Power3.easeInOut" 
-							data-splitin="none" 
-							data-splitout="none" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-						 	data-end="5700" 
-							data-endspeed="300" 
-
-							><a href='#' class='tp-button blue small'>See offer</a> 
-						</div>
+						
 					</li>
 				</ul>
 				<div class="tp-bannertimer tp-bottom" ></div>	

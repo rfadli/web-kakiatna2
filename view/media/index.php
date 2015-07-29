@@ -34,11 +34,11 @@
 										echo $mblog['content'];
 										?>
 										<div class="post-footer">
-											<a href="blog_news.html" class="post-more">Read more</a>
+										<?php
+										echo '<a href="/contentcategory/index?id='.BLOG.'" class="post-more">Read more</a>';
+										?>
 												<div class="button-comments">
-													<?php
-													echo '<a href="/contentcategory/index?id='.BLOG.'"><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>';
-													?>
+													<a href="#"><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
 										</div>
 									

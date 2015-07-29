@@ -12,10 +12,10 @@ class media_controller extends controller
 		$mnews = $content->findOne($news);
 		
 		$blog = array(
-			'category_content' => new MongoIdOne(BLOG),
+			'category_content' => new MongoId(BLOG),
 			'contributor_id' => CLIENT_ID,
 		);
-		$mblog = $content->find($blog);
+		$mblog = $content->findOne($blog);
 		
 		$p = array(
 			'page_header' => "Media",

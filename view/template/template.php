@@ -36,6 +36,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 <link rel='stylesheet' id='select2-css'  href='/public/css/select.css' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-layout-css'  href='/public/css/woocommerce-layout.css' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/public/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
+
 <link rel='stylesheet' id='woocommerce-general-css'  href='/public/css/woocommerce.css' type='text/css' media='all' />
 <link rel='stylesheet' id='style-css'  href='/public/css/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='prettyPhoto-css'  href='/public/css/prettyPhoto.css' type='text/css' media='all' />
@@ -375,8 +376,6 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 <script type='text/javascript' src='/public/js/frontend/woocommerce.min.js'></script>
 <script type='text/javascript' src='/public/js/jquery-cookie/jquery.cookie.min.js'></script>
 
-
-
 <script type='text/javascript' src='/public/js/frontend/cart-fragments.min.js'></script>
 <script type='text/javascript' src='/public/js/jquery/ui/core.min.js'></script>
 <script type='text/javascript' src='/public/js/jquery/ui/widget.min.js'></script>
@@ -389,9 +388,6 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 <script type='text/javascript' src='/public/js/jquery.plugins.js'></script>
 <script type='text/javascript' src='/public/js/mfn.menu.js'></script>
 <script type='text/javascript' src='/public/js/scripts.js'></script>
-
-
-
 
 </body>
 </html>

@@ -20,7 +20,9 @@
 										echo $mnews['content'];
 										?>
 										<div class="post-footer">
-											<a href="blog_news.html" class="post-more">Read more</a>
+										<?php
+										echo '<a href=""/contentcategory/index?id='.NEWS .'"" class="post-more">Read more</a>';
+										?>	
 												<div class="button-comments">
 														<a href="#"><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>

@@ -30,7 +30,7 @@
 									</div>
 									<div id="-5">
 										<?php
-										echo 'dari admin';
+										echo 'BLOG dari admin';
 										echo $mblog['content'];
 										?>
 										<div class="post-footer">

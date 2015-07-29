@@ -343,7 +343,7 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
         google_maps_553e307a33451();
     });
 </script>
-
+<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
 
 <script type='text/javascript' src='/public/js/jquery.form.min.js'></script>
 
@@ -352,7 +352,7 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 <script type='text/javascript' src='/public/js/jquery-blockui/jquery.blockUI.min.js'></script>
 <script type='text/javascript' src='/public/js/frontend/woocommerce.min.js'></script>
 <script type='text/javascript' src='/public/js/jquery-cookie/jquery.cookie.min.js'></script>
-<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
+
 
 
 <script type='text/javascript' src='/public/js/frontend/cart-fragments.min.js'></script>

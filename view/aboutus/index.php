@@ -24,9 +24,13 @@
 										?>
 									</div>
 									<div id="-11">
-										<h5>WORDS FROM OUR CEO</h5>
-										 Ut vestibulum bibendum magna eget varius. Phasellus et urna in justo vestibulum fermentum in non enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a felis pharetra, aliquam purus vitae, tristique mauris. Ut consectetur nibh posuere dolor sagittis, id lacinia purus luctus. Nunc tempor neque vitae eros imperdiet cursus. Maecenas consequat diam eget porta tincidunt. <br/><br/>
-										Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam non erat in nibh dignissim porttitor. Proin vestibulum molestie feugiat. Aliquam tincidunt a mi et luctus. Pellentesque egestas lobortis mollis. Curabitur ut nulla sit amet massa consequat dignissim vel in orci. Morbi mollis eros eget arcu rutrum consequat. <br/><br/>
+										<?php
+										foreach ($wordsceo as $key) 
+										{
+											echo 'dari admin <br />';
+											echo $key['content'];
+										}
+										?>
 									</div>
 									<div id="-12">
 										

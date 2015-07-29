@@ -24,12 +24,19 @@ class aboutus_controller extends controller
 		);
 		$mhistory = $content->find($history);
 		
+		$wordsceo = array(
+			'category_content' => new MongoId(WORDSCEO),
+			'contributor_id' => CLIENT_ID,
+		);
+		$mwordsceo = $content->find($wordsceo);
+		
 		$p = array(
 			'page_header' => "About Us",
 			'page_description' => "About Us",
 			'mcontent' => $mcontent,
 			'mvision' => $mvision,
-			'mhistory' => $mhistory
+			'mhistory' => $mhistory,
+			'wordsceo' => $wordsceo
 			
 		);
 		$content = $this->getView(DOCVIEW.'aboutus/index.php', $p);

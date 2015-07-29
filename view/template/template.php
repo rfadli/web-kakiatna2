@@ -97,7 +97,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 						<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="home-corporate.html"><b><span>Home</span></b></a></li>
 						<li class="menu-item  "><a href="/aboutus/index/"><b><span style="color: #3C191A">About Us</span></b></a></li>
 						<li class="menu-item  "><a href="/business/index/"><b><span style="color: #3C191A">Business</span></b></a></li>
-						<li class="menu-item  "><a href="career.html"><b><span style="color: #3C191A">Career</span></b></a></li>
+						<li class="menu-item  "><a href="/career/index/"><b><span style="color: #3C191A">Career</span></b></a></li>
 						<li class="menu-item  "><a href="med.html"><b><span style="color: #3C191A">Media</span></b></a></li>
 						<li class="menu-item  "><a href="contact.html"><b><span style="color: #3C191A">Contact</span></b></a></li>
 						

@@ -210,8 +210,8 @@
 										{
 											$q = array(
 												'id' => trim($key['_id']),
-												'height' => 100,
-												'width' => 100
+												'height' => 120,
+												'width' => 120
 											);
 											
 											$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);

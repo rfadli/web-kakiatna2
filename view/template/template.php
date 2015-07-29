@@ -151,7 +151,8 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 	                	?>
 	                	
 	                	<?php
-	                	if($_SERVER['REQUEST_URI'] == '/media/index/')
+	                	//if(($_SERVER['REQUEST_URI'] == '/category/index') || (substr($_SERVER['REQUEST_URI'],1,9 ) == 'category/' ))
+	                	if(($_SERVER['REQUEST_URI'] == '/media/index/') || (substr($_SERVER['REQUEST_URI'],1,13 ) == 'contentdetil/' ) || (substr($_SERVER['REQUEST_URI'],1,16 ) == 'contentcategory/' ))
 						{
 							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/media/index/"><b><span>Media</span></b></a></li>';
 						}

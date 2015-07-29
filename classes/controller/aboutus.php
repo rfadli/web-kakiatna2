@@ -12,11 +12,18 @@ class aboutus_controller extends controller
 		);
 		$mcontent = $content->find($q);
 		
+		$vision = array(
+			'category_content' => new MongoId(VISION),
+			'contributor_id' => CLIENT_ID,
+		);
+		$mvision = $content->find($vision);
+		
 		//$tw = $this->getLatestTweet();
 		$p = array(
 			'page_header' => "About Us",
 			'page_description' => "About Us",
 			'mcontent' => $mcontent,
+			'vision' => $vision,
 			//'lastest_tweet' => $tw['text'],
 			//'lastest_tweet_time' => $tw['time'],
 		);

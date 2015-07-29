@@ -28,7 +28,14 @@
 									</div>
 									<div id="-12">
 										<h5>VISSION</h5>
-										 Our vision is to become a leading diversified business enterprise in Indonesia with the foundation of our values of People Orientation, Integrity, Team Spirit, Loyalty, and Growth & Learning. <br/>
+										<?php
+										foreach ($vision as $key) 
+										{
+											echo 'dari admin <br />';
+											echo $key['content'];
+										}
+										?>
+										<br/>
 										<br/>
 										<h5>MISSION</h5>
 										- To provide the maximum benefit for all our stakeholders<br /> 

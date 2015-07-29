@@ -127,12 +127,34 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 						}
 	                	?>
 	                	
+	                	<?php
+	                	if($_SERVER['REQUEST_URI'] == '/media/index/')
+						{
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/media/index/"><b><span>Media</span></b></a></li>';
+						}
+						else
+						{
+							echo '<li class="menu-item"><a href="/media/index/"><b><span style="color: #3C191A">Media</span></b></a></li>';
+						}
+	                	?>
+	                	
+	                	<?php
+	                	if($_SERVER['REQUEST_URI'] == '/contact/index/')
+						{
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/contact/index/"><b><span>Contact</span></b></a></li>';
+						}
+						else
+						{
+							echo '<li class="menu-item"><a href="/contact/index/"><b><span style="color: #3C191A">Contact</span></b></a></li>';
+						}
+	                	?>
+	                	
 						<!--li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="home-corporate.html"><b><span>Home</span></b></a></li-->
 						<!--li class="menu-item  "><a href="/aboutus/index/"><b><span style="color: #3C191A">About Us</span></b></a></li-->
 						<!--li class="menu-item  "><a href="/business/index/"><b><span style="color: #3C191A">Business</span></b></a></li-->
 						<!--li class="menu-item  "><a href="/career/index/"><b><span style="color: #3C191A">Career</span></b></a></li-->
-						<li class="menu-item  "><a href="med.html"><b><span style="color: #3C191A">Media</span></b></a></li>
-						<li class="menu-item  "><a href="contact.html"><b><span style="color: #3C191A">Contact</span></b></a></li>
+						<!--li class="menu-item  "><a href="med.html"><b><span style="color: #3C191A">Media</span></b></a></li-->
+						<!--li class="menu-item  "><a href="contact.html"><b><span style="color: #3C191A">Contact</span></b></a></li-->
 						
 					</ul>
 					</nav><a class="responsive-menu-toggle" href="#"><i class='icon-menu'></i></a>
@@ -299,6 +321,30 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 </script>
 
 
+<script>
+    function google_maps_553e307a33451() {
+        var latlng = new google.maps.LatLng(-33.8710, 151.2039);
+        var myOptions = {
+            zoom: 14,
+            center: latlng,
+            zoomControl: true,
+            mapTypeControl: false,
+            streetViewControl: false,
+            scrollwheel: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("google-map-area1"), myOptions);
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map
+        });
+    }
+    jQuery(document).ready(function($) {
+        google_maps_553e307a33451();
+    });
+</script>
+
+
 <script type='text/javascript' src='/public/js/jquery.form.min.js'></script>
 
 <script type='text/javascript' src='/public/js/frontend/add-to-cart.min.js'></script>
@@ -306,6 +352,8 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 <script type='text/javascript' src='/public/js/jquery-blockui/jquery.blockUI.min.js'></script>
 <script type='text/javascript' src='/public/js/frontend/woocommerce.min.js'></script>
 <script type='text/javascript' src='/public/js/jquery-cookie/jquery.cookie.min.js'></script>
+<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
+
 
 <script type='text/javascript' src='/public/js/frontend/cart-fragments.min.js'></script>
 <script type='text/javascript' src='/public/js/jquery/ui/core.min.js'></script>

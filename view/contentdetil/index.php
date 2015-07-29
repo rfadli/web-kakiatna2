@@ -19,7 +19,7 @@
 									
 								);
 								
-								$curl->get('http://admin.cms.deboxs.com:8055/api/getimageproduct', $q);
+								$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
 								$rest = $curl->response;
 								
 								$json = json_decode($rest, TRUE);
@@ -32,7 +32,7 @@
 								
 						        echo '<div class="column one post-photo-wrapper">';
 								echo '<div class="post-photo">';
-								echo '<img width="1200" height="570" src="'.$url.'" class="scale-with-grid wp-post-image" alt="1" style="height: 413.6px;">';
+								echo '<img src="'.$url.'" class="scale-with-grid wp-post-image" alt="1" style="height: 413.6px;">';
 								echo '</div>';
 								echo '</div>';
 							}

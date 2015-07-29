@@ -21,7 +21,7 @@ class media_controller extends controller
 			'page_header' => "Media",
 			'page_description' => "Media",
 			'mnews' => $mnews,
-			'mblog' => $blog
+			'mblog' => $mblog
 		);
 		$content = $this->getView(DOCVIEW.'media/index.php', $p);
 		$this->addView('content', $content);

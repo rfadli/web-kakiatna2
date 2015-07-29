@@ -57,30 +57,15 @@
 								</div>
 							</div>
 						</div>
-						<div class="section the_content">
-							<div class="section_wrapper">
-								<div class="the_content_wrapper">
-									<h5>Lorem ipsum dolor sit amet purus consectetuer vulputate vitae, congue tristique. Donec condimentum, pulvinar.</h5>
-									<p>
-										Suspendisse turpis et odio. Vestibulum aliquam odio. Nunc at sapien. Aliquam eleifend, ligula. Etiam rutrum, enim ac imperdiet sagittis, elit. Sed ut odio sit amet, tortor. Proin at quam. Phasellus fermentum, metus at sagittis sed, tempus nulla. Integer nibh consectetuer tincidunt enim. Aliquam ultricies ante. Nullam eleifend in, vulputate adipiscing. Nunc tristique lorem. Mauris id nisl. Morbi tellus et ultrices velit eleifend sollicitudin posuere, tempor scelerisque, dui porta ac, felis.
-									</p>
-									<h6>Curabitur arcu sit amet libero hendrerit dolor sit amet tellus. Praesent quis wisi curabitu anso thank:</h6>
-									<ul class="list">
-										<li>Nunc tristique lorem</li>
-										<li>Sed ipsum primis in augue</li>
-									</ul>
-									<p>
-										Aenean scelerisque, diam. Nullam vitae wisi placerat sodales. Phasellus pulvinar felis, ullamcorper quam. Nam aliquet quis, convallis nec, eros. Sed ipsum primis in augue.Phasellus ornare non, nulla. Morbi augue ac ornare dolor sit amet, accumsan quam, dictum ante. Donec non enim. Cras orci. Mauris euismod. Ut molestie justo ipsum dolor sapien pede id nunc. Praesent tortor venenatis consequat. Morbi nibh malesuada ultricies.
-									</p>
-									<p>
-										Ut a nunc. Vivamus est. Suspendisse potenti. In id felis. Vestibulum et magnis dis parturient montes, nascetur ridiculus mus. Nam libero quis felis augue imperdiet sed, ornare lorem. Sed nec odio. Suspendisse eu ante. Quisque neque mauris, consectetuer tellus tincidunt dictum faucibus vestibulum. Cras turpis at nulla. Etiam blandit sed, ornare eu, ullamcorper fringilla, justo nibh rutrum ut, eleifend at, accumsan augue id purus laoreet iaculis scelerisque.
-									</p>
-									<p>
-										Integer faucibus et, congue ac, mattis at, vulputate vitae, velit. Pellentesque eget sapien id lectus. Ut eu nulla in faucibus arcu turpis et magnis dis parturient montes, nascetur ridiculus mus. Mauris aliquet elit. Sed quam ultrices posuere ante eget dolor leo sodales tempor. Quisque at arcu nec elit porta tellus hendrerit feugiat lectus at turpis.
-									</p>
-								</div>
-							</div>
-						</div>
+						<?php
+						echo '<div class="section the_content">';
+						echo '<div class="section_wrapper">';
+						echo '<div class="the_content_wrapper">';
+						echo $data['content'];
+						echo '</div>';
+						echo '</div>';
+						echo '</div>';
+						?>
 						<div class="section section-post-footer">
 							<div class="section_wrapper clearfix">
 								<div class="column one post-pager">

@@ -15,7 +15,7 @@ class contentdetil_controller extends controller
 		$data = $content->findOne($q);
 		
 		$b = array(
-			'category_content' => new MongoId(NEWS_ID),
+			'category_content' => new MongoId(NEWS),
 			'contributor_id' => CLIENT_ID,
 		);
 		$limit = 10;
@@ -27,7 +27,7 @@ class contentdetil_controller extends controller
 			'page_header' => "Content",
 			'page_description' => "Content",
 			'data' => $data,
-			'recent' => $recent,
+			//'recent' => $recent,
 			'link' => $link
 		);
 		

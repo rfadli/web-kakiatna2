@@ -27,7 +27,7 @@
 										Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam non erat in nibh dignissim porttitor. Proin vestibulum molestie feugiat. Aliquam tincidunt a mi et luctus. Pellentesque egestas lobortis mollis. Curabitur ut nulla sit amet massa consequat dignissim vel in orci. Morbi mollis eros eget arcu rutrum consequat. <br/><br/>
 									</div>
 									<div id="-12">
-										<h5>VISSION</h5>
+										
 										<?php
 										foreach ($mvision as $key) 
 										{
@@ -35,33 +35,6 @@
 											echo $key['content'];
 										}
 										?>
-										<br/>
-										<br/>
-										<h5>MISSION</h5>
-										<?php
-										foreach ($mmission as $key) 
-										{
-											echo 'dari admin <br />';
-											echo $key['content'];
-										}
-										?>
-										
-										<br/>
-										<h5>VALUES</h5>
-										People Orientation<br />
-										We emphasise our focus on the people aspect of business, the customers and the employees. For us, we dedicate our business to fulfil our customer's need and to improve the life quality of our employees.<br /><br />
-										
-										Integrity <br />
-										We commit ourselves to the ethics in doing a good and clean business, with excellence of good corporate governance in every aspect of our business.<br /><br />
-										
-										Team Spirit<br />
-										We come together as a one cohesive team by engaging ourselves in multiple ways to reach our goals.<br /><br />
-										
-										Loyalty<br />
-										We put the importance of loyalty to both our customers and employees above any interest that might comes in our business.<br /></br />
-										
-										Growth & Learning<br /> 
-										We believe that growth & learning is a process we must adhere in order to build a strong and solid foundation for our enterprise.<br /><br />
 									</div>
 								</div>
 							</div>

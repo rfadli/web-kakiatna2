@@ -18,11 +18,6 @@ class aboutus_controller extends controller
 		);
 		$mvision = $content->find($vision);
 		
-		$mission = array(
-			'category_content' => new MongoId(MISSION),
-			'contributor_id' => CLIENT_ID,
-		);
-		$mmission = $content->find($mission);
 		
 		
 		$p = array(
@@ -30,7 +25,6 @@ class aboutus_controller extends controller
 			'page_description' => "About Us",
 			'mcontent' => $mcontent,
 			'mvision' => $mvision,
-			'mmission' => $mmission
 			
 		);
 		$content = $this->getView(DOCVIEW.'aboutus/index.php', $p);

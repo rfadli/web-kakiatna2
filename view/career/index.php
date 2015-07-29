@@ -23,14 +23,20 @@
 											<div class="accordion">
 												<h4 class="title">Job Vacancy</h4>
 												<div class="mfn-acc accordion_wrapper open1st">
-													<div class="question">
-														<h5><span class="icon"><i class="icon-right-open"></i></span>Business Development Officer</h5>
-														<div class="answer">
-															<img src="upload/pic_about_cake_small.png" alt="">
-															Nulla libero libero, fermentum in blandit ut, varius a turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br/><br/>
-															Aenean congue ornare velit sed pulvinar. Etiam bibendum consectetur consequat. Morbi quam lorem, hendrerit ac interdum eget, porttitor quis.
-														</div>
-													</div>
+													<?php
+													foreach ($mjobs as $key) 
+													{
+														echo '<div class="question">';
+														echo '<h5><span class="icon"><i class="icon-right-open"></i></span>"'.$key['title'].'"</h5>';
+														echo '<div class="answer">';
+														echo '<img src="/public/upload/pic_about_cake_small.png" alt="">';
+														echo $key['content'];
+														echo '</div>';
+														echo '</div>';
+													}
+													?>
+													
+													
 													<div class="question">
 														<h5><span class="icon"><i class="icon-right-open"></i></span>Marketing Management</h5>
 														<div class="answer">

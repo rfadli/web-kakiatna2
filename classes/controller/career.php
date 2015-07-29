@@ -5,16 +5,16 @@ class career_controller extends controller
 	{
 		$db = Db::init();
 		$content = $db->content;
-		$q = array(
-			'category_content' => new MongoId(SLIDER_ID),
+		$jobs = array(
+			'category_content' => new MongoId(JOBVACANY),
 			'contributor_id' => CLIENT_ID,
 		);
-		$mcontent = $content->find($q);
+		$mjobs = $content->find($jobs);
 		
 		$p = array(
 			'page_header' => "Dashboard",
 			'page_description' => "Dashboard",
-			'mcontent' => $mcontent,
+			'mjobs' => $mjobs,
 		);
 		$content = $this->getView(DOCVIEW.'career/index.php', $p);
 		$this->addView('content', $content);

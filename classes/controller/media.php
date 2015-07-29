@@ -5,16 +5,23 @@ class media_controller extends controller
 	{
 		$db = Db::init();
 		$content = $db->content;
-		$q = array(
-			'category_content' => new MongoId(SLIDER_ID),
+		$news = array(
+			'category_content' => new MongoId(NEWS),
 			'contributor_id' => CLIENT_ID,
 		);
-		$mcontent = $content->find($q);
+		$mnews = $content->findOne($news);
+		
+		$blog = array(
+			'category_content' => new MongoIdOne(BLOG),
+			'contributor_id' => CLIENT_ID,
+		);
+		$mblog = $content->find($blog);
 		
 		$p = array(
 			'page_header' => "Media",
 			'page_description' => "Media",
-			'mcontent' => $mcontent,
+			'mnews' => $mnews,
+			'mblog' => $blog
 		);
 		$content = $this->getView(DOCVIEW.'media/index.php', $p);
 		$this->addView('content', $content);

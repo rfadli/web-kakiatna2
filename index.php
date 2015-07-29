@@ -10,7 +10,8 @@ define('BASEPATH', realpath(dirname(__FILE__)).DIRECTORY_SEPARATOR);
 define('DOCVIEW', DOCROOT."view".DIRECTORY_SEPARATOR);
 define('CLIENT_ID', '555c40751295956e3d8b4568'); //contibutor_id
 define('SLIDER_ID', '55b5b4a4129595f7368b45e8'); //category_content
-define('SUBSIDIARIES', '55b8515c129595f7368b45e9');
+define('SLIDER', '55b8515c129595f7368b45e9');
+define('SUBSIDIARIES', '55b8563a129595f8368b45d8');
 
 define('HOTPROMO_ID', '555ef303129595f8368b4598');
 define('EVENT_ID', '555c531f129595f7368b4577');

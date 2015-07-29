@@ -12,18 +12,25 @@ class welcome_controller extends controller
 		);
 		$mcontent = $content->find($q);
 		
-		$b = array(
+		$slider = array(
+			'category_content' => new MongoId(SLIDER),
+			'contributor_id' => CLIENT_ID,
+		);
+		$mslider = $content->find($slider);
+		
+		$subsidiaries = array(
 			'category_content' => new MongoId(SUBSIDIARIES),
 			'contributor_id' => CLIENT_ID,
 		);
-		$mslider = $content->find($b);
+		$msubsidiaries = $content->find($subsidiaries);
 		
 		//$tw = $this->getLatestTweet();
 		$p = array(
 			'page_header' => "Dashboard",
 			'page_description' => "Dashboard",
 			'mcontent' => $mcontent,
-			'mslider' => $mslider
+			'mslider' => $mslider,
+			'msubsidiaries' => $msubsidiaries
 			//'lastest_tweet' => $tw['text'],
 			//'lastest_tweet_time' => $tw['time'],
 		);

@@ -21,7 +21,7 @@
 										?>
 										<div class="post-footer">
 										<?php
-										echo '<a href=""/contentcategory/index?id='.NEWS .'"" class="post-more">Read more</a>';
+										echo '<a href="/contentcategory/index?id='.NEWS .'" class="post-more">Read more</a>';
 										?>	
 												<div class="button-comments">
 														<a href="#"><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>

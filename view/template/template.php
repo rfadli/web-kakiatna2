@@ -108,7 +108,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 	                	<?php
 	                	if($_SERVER['REQUEST_URI'] == '/aboutus/index/')
 						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/aboutus/index/"><b><span style="color: #3C191A">About Us</span></b></a></li>';
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/aboutus/index/"><b><span">About Us</span></b></a></li>';
 						}
 						else
 						{
@@ -119,7 +119,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 	                	<?php
 	                	if($_SERVER['REQUEST_URI'] == '/career/index/')
 						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/career/index/"><b><span style="color: #3C191A">Career</span></b></a></li>';
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/career/index/"><b><span>Career</span></b></a></li>';
 						}
 						else
 						{

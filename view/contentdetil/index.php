@@ -66,15 +66,7 @@
 						echo '</div>';
 						echo '</div>';
 						?>
-						<div class="section section-post-footer">
-							<div class="section_wrapper clearfix">
-								<div class="column one post-pager">
-									<div class="pager-single">
-										<span>1</span><a href="#"><span>2</span></a>
-									</div>
-								</div>
-							</div>
-						</div>
+						
 						<div class="section section-post-about">
 							<div class="section_wrapper clearfix">
 								<div class="column one author-box">

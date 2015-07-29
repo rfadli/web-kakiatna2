@@ -1,6 +1,4 @@
-
 <?php
-
 class business_controller extends controller
 {
 	public function index()

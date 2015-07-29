@@ -38,10 +38,13 @@
 										<br/>
 										<br/>
 										<h5>MISSION</h5>
-										- To provide the maximum benefit for all our stakeholders<br /> 
-										- To create deliberate opportunities and prosperity<br /> 
-										- To deliver the best in our products and services to our customers<br />
-										- To build a challenging and dynamic work environment to our employees<br />
+										<?php
+										foreach ($mmission as $key) 
+										{
+											echo 'dari admin <br />';
+											echo $key['content'];
+										}
+										?>
 										
 										<br/>
 										<h5>VALUES</h5>

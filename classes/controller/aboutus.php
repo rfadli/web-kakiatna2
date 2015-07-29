@@ -18,14 +18,20 @@ class aboutus_controller extends controller
 		);
 		$mvision = $content->find($vision);
 		
-		//$tw = $this->getLatestTweet();
+		$mission = array(
+			'category_content' => new MongoId(MISSION),
+			'contributor_id' => CLIENT_ID,
+		);
+		$mmission = $content->find($mission);
+		
+		
 		$p = array(
 			'page_header' => "About Us",
 			'page_description' => "About Us",
 			'mcontent' => $mcontent,
 			'mvision' => $mvision,
-			//'lastest_tweet' => $tw['text'],
-			//'lastest_tweet_time' => $tw['time'],
+			'mmission' => $mmission
+			
 		);
 		$content = $this->getView(DOCVIEW.'aboutus/index.php', $p);
 		$this->addView('content', $content);

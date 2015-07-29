@@ -29,12 +29,12 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 //]]>
 </script>
 
-<link rel='stylesheet' id='contact-form-7-css'  href='/public/css/cform.css' type='text/css' media='all' />
-<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='/public/css/tp_twitter_plugin.css' type='text/css' media='screen' />
-<link rel='stylesheet' id='rs-plugin-settings-css'  href='/public/rs-plugin/css/settings.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='/css/cform.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='/css/tp_twitter_plugin.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='/rs-plugin/css/settings.css' type='text/css' media='all' />
 
-<link rel='stylesheet' id='select2-css'  href='/public/css/select.css' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-layout-css'  href='/public/css/woocommerce-layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-css'  href='/css/select.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='/css/woocommerce-layout.css' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/public/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
 
 <link rel='stylesheet' id='woocommerce-general-css'  href='/public/css/woocommerce.css' type='text/css' media='all' />

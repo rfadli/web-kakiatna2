@@ -13,10 +13,12 @@
 										<li><a href="#-5"><i class="icon-quote"></i>Job Vacancy</a></li>
 									</ul>
 									<div id="-4">
-										<h5>Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis.</h5>
-										 Phasellus ultricies ipsum urna, et consequat massa mattis quis. Praesent quis tortor tortor. Phasellus eget elementum nunc, adipiscing malesuada neque. Sed tempus augue vitae ligula tincidunt, a vestibulum justo mattis. Nulla vel leo gravida, congue nibh vitae, auctor ante. Sed a dictum tortor. <br/>
-										<br/>
-										Quisque ac ipsum et orci accumsan dignissim. Cras dignissim urna ut quam facilisis iaculis. Nullam a lacinia sem. Praesent eu viverra mauris. Nullam ut lectus posuere, egestas lorem eget, commodo purus. Vivamus vitae sollicitudin quam. Mauris vel lobortis enim. Nulla facilisi.
+										<?php
+										foreach ($mwhywork as $key) 
+										{
+											echo $key['content'];
+										}
+										?>
 									</div>
 									<div id="-5">
 										<div class="column one column_accordion">

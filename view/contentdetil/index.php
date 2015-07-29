@@ -16,6 +16,7 @@
 									'id' => trim($data['_id']),
 									'height' => 570,
 									'width' => 1200,
+									'type' => 'satu'
 								);
 								
 								$curl->get('http://admin.cms.deboxs.com:8055/api/getimageproduct', $q);

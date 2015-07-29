@@ -15,11 +15,13 @@
 										<li><a href="#-12"><i class="icon-user-add"></i>VISION, MISSION AND VALUES</a></li>
 									</ul>
 									<div id="-10">
-										<h5>HISTORY</h5>
-										 Phasellus ultricies ipsum urna, et consequat massa mattis quis. Praesent quis tortor tortor. Phasellus eget elementum nunc, adipiscing malesuada neque. Sed tempus augue vitae ligula tincidunt, a vestibulum justo mattis. Nulla vel leo gravida, congue nibh vitae, auctor ante. Sed a dictum tortor. <br/>
-										<br/>
-										
-										Quisque ac ipsum et orci accumsan dignissim. Cras dignissim urna ut quam facilisis iaculis. Nullam a lacinia sem. Praesent eu viverra mauris. Nullam ut lectus posuere, egestas lorem eget, commodo purus. Vivamus vitae sollicitudin quam. Mauris vel lobortis enim. Nulla facilisi.
+										<?php
+										foreach ($mhistory as $key) 
+										{
+											echo 'dari admin <br />';
+											echo $key['content'];
+										}
+										?>
 									</div>
 									<div id="-11">
 										<h5>WORDS FROM OUR CEO</h5>

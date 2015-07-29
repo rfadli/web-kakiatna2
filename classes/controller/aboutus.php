@@ -18,13 +18,18 @@ class aboutus_controller extends controller
 		);
 		$mvision = $content->find($vision);
 		
-		
+		$history = array(
+			'category_content' => new MongoId(HISTORY),
+			'contributor_id' => CLIENT_ID,
+		);
+		$mhistory = $content->find($history);
 		
 		$p = array(
 			'page_header' => "About Us",
 			'page_description' => "About Us",
 			'mcontent' => $mcontent,
 			'mvision' => $mvision,
+			'mhistory' => $mhistory
 			
 		);
 		$content = $this->getView(DOCVIEW.'aboutus/index.php', $p);

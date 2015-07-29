@@ -227,7 +227,7 @@
 											
 											echo '<li class=" last_row">';
 											echo '<div class="client_wrapper">';
-											echo '<a target="_blank" href="#" title="'.$key['name'].'"><img src="'.$url.'" class="scale-with-grid wp-post-image" alt="client_1"/></a>';
+											echo '<a target="_blank" href="#" title="'.$key['title'].'"><img src="'.$url.'" class="scale-with-grid wp-post-image" alt="client_1"/></a>';
 											echo '</div>';
 											echo '</li>';
 										

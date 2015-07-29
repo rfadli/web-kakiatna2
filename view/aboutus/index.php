@@ -25,7 +25,7 @@
 									</div>
 									<div id="-11">
 										<?php
-										foreach ($wordsceo as $key) 
+										foreach ($mwordsceo as $key) 
 										{
 											echo 'dari admin <br />';
 											echo $key['content'];

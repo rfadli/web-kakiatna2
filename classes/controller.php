@@ -40,7 +40,7 @@ class controller
 		$this->js->add("/public/js/jquery/jquery.js");
 		$this->js->add("/public/js/mediaelement/mediaelement-and-player.min.js");
 		$this->js->add("/public/js/mediaelement/wp-mediaelement.js");
-		$this->js->add("http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4");
+		//$this->js->add("http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4");
 		$this->js->add("/public/js/jquery/jquery-migrate.min.js");
 		$this->js->add("/public/rs-plugin/js/jquery.themepunch.tools.min.js");
 		$this->js->add("/public/rs-plugin/js/jquery.themepunch.revolution.min.js");

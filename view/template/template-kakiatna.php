@@ -189,7 +189,9 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 	</div>
 	</footer>
 </div>
+
 <?php echo $js; ?>
+<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
 
 <script>
 //<![CDATA[

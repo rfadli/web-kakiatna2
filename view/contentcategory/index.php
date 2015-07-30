@@ -17,7 +17,7 @@
 									{
 										$q = array(
 											'id' => trim($key['_id']),
-											'height' => 512,
+											'height' => 520,
 											'width' => 1064
 										);
 										

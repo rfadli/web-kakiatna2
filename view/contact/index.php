@@ -41,6 +41,7 @@
 									The Energy Lt.25 Suite B SCBD Lot 11A <br/>
 									Jl.Jend.Sudirman Kav.52-53 <br/>
 									Senayan Kebayoran Baru</h6>
+									<br />
 									<p>
 										<i class="icon-phone"></i><a href="#">021 57947908</a><br />
 										<i class="icon-mail"></i><a href="#">info@kakiatna.co.id</a>

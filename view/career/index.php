@@ -24,7 +24,7 @@
 										<div class="column one column_accordion">
 											<div class="accordion">
 												<h4 class="title">Job Vacancy</h4>
-												<div class="mfn-acc accordion_wrapper open1st">
+												<!--div class="mfn-acc accordion_wrapper open1st"-->
 													<?php
 													$curl = new Curl();
 													
@@ -64,7 +64,7 @@
 														echo '</div>';
 													}
 													?>
-												</div>
+												<!--/div-->
 											</div>
 										</div>
 									</div>

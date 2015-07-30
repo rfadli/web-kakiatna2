@@ -45,11 +45,11 @@
 							<div class="section_wrapper clearfix">
 								<div class="column one post-meta">
 									<div class="author">
-										By <a href="#">Max Themes</a>
+										By <a href="#">Admin</a>
 									</div>
-									<div class="category">
+									<!--div class="category">
 										In <a href="#" rel="category tag">Javascript</a>, <a href="#" rel="category tag">Motion</a>
-									</div>
+									</div-->
 									<div class="date">
 										<?php
 										echo date("M d,Y",$data['time_created'])

@@ -117,6 +117,17 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 	                	?>
 	                	
 	                	<?php
+	                	if($_SERVER['REQUEST_URI'] == '/business/index/')
+						{
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/business/index/"><b><span">Business</span></b></a></li>';
+						}
+						else
+						{
+							echo '<li class="menu-item"><a href="/business/index/"><b><span style="color: #3C191A">Business</span></b></a></li>';
+						}
+	                	?>
+	                	
+	                	<?php
 	                	if($_SERVER['REQUEST_URI'] == '/career/index/')
 						{
 							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/career/index/"><b><span>Career</span></b></a></li>';

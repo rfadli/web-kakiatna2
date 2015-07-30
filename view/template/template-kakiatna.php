@@ -164,7 +164,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 		</div>
 	</div>
 
-		
+	<!--slider-->	
 	</header>
 
 

@@ -33,7 +33,11 @@
 								<div class="textwidget">
 									<h3>Address</h3>
 									<hr class="hr_left">
-									<h6>Envato<br/>
+									<?php
+									echo '<h6>';
+									echo $mcontent['company'];
+									echo '</h6>';
+									?>
 									Level 13, 2 Elizabeth St, Melbourne<br/>
 									Victoria 3000 Australia</h6>
 									<p>

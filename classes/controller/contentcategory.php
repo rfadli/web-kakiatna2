@@ -28,7 +28,7 @@ class contentcategory_controller extends controller
 		$limit = 10;
 		$pg = new Pagination();
 		$pg -> pag_url = "/contentcategory/index?id=".$id.'&page=';
-		$pg -> calculate_pages($count, $docs_per_page, $page);
+		$pg -> calculate_pages($docs_per_page, $page);
 		
 		$p = array(
 			'page_header' => "Dashboard",

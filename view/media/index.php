@@ -47,20 +47,14 @@
 									</div>
 									<div id="-6">
 										<?php
-										foreach ($mpress_release as $key) 
-										{
-											echo 'BLOG dari admin';
-											echo $mblog['content'];
-										}
+										echo 'BLOG dari admin';
+										echo $mpress_release['content'];
 										?>
 									</div>
 									<div id="-7">
 										<?php
-										foreach ($mpress_kit as $key) 
-										{
-											echo 'BLOG dari admin';
-											echo $mblog['content'];
-										}
+										echo 'BLOG dari admin';
+										echo $mpress_kit['content'];
 										?>
 									</div>
 								</div>

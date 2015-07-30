@@ -44,6 +44,9 @@
 									<p>
 										<i class="icon-phone"></i><a href="#">021 57947908</a>
 									</p>
+									<p>
+										<i class="icon-mail"></i><a href="#">info@kakiatna.co.id</a>
+									</p>
 									<?php
 									//echo $mcontent['email'];
 									echo '<a href="mailto:'.$mcontent['email'].'" class="button button_large button_icon"><i class="icon-mail-line"></i></a>';

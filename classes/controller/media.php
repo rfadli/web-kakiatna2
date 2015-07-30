@@ -15,7 +15,7 @@ class media_controller extends controller
 			'category_content' => new MongoId(BLOG),
 			'contributor_id' => CLIENT_ID,
 		);
-		$mblog = $content->findOne($blog)->sort(array("time_created" => -1));
+		$mblog = $content->findOne($blog);
 		
 		$press_kit = array(
 			'category_content' => new MongoId(PRESS_KIT),

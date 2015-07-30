@@ -3,18 +3,18 @@ class contact_controller extends controller
 {
 	public function index()
 	{
-		/*$db = Db::init();
-		$content = $db->content;
+		$db = Db::init();
+		$content = $db->preference;
 		$q = array(
-			'category_content' => new MongoId(SLIDER_ID),
+			'_id' => new MongoId(PREFERENCES),
 			'contributor_id' => CLIENT_ID,
 		);
-		$mcontent = $content->find($q);*/
+		$mcontent = $content->findOne($q);
 		
 		$p = array(
 			'page_header' => "Contact",
 			'page_description' => "Contact",
-			//'mcontent' => $mcontent,
+			'mcontent' => $mcontent,
 		);
 		$content = $this->getView(DOCVIEW.'contact/index.php', $p);
 		$this->addView('content', $content);

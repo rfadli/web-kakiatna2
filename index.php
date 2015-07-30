@@ -21,6 +21,7 @@ define('NEWS', '55b88084129595f8368b45e1');
 define('BLOG', '55b88090129595f8368b45e2');
 define('PRESS_RELEASE', '55b9a7bf1295956e3d8b45c3');
 define('PRESS_KIT', '55b9a7ed1295956e3d8b45c4');
+define('PREFERENCES', '55b9b0a61295956e3d8b45c5');
 
 
 include_once(DOCROOT."lib/chilkat/chilkat_9_5_0.php");

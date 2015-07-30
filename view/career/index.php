@@ -64,22 +64,6 @@
 														echo '</div>';
 													}
 													?>
-													
-													
-													<div class="question">
-														<h5><span class="icon"><i class="icon-right-open"></i></span>Marketing Management</h5>
-														<div class="answer">
-															Fusce lacus tellus, accumsan at vehicula et, vulputate non quam. Pellentesque egestas, velit a tristique tristique, ligula mi viverra enim, sagittis accumsan sapien odio vel arcu. <br/><br/>
-															Mauris adipiscing massa eget mauris accumsan non posuere dolor semper. In hac habitasse platea dictumst. In interdum placerat iaculis. Mauris arcu ligula, convallis non semper sed, imperdiet non est.
-														</div>
-													</div>
-													<div class="question">
-														<h5><span class="icon"><i class="icon-right-open"></i></span>Cras arcu ipsum, ornare in vestibulum ut, cursus et quam</h5>
-														<div class="answer">
-															Cras arcu ipsum, ornare in vestibulum ut, cursus et quam. Nulla hendrerit fringilla mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non risus leo, at vestibulum ante. <br/><br/>
-															Suspendisse euismod convallis mi, vitae scelerisque tortor porttitor fermentum. Nam aliquet aliquet elit ut elementum. Nam posuere, nunc vitae placerat tristique, orci dui volutpat lacus, ac aliquam enim est gravida urna.
-														</div>
-													</div>
 												</div>
 											</div>
 										</div>

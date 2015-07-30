@@ -51,7 +51,9 @@
 										In <a href="#" rel="category tag">Javascript</a>, <a href="#" rel="category tag">Motion</a>
 									</div>
 									<div class="date">
-										August 13, 2013
+										<?php
+										echo date("M d,y",$key['time_created'])
+										?>
 									</div>
 									<hr class="hr_narrow hr_left">
 								</div>

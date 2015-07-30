@@ -26,7 +26,7 @@
 									</div>
 									<div id="-5">
 										<h5>PT.Kakiatna Energi</h5>
-										<img src="upload/gambar/polos.jpg" width="200" height="60"><br/>
+										<img src="/public/upload/gambar/polos.jpg" width="200" height="60"><br/>
 										 PT. Kakiatna Energi is a private power investment and development company. With the IPP scheme currently sedang ramai digalangkan oleh PLN untuk mempercepat pengadaan tenaga listrik di seluruh penjuru negeri, Kakiatna Energi aims to be the biggest private power producer in Indonesia. <br/><br/>
 										
 										<div class="post-footer">
@@ -38,7 +38,7 @@
 										<br/><br/>
 										
 										<h5>PT. Nusantara Energi Mandiri</h5>
-										<img src="upload/gambar/polos.jpg" width="200" height="60"><br/>
+										<img src="/public/upload/gambar/polos.jpg" width="200" height="60"><br/>
 										 PT. Nusantara Energi Mandiri  is an engineering, procurement, and construction company yang secara khusus berkutat di dalam sektor power plant. Didirikan pada tahun 2008, Nusantara Energi Mandiri telah memiliki pengalaman dalam pengembangan PLTA Jatigede bersama dengan Sinohydro Co., Ltd. <br/><br/>
 										
 										<div class="post-footer">
@@ -50,7 +50,7 @@
 										<br/><br/>
 										
 										<h5>PT. Kakiatna Energi Services</h5>
-										<img src="upload/gambar/polos.jpg" width="200" height="60"><br/>
+										<img src="/public/upload/gambar/polos.jpg" width="200" height="60"><br/>
 										 PT. Kakiatna Energi Services is a power plant operation & maintenance company. <br/><br/>
 										
 										<div class="post-footer">
@@ -64,7 +64,7 @@
 									</div>
 									<div id="-6">
 										<h5>PT. Rise Infobisnis Semesta Ekasolusi</h5>
-										<img src="upload/gambar/polos.jpg" width="200" height="60"><br/>
+										<img src="/public/upload/gambar/polos.jpg" width="200" height="60"><br/>
 										 PT. Kakiatna Energi is a private power investment and development company. With the IPP scheme currently sedang ramai digalangkan oleh PLN untuk mempercepat pengadaan tenaga listrik di seluruh penjuru negeri, Kakiatna Energi aims to be the biggest private power producer in Indonesia. <br/><br/>
 										
 										<div class="post-footer">
@@ -77,7 +77,7 @@
 									</div>
 									<div id="-7">
 										<h5>Aliquam sodales tortor vitae ipsum. Aliquam nulla</h5>
-										<img src="upload/gambar/polos.jpg" width="200" height="60"><br/>
+										<img src="/public/upload/gambar/polos.jpg" width="200" height="60"><br/>
 										 Phasellus ultricies ipsum urna, et consequat massa mattis quis. Praesent quis tortor tortor. Phasellus eget elementum nunc, adipiscing malesuada neque. Sed tempus augue vitae ligula tincidunt, a vestibulum justo mattis. Nulla vel leo gravida, congue nibh vitae, auctor ante. Sed a dictum tortor. <br/>
 										<br/>
 										Quisque ac ipsum et orci accumsan dignissim. Cras dignissim urna ut quam facilisis iaculis. Nullam a lacinia sem. Praesent eu viverra mauris. Nullam ut lectus posuere, egestas lorem eget, commodo purus. Vivamus vitae sollicitudin quam. Mauris vel lobortis enim. Nulla facilisi. <br/>

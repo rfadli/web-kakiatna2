@@ -55,7 +55,7 @@
 										echo '</div>';
 										echo '<div class="post-meta">';
 										echo '<div class="author">';
-										echo 'By <a href="#">Max Themes</a>';
+										echo 'By <a href="#">Admin</a>';
 										echo '</div>';
 										echo '<div class="category">';
 										echo 'In <a href="#" rel="category tag">Motion</a>';

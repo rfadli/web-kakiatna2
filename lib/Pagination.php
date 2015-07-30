@@ -16,23 +16,23 @@ class Pagination
 		
 		if(intval($this->arr['current']) > 0)
 		{
-			$str .= '<a href="#" ><li style="width: 100px">Page '.$this->arr['current'].' of '.$this->arr['last'].'</li></a>';
+			$str .= '<a href="#" >Page '.$this->arr['current'].' of '.$this->arr['last'].'</a>';
 			if(1 != $this->arr['current'])
-				$str .= '<a href="'.$this->pag_url.'1" ><li style="width: 60px">First</li></a>'; 
+				$str .= '<a href="'.$this->pag_url.'1" >First</a>'; 
 			if($this->arr['previous'] != $this->arr['current'])
-				$str .= '<a href="'.$this->pag_url.$this->arr['previous'].'" ><li style="width: 70px">Previous</li></a>';
+				$str .= '<a href="'.$this->pag_url.$this->arr['previous'].'" >Previous</a>';
 			foreach($this->arr['pages'] as $rp)
 			{
 				if($this->arr['current'] == $rp)
-					$str .= '<a href="#" class="page active">'.$rp.'</li></a>'; 
+					$str .= '<a href="#" class="page active">'.$rp.'</a>'; 
 				else
-					$str .= '<a href="'.$this->pag_url.$rp.'" ><li>'.$rp.'</li></a>'; 
+					$str .= '<a href="'.$this->pag_url.$rp.'" >'.$rp.'</a>'; 
 			}
 			if($this->arr['next'] != $this->arr['current'])
-				$str .= '<a href="'.$this->pag_url.$this->arr['next'].'" ><li style="width: 60px">Next</li></a>'; 
+				$str .= '<a href="'.$this->pag_url.$this->arr['next'].'" >Next</a>'; 
 						
 			if($this->arr['last'] != $this->arr['current'])
-				$str .= '<a href="'.$this->pag_url.$this->arr['last'].'" ><li style="width: 60px">Last</li></a>';
+				$str .= '<a href="'.$this->pag_url.$this->arr['last'].'" >Last</a>';
 		}
 		$str .= '</div>';
 		$str .= '</div>';

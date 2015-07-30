@@ -189,15 +189,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 	</div>
 	</footer>
 </div>
-
-
-
-
-
-<script type='text/javascript' src='/public/js/jquery/jquery.js'></script>
-<script type='text/javascript' src='/public/js/jquery/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.tools.min.js'></script>
-<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
+<?php echo $js; ?>
 
 <script>
 //<![CDATA[
@@ -320,31 +312,6 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 	});	/*ready*/
 
 </script>
-
-
-<script type='text/javascript' src='/public/js/jquery.form.min.js'></script>
-
-<script type='text/javascript' src='/public/js/frontend/add-to-cart.min.js'></script>
-<script type='text/javascript' src='/public/js/select2/select2.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery-blockui/jquery.blockUI.min.js'></script>
-<script type='text/javascript' src='/public/js/frontend/woocommerce.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery-cookie/jquery.cookie.min.js'></script>
-
-<script type='text/javascript' src='/public/js/frontend/cart-fragments.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/core.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/widget.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/mouse.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/sortable.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/tabs.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/accordion.min.js'></script>
-<script type='text/javascript' src='/public/js/owl-carousel/owl.carousel.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery.jplayer.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery.plugins.js'></script>
-<script type='text/javascript' src='/public/js/mfn.menu.js'></script>
-<script type='text/javascript' src='/public/js/scripts.js'></script>
-
-
-
 
 </body>
 </html>

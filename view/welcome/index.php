@@ -233,21 +233,8 @@
 										
 										foreach ($msubsidiaries as $key) 
 										{
-											
-											$array = array();
-											$no = 0;
-											foreach ($key as $tr) 
-											{
-												if($no == 5)
-												{
-													$array[]=$tr;
-												}
-												$array[]=$tr;
-												$no++;
-											}
-											
 											$q = array(
-												'id' => trim($tr['_id']),
+												'id' => trim($key['_id']),
 												'height' => 120,
 												'width' => 120
 											);
@@ -263,29 +250,11 @@
 												$url = $json['url'];
 											}
 											
-											$no = 0;
-											foreach ($array as $tr) 
-											{
-												if($no == 6)
-												{
-													echo '<li class=" last_row">';
-													echo '<div class="client_wrapper">';
-													echo '</div>';
-													echo '</li>';
-												}
-												else
-												{
-													echo '<li class=" last_row">';
-													echo '<div class="client_wrapper">';
-													echo '<a target="_blank" href="#" title="'.$tr['title'].'"><img src="'.$url.'" class="scale-with-grid wp-post-image" alt="client_1"/></a>';
-													echo '</div>';
-													echo '</li>';
-												}
-												$no++;
-												
-											}
-											
-											
+											echo '<li class=" last_row">';
+											echo '<div class="client_wrapper">';
+											echo '<a target="_blank" href="#" title="'.$key['title'].'"><img src="'.$url.'" class="scale-with-grid wp-post-image" alt="client_1"/></a>';
+											echo '</div>';
+											echo '</li>';
 										
 										}
 					                    ?>

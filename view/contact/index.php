@@ -5,11 +5,6 @@
 				<div class="section pad0">
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
-							<div class="column one column_map">
-								<div class="google-map contactpagemap" id="google-map-area1">
-									&nbsp;
-								</div>
-							</div>
 							<div class="column one column_column">
 								<div class="textcenter">
 									<img style="max-width: 230px;" src="/public/upload/logo_dark_retina.png" alt=""/>

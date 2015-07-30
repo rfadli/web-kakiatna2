@@ -194,6 +194,29 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 <script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
 
 <script>
+    function google_maps_553e307a33451() {
+        var latlng = new google.maps.LatLng(-33.8710, 151.2039);
+        var myOptions = {
+            zoom: 14,
+            center: latlng,
+            zoomControl: true,
+            mapTypeControl: false,
+            streetViewControl: false,
+            scrollwheel: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("google-map-area1"), myOptions);
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map
+        });
+    }
+    jQuery(document).ready(function($) {
+        google_maps_553e307a33451();
+    });
+</script>
+
+<script>
 //<![CDATA[
 jQuery(window).load(function(){
 var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});

@@ -103,11 +103,7 @@
 									<!-- blog Item -->
 									
 								</div>
-								<div class="column one pager_wrapper">
-									<div class="pager">
-										<a href="#" class="page active">1</a><a href="#" class="page">2</a><a class="next_page" href="#"><i class="icon-right-open"></i></a>
-									</div>
-								</div>
+								<?php echo $pagination;?>
 							</div>
 						</div>
 					</div>

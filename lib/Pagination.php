@@ -11,8 +11,8 @@ class Pagination
 	public function Show()
 	{
 		$str = '';
-		$str .= '<nav class="next-page">';
-		$str .= '<ul>';
+		$str .= '<div class="column one pager_wrapper">';
+		$str .= '<div class="pager">';
 		
 		if(intval($this->arr['current']) > 0)
 		{
@@ -24,7 +24,7 @@ class Pagination
 			foreach($this->arr['pages'] as $rp)
 			{
 				if($this->arr['current'] == $rp)
-					$str .= '<a href="#"><li class="page-active">'.$rp.'</li></a>'; 
+					$str .= '<a href="#" class="page active">'.$rp.'</li></a>'; 
 				else
 					$str .= '<a href="'.$this->pag_url.$rp.'" ><li>'.$rp.'</li></a>'; 
 			}
@@ -34,8 +34,8 @@ class Pagination
 			if($this->arr['last'] != $this->arr['current'])
 				$str .= '<a href="'.$this->pag_url.$this->arr['last'].'" ><li style="width: 60px">Last</li></a>';
 		}
-		$str .= '</ul>';
-		$str .= '</nav>';
+		$str .= '</div>';
+		$str .= '</div>';
 		return $str;
 	}
 	public function calculate_pages($total_rows, $rows_per_page, $page_num)

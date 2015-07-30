@@ -36,7 +36,7 @@
 										echo '<div class="post-meta-modern">';
 										echo '<div class="date">';
 										//date("d-m-Y",$ddt['time_created'])
-										echo '<span class="day">"'.date("d",$key['time_created']).'"</span><span class="month">"'.date("M",$key['time_created']).'"</span><span class="year">2014</span>';
+										echo '<span class="day">'.date("d",$key['time_created']).'</span><span class="month">'.date("m",$key['time_created']).'</span><span class="year">2014</span>';
 										echo '</div>';
 										echo '<div class="button-comments">';
 										echo '<a href="#"><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i><i class="icon-comment-fa"></i></span><span class="label">4</span></a>';

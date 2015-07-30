@@ -40,8 +40,8 @@
 										<i class="icon-phone"></i><a href="#">+61 (0) 3 8376</a>
 									</p>
 									<?php
-									echo $mcontent['email'];
-									echo '<a href="mailto:"."'.$mcontent['email'].'" class="button button_large button_icon"><i class="icon-mail-line"></i></a>';
+									//echo $mcontent['email'];
+									echo '<a href="mailto:'.$mcontent['email'].'" class="button button_large button_icon"><i class="icon-mail-line"></i></a>';
 									?>
 									<a href="#" class="button button_large button_icon"><i class="icon-twitter"></i></a>
 									<a href="#" class="button button_large button_icon"><i class="icon-facebook"></i></a>

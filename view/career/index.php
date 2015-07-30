@@ -26,12 +26,39 @@
 												<h4 class="title">Job Vacancy</h4>
 												<div class="mfn-acc accordion_wrapper open1st">
 													<?php
+													$curl = new Curl();
+													
 													foreach ($mjobs as $key) 
 													{
+														$q = array(
+															'id' => trim($key['_id']),
+															'height' => 120,
+															'width' => 120
+														);
+														
+														$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
+														$rest = $curl->response;
+														
+														$json = json_decode($rest, TRUE);
+														
+														$url = '';
+														if($json['status'] == "OK")
+														{
+															$url = $json['url'];
+														}
+														
 														echo '<div class="question">';
 														echo '<h5><span class="icon"><i class="icon-right-open"></i></span>'.$key['title'].'</h5>';
 														echo '<div class="answer">';
-														echo '<img src="/public/upload/pic_about_cake_small.png" alt="">';
+														if(isset($url))
+														{
+															echo '<img src="'.$url.'" alt="">';
+														}
+														else
+														{
+															echo '<img src="/public/upload/pic_about_cake_small.png" alt="">';
+														}
+														
 														echo $key['content'];
 														echo '</div>';
 														echo '</div>';

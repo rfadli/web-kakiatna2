@@ -195,7 +195,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 
 <script>
     function google_maps_553e307a33451() {
-        var latlng = new google.maps.LatLng(-33.8710, 151.2039);
+        var latlng = new google.maps.LatLng(-6.226098, 106.806517,15);
         var myOptions = {
             zoom: 14,
             center: latlng,

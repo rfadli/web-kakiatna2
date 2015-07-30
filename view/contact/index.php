@@ -38,10 +38,11 @@
 									echo $mcontent['company'];
 									echo '</h6>';
 									?>
-									Level 13, 2 Elizabeth St, Melbourne<br/>
-									Victoria 3000 Australia</h6>
+									The Energy Lt.25 Suite B SCBD Lot 11A <br/>
+									Jl.Jend.Sudirman Kav.52-53 <br/>
+									Senayan Kebayoran Baru</h6>
 									<p>
-										<i class="icon-phone"></i><a href="#">+61 (0) 3 8376</a>
+										<i class="icon-phone"></i><a href="#">021 57947908</a>
 									</p>
 									<?php
 									//echo $mcontent['email'];

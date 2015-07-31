@@ -80,7 +80,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 			<div class="column one">
 				<!-- .logo -->
 				<div class="logo">
-					<h1><a id="logo" href="home-corporate.html" title="Cake"><img class="scale-with-grid" src="/public/upload/gambar/logo_dark.png" alt="Cake"/></a></h1>
+					<h1><a id="logo" href="/" title="Cake"><img width="100" height="100" class="scale-with-grid" src="/public/upload/gambar/2.png" alt="Cake"/></a></h1>
 				</div>
 				<!-- .menu_wrapper -->
 				<div class="menu_wrapper">

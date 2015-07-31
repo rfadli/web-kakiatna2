@@ -9,7 +9,9 @@ class media_controller extends controller
 			'category_content' => new MongoId(NEWS),
 			'contributor_id' => CLIENT_ID,
 		);
-		$mnews = $content->findOne($news);
+		$limit = 1;
+		$mnews = $content->find($news)->sort(array("time_created" => -1))->limit($limit);
+		//$mnews = $content->findOne($news);
 		
 		$blog = array(
 			'category_content' => new MongoId(BLOG),

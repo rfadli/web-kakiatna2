@@ -205,6 +205,13 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 <script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
 
 <script>
+//<![CDATA[
+jQuery(window).load(function(){
+var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","/public/upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
+//]]>
+</script>
+
+<script>
     function google_maps_553e307a33451() {
         var latlng = new google.maps.LatLng(-6.226098, 106.806517,15);
         var myOptions = {
@@ -232,6 +239,92 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 jQuery(window).load(function(){
 var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
 //]]>
+</script>
+
+<script>
+jQuery(document).ready(function($) {
+
+	// boxed fix
+		
+	// white/dark logo fix
+	
+	// show / hide
+	$('#configurator .control').click(function(e){
+		e.preventDefault();
+		if ($('#configurator').hasClass('active')){
+			$('#configurator').removeClass('active').animate({ 'left':-232 },500);
+		} else {
+			$('#configurator').addClass('active').animate({ 'left':-1 },500);
+		}
+	});
+
+	// layout select
+	$('#configurator .select-layout a').click(function(e){
+		e.preventDefault();
+		var newClass = $(this).attr('class');
+		$('body')
+			.removeClass('layout-full-width layout-boxed')
+			.addClass(newClass);
+		$(this)
+			.parent().addClass('active')
+			.siblings().removeClass('active');
+		if( newClass == 'layout-boxed' ) $('html').css('background-image','url("/public/images/patterns/9.png")');
+		jQuery(window).resize();
+	});
+	
+	// action select
+	$('#configurator .select-action a').click(function(e){
+		e.preventDefault();
+		var action = $(this).attr('class');
+		if( action == 'show' ){
+			$('#Action_bar').show();	
+		} else {
+			$('#Action_bar').hide();
+		}	
+		$(this)
+			.parent().addClass('active')
+			.siblings().removeClass('active');
+	});
+	
+	// header select
+	$('#configurator .select-header a').click(function(e){
+		e.preventDefault();
+		var newClass 	= $(this).attr('data-rel');
+		var newLogo 	= $(this).attr('data-image');
+		$('body')
+			.removeClass('header-bg header-alpha header-white header-dark')
+			.addClass(newClass);
+			$("#logo img").attr('src','/public/upload/logo.png');
+		$(this)
+			.parent().addClass('active')
+			.siblings().removeClass('active');
+	});
+
+	// color select
+	$('#configurator .select-color a').click(function(e){
+		e.preventDefault();
+		var value = $(this).attr('class');
+		if( value != 'default' ){
+			$('#configurator .inp-color').attr('name','mfn-c');
+		}
+		$('#configurator .inp-color').val(value);
+		$('#config').submit();
+	});
+
+	// bg select
+	$('#configurator .select-image a').click(function(e){
+		e.preventDefault();
+
+		var bg_attr = $(this).attr('data-rel');
+		var bg = 'url("'+ $(this).children('img').attr('src') +'") ' + bg_attr;
+		
+		$('html').css('background','none').css('background',bg);
+
+		// boxed layout
+		$('body').removeClass('layout-full-width').addClass('layout-boxed');
+	});
+
+});
 </script>
 	
 

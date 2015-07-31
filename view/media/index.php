@@ -16,8 +16,12 @@
 									</ul>
 									<div id="-4">
 										<?php
-										echo 'dari admin';
-										echo $mnews['content'];
+										foreach ($mnews as $key) 
+										{
+											echo 'dari admin';
+											echo $key['content'];
+										}
+										
 										?>
 										<div class="post-footer">
 										<?php

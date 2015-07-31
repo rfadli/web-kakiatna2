@@ -51,7 +51,7 @@
 										echo '<div class="post-desc-wrapper">';
 										echo '<div class="post-desc">';
 										echo '<div class="post-title">';
-										echo '<h4><a href="#">Content Builder for posts</a></h4>';
+										echo '<h4><a href="#">'.$key['title'].'</a></h4>';
 										echo '</div>';
 										echo '<div class="post-meta">';
 										echo '<div class="author">';

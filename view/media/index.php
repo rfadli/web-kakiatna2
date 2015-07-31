@@ -36,8 +36,12 @@
 									</div>
 									<div id="-5">
 										<?php
-										echo 'BLOG dari admin';
-										echo $mblog['content'];
+										foreach ($mblog as $key ) 
+										{
+											echo 'BLOG dari admin';
+											echo $key['content'];
+										}
+										
 										?>
 										<div class="post-footer">
 										<?php

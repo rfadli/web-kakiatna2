@@ -29,7 +29,7 @@ body { padding: 0; }
 /* #Rev slider controls
 ================================================== */
 .rev_slider_wrapper .tp-leftarrow.default,
-.rev_slider_wrapper .tp-rightarrow.default { width: 94px; height: 60px; background: url("../images/rev_slider_controls.png") no-repeat; }
+.rev_slider_wrapper .tp-rightarrow.default { width: 94px; height: 60px; background: url("/public/images/rev_slider_controls.png") no-repeat; }
 .rev_slider_wrapper .tp-leftarrow.default:hover,
 .rev_slider_wrapper .tp-rightarrow.default:hover { 
 	-webkit-transition: all 0.7s ease-in-out;
@@ -106,7 +106,7 @@ a.button_image, span.button_image { display: block; width: 55px; height: 55px; l
 
 /* #Header
 ================================================== */
-#Header { background-image: url("../images/header_overlay.png"); background-position: bottom center; background-repeat: no-repeat;  position:relative;}
+#Header { background-image: url("/public/images/header_overlay.png"); background-position: bottom center; background-repeat: no-repeat;  position:relative;}
 
 /* Header default */
 
@@ -248,7 +248,7 @@ a.button_image, span.button_image { display: block; width: 55px; height: 55px; l
 
 /* #Subheader
 ================================================== */
-#Subheader { background-image: url("../images/bg_subheader.png"); background-position: top center; background-repeat: no-repeat; }
+#Subheader { background-image: url("/public/images/bg_subheader.png"); background-position: top center; background-repeat: no-repeat; }
 .header-alpha #Subheader { padding-top: 110px; }
 #Subheader .column { margin-bottom: 25px; }
 #Subheader .title { margin: 40px 0 15px; font-weight:100; }
@@ -704,7 +704,7 @@ span.wpcf7-form-control-wrap .wpcf7-textarea { width: 100%; -webkit-box-sizing: 
 ================================================== */
 .portfolio_slider_ul,
 ul.testimonials-slider {
-    background: url("../images/preloader.gif") no-repeat center center;
+    background: url("/public/images/preloader.gif") no-repeat center center;
 }
 .portfolio_slider_ul li,
 ul.testimonials-slider > * {

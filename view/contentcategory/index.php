@@ -1,6 +1,5 @@
 <div id="Content">
 		<div class="content_wrapper clearfix">
-
 			<!-- .sections_group -->
 			<div class="sections_group">
 				<div class="section">
@@ -110,7 +109,5 @@
 					</div>
 				</div>
 			</div>
-
-
 		</div>
 	</div>

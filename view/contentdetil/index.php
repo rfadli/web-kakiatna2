@@ -1,12 +1,10 @@
 <div id="Content">
 		<div class="content_wrapper clearfix">
-
 			<!-- .sections_group -->
 			<div class="sections_group">
 				<div id="post-379" class="post-379 post type-post status-publish format-video has-post-thumbnail hentry category-javascript category-motion tag-mysql post_format-post-format-video">
 					<div class="section section-post-header">
 						<div class="section_wrapper clearfix">
-							
 							<?php
 					    	$curl = new Curl();
 							
@@ -37,7 +35,6 @@
 								echo '</div>';
 							}
 					    	?>
-							
 						</div>
 					</div>
 					<div class="post-wrapper-content">
@@ -210,4 +207,4 @@
 				</div>
 			</div>
 		</div>
-	</div>
+</div>

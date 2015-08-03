@@ -266,7 +266,6 @@ jQuery(document).ready(function($) {
 		if( newClass == 'layout-boxed' ) $('html').css('background-image','url("/public/images/patterns/9.png")');
 		jQuery(window).resize();
 	});
-	
 	// action select
 	$('#configurator .select-action a').click(function(e){
 		e.preventDefault();
@@ -280,7 +279,6 @@ jQuery(document).ready(function($) {
 			.parent().addClass('active')
 			.siblings().removeClass('active');
 	});
-	
 	// header select
 	$('#configurator .select-header a').click(function(e){
 		e.preventDefault();
@@ -294,7 +292,6 @@ jQuery(document).ready(function($) {
 			.parent().addClass('active')
 			.siblings().removeClass('active');
 	});
-
 	// color select
 	$('#configurator .select-color a').click(function(e){
 		e.preventDefault();
@@ -305,7 +302,6 @@ jQuery(document).ready(function($) {
 		$('#configurator .inp-color').val(value);
 		$('#config').submit();
 	});
-
 	// bg select
 	$('#configurator .select-image a').click(function(e){
 		e.preventDefault();
@@ -321,7 +317,6 @@ jQuery(document).ready(function($) {
 
 });
 </script>
-	
 
 <script type="text/javascript">
 

@@ -32,6 +32,11 @@ class controller
 		$this->css->add("/public/css/fonts/mfn-icons.css");
 		$this->css->add("/public/css/custom.css");
 		$this->css->add("/public/css/skins/green/images.css");
+		$this->css->add("/public/js/owl-carousel/owl.carousel.css");
+		$this->css->add("/public/js/owl-carousel/owl.theme.css");
+		$this->css->add("/public/css/skins/green/images.css");
+		$this->css->add("/public/js/mediaelement/mediaelementplayer.min.css");
+		$this->css->add("/public/js/mediaelement/wp-mediaelement.css");
 		$this->css->add("http://fonts.googleapis.com/css?family=Ubuntu%3A100%2C300%2C400%2C400italic%2C700&amp;ver=4.2");
 		//$this->css->add('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Open+Sans+Condensed:300,700');
 

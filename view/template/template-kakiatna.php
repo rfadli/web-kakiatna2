@@ -204,6 +204,13 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 <?php echo $js; ?>
 <script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
 
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"/public\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+
 <script>
 //<![CDATA[
 jQuery(window).load(function(){

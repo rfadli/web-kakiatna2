@@ -19,7 +19,7 @@
 <meta name="description" content="Cake works with every business. No matter if you are cooker, blogger, designer or an astronaut - this wordpress theme is for everyone!" />
 <meta name="keywords" content="cake, wordpress, muffingroup, muffin builder, muffin options, page builder, theme, template, parallax, contact form 7, mega menu" />
 
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />	
+<link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />	
 
 
 <script>
@@ -29,31 +29,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 //]]>
 </script>
 
-
-<link rel='stylesheet' id='contact-form-7-css'  href='/public/css/cform.css' type='text/css' media='all' />
-<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='/public/css/tp_twitter_plugin.css' type='text/css' media='screen' />
-<link rel='stylesheet' id='rs-plugin-settings-css'  href='/public/rs-plugin/css/settings.css' type='text/css' media='all' />
-
-<link rel='stylesheet' id='select2-css'  href='/public/css/select.css' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-layout-css'  href='/public/css/woocommerce-layout.css' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/public/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
-<link rel='stylesheet' id='woocommerce-general-css'  href='/public/css/woocommerce.css' type='text/css' media='all' />
-<link rel='stylesheet' id='style-css'  href='/public/css/style.css' type='text/css' media='all' />
-<link rel='stylesheet' id='prettyPhoto-css'  href='/public/css/prettyPhoto.css' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-carousel-css'  href='/public/js/owl-carousel/owl.carousel.css' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-theme-css'  href='/public/js/owl-carousel/owl.theme.css' type='text/css' media='all' />
-<link rel='stylesheet' id='jplayer-css'  href='/public/css/blue.monday/jplayer.blue.monday.css' type='text/css' media='all' />
-<link rel='stylesheet' id='jquery-ui-css'  href='/public/css/ui/jquery.ui.all.css' type='text/css' media='all' />
-<link rel='stylesheet' id='responsive-css'  href='/public/css/responsive.css' type='text/css' media='all' />
-<link rel='stylesheet' id='style-colors-php-css'  href='/public/css/style-colors.css' type='text/css' media='all' />
-<link rel='stylesheet' id='style-php-css'  href='/public/css/style-2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mfn-woo-css'  href='/public/css/woocommerce.css' type='text/css' media='all' />
-<link rel="stylesheet" href="/public/css/fonts/mfn-icons.css" media="all" />
-<link rel="stylesheet" href="/public/css/custom.css" media="all" />
-<link rel='stylesheet' id='images-green-css'  href='/public/css/skins/green/images.css' type='text/css' media='all' />
-
-<link rel='stylesheet' id='Ubuntu-css'  href='http://fonts.googleapis.com/css?family=Ubuntu%3A100%2C300%2C400%2C400italic%2C700&amp;ver=4.2' type='text/css' media='all' />
-
+<?php echo $css;?>
 
 	
 <style>
@@ -104,7 +80,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 			<div class="column one">
 				<!-- .logo -->
 				<div class="logo">
-					<h1><a id="logo" href="home-corporate.html" title="Cake"><img class="scale-with-grid" src="upload/gambar/logo_dark.png" alt="Cake"/></a></h1>
+					<h1><a id="logo" href="/" title="Cake"><img class="scale-with-grid" src="/public/upload/gambar/logo_dark.png" alt="Cake"/></a></h1>
 				</div>
 				<!-- .menu_wrapper -->
 				<div class="menu_wrapper">
@@ -190,14 +166,14 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 			</div>
 		</div>
 	</div>
-
+	<!--slider-->	
+	
 
 	<!-- #Content -->
-	<?php echo  $content;?>
+	<?php echo $content; ?>
 
 	<!-- #Footer -->
 	<footer id="Footer" class="clearfix">
-
 	<div class="footer_copy">
 		<div class="container">
 			<div class="column one">
@@ -207,21 +183,51 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 					 &copy; 2015 Cake. All Rights Reserved. <a target="_blank" rel="nofollow" href="#">Max Themes</a>
 				</div>
 				<!-- Social -->
-				
 			</div>
 		</div>
 	</div>
 	</footer>
 </div>
 
+<?php echo $js; ?>
+<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
 
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"/public\/js\/mediaelement\/"};
+/* ]]> */
+</script>
 
+<script>
+//<![CDATA[
+jQuery(window).load(function(){
+var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","/public/upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
+//]]>
+</script>
 
-
-<script type='text/javascript' src='/public/js/jquery/jquery.js'></script>
-<script type='text/javascript' src='/public/js/jquery/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.tools.min.js'></script>
-<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
+<script>
+    function google_maps_553e307a33451() {
+        var latlng = new google.maps.LatLng(-6.226098, 106.806517,15);
+        var myOptions = {
+            zoom: 14,
+            center: latlng,
+            zoomControl: true,
+            mapTypeControl: false,
+            streetViewControl: false,
+            scrollwheel: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("google-map-area1"), myOptions);
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map
+        });
+    }
+    jQuery(document).ready(function($) {
+        google_maps_553e307a33451();
+    });
+</script>
 
 <script>
 //<![CDATA[
@@ -229,7 +235,88 @@ jQuery(window).load(function(){
 var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
 //]]>
 </script>
+
+<script>
+jQuery(document).ready(function($) {
+
+	// boxed fix
+		
+	// white/dark logo fix
 	
+	// show / hide
+	$('#configurator .control').click(function(e){
+		e.preventDefault();
+		if ($('#configurator').hasClass('active')){
+			$('#configurator').removeClass('active').animate({ 'left':-232 },500);
+		} else {
+			$('#configurator').addClass('active').animate({ 'left':-1 },500);
+		}
+	});
+
+	// layout select
+	$('#configurator .select-layout a').click(function(e){
+		e.preventDefault();
+		var newClass = $(this).attr('class');
+		$('body')
+			.removeClass('layout-full-width layout-boxed')
+			.addClass(newClass);
+		$(this)
+			.parent().addClass('active')
+			.siblings().removeClass('active');
+		if( newClass == 'layout-boxed' ) $('html').css('background-image','url("/public/images/patterns/9.png")');
+		jQuery(window).resize();
+	});
+	// action select
+	$('#configurator .select-action a').click(function(e){
+		e.preventDefault();
+		var action = $(this).attr('class');
+		if( action == 'show' ){
+			$('#Action_bar').show();	
+		} else {
+			$('#Action_bar').hide();
+		}	
+		$(this)
+			.parent().addClass('active')
+			.siblings().removeClass('active');
+	});
+	// header select
+	$('#configurator .select-header a').click(function(e){
+		e.preventDefault();
+		var newClass 	= $(this).attr('data-rel');
+		var newLogo 	= $(this).attr('data-image');
+		$('body')
+			.removeClass('header-bg header-alpha header-white header-dark')
+			.addClass(newClass);
+			$("#logo img").attr('src','/public/upload/logo.png');
+		$(this)
+			.parent().addClass('active')
+			.siblings().removeClass('active');
+	});
+	// color select
+	$('#configurator .select-color a').click(function(e){
+		e.preventDefault();
+		var value = $(this).attr('class');
+		if( value != 'default' ){
+			$('#configurator .inp-color').attr('name','mfn-c');
+		}
+		$('#configurator .inp-color').val(value);
+		$('#config').submit();
+	});
+	// bg select
+	$('#configurator .select-image a').click(function(e){
+		e.preventDefault();
+
+		var bg_attr = $(this).attr('data-rel');
+		var bg = 'url("'+ $(this).children('img').attr('src') +'") ' + bg_attr;
+		
+		$('html').css('background','none').css('background',bg);
+
+		// boxed layout
+		$('body').removeClass('layout-full-width').addClass('layout-boxed');
+	});
+
+});
+</script>
 
 <script type="text/javascript">
 
@@ -344,31 +431,6 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 	});	/*ready*/
 
 </script>
-
-
-<script type='text/javascript' src='/public/js/jquery.form.min.js'></script>
-
-<script type='text/javascript' src='/public/js/frontend/add-to-cart.min.js'></script>
-<script type='text/javascript' src='/public/js/select2/select2.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery-blockui/jquery.blockUI.min.js'></script>
-<script type='text/javascript' src='/public/js/frontend/woocommerce.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery-cookie/jquery.cookie.min.js'></script>
-
-<script type='text/javascript' src='/public/js/frontend/cart-fragments.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/core.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/widget.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/mouse.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/sortable.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/tabs.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery/ui/accordion.min.js'></script>
-<script type='text/javascript' src='/public/js/owl-carousel/owl.carousel.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery.jplayer.min.js'></script>
-<script type='text/javascript' src='/public/js/jquery.plugins.js'></script>
-<script type='text/javascript' src='/public/js/mfn.menu.js'></script>
-<script type='text/javascript' src='/public/js/scripts.js'></script>
-
-
-
 
 </body>
 </html>

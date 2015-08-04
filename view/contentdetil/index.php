@@ -1,25 +1,40 @@
 <div id="Content">
 		<div class="content_wrapper clearfix">
-
 			<!-- .sections_group -->
 			<div class="sections_group">
 				<div id="post-379" class="post-379 post type-post status-publish format-video has-post-thumbnail hentry category-javascript category-motion tag-mysql post_format-post-format-video">
 					<div class="section section-post-header">
 						<div class="section_wrapper clearfix">
-							<div class="column one portfolio-meta">
-
-								<ul class="next-prev-nav">
-									<li class="prev"><a class="button button_icon" href="#"><i class="icon-left-open"></i></a></li>
-									<li class="next"><a class="button button_icon" href="#"><i class="icon-right-open"></i></a></li>
-									<li class="list"><a class="button button_icon" href="#"><i class="icon-menu"></i></a></li>
-								</ul>
-							</div>
-							<div class="column one post-photo-wrapper">
-								<div class="post-photo">
-									<iframe class="scale-with-grid" src="http://player.vimeo.com/video/62954028" allowfullscreen="" style="height: 413.6px;">
-									</iframe>
-								</div>
-							</div>
+							<?php
+					    	$curl = new Curl();
+							
+							if(isset($data['_id']))
+							{
+								$q = array(
+									'id' => trim($data['_id']),
+									'height' => 413,
+									'width' => 881,
+									
+								);
+								
+								$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
+								$rest = $curl->response;
+								
+								$json = json_decode($rest, TRUE);
+								
+								$url = '';
+								if($json['status'] == "OK")
+								{
+									$url = $json['url'];
+								}
+								
+						        echo '<div class="column one post-photo-wrapper">';
+								echo '<div class="post-photo">';
+								echo '<img src="'.$url.'" class="scale-with-grid wp-post-image" alt="1" style="height: 413.6px;">';
+								echo '</div>';
+								echo '</div>';
+							}
+					    	?>
 						</div>
 					</div>
 					<div class="post-wrapper-content">
@@ -27,57 +42,36 @@
 							<div class="section_wrapper clearfix">
 								<div class="column one post-meta">
 									<div class="author">
-										By <a href="#">Max Themes</a>
+										By <a href="#">Admin</a>
 									</div>
-									<div class="category">
+									<!--div class="category">
 										In <a href="#" rel="category tag">Javascript</a>, <a href="#" rel="category tag">Motion</a>
-									</div>
+									</div-->
 									<div class="date">
-										August 13, 2013
+										<?php
+										echo date("M d,Y",$data['time_created'])
+										?>
 									</div>
 									<hr class="hr_narrow hr_left">
 								</div>
 							</div>
 						</div>
-						<div class="section the_content">
-							<div class="section_wrapper">
-								<div class="the_content_wrapper">
-									<h5>Lorem ipsum dolor sit amet purus consectetuer vulputate vitae, congue tristique. Donec condimentum, pulvinar.</h5>
-									<p>
-										Suspendisse turpis et odio. Vestibulum aliquam odio. Nunc at sapien. Aliquam eleifend, ligula. Etiam rutrum, enim ac imperdiet sagittis, elit. Sed ut odio sit amet, tortor. Proin at quam. Phasellus fermentum, metus at sagittis sed, tempus nulla. Integer nibh consectetuer tincidunt enim. Aliquam ultricies ante. Nullam eleifend in, vulputate adipiscing. Nunc tristique lorem. Mauris id nisl. Morbi tellus et ultrices velit eleifend sollicitudin posuere, tempor scelerisque, dui porta ac, felis.
-									</p>
-									<h6>Curabitur arcu sit amet libero hendrerit dolor sit amet tellus. Praesent quis wisi curabitu anso thank:</h6>
-									<ul class="list">
-										<li>Nunc tristique lorem</li>
-										<li>Sed ipsum primis in augue</li>
-									</ul>
-									<p>
-										Aenean scelerisque, diam. Nullam vitae wisi placerat sodales. Phasellus pulvinar felis, ullamcorper quam. Nam aliquet quis, convallis nec, eros. Sed ipsum primis in augue.Phasellus ornare non, nulla. Morbi augue ac ornare dolor sit amet, accumsan quam, dictum ante. Donec non enim. Cras orci. Mauris euismod. Ut molestie justo ipsum dolor sapien pede id nunc. Praesent tortor venenatis consequat. Morbi nibh malesuada ultricies.
-									</p>
-									<p>
-										Ut a nunc. Vivamus est. Suspendisse potenti. In id felis. Vestibulum et magnis dis parturient montes, nascetur ridiculus mus. Nam libero quis felis augue imperdiet sed, ornare lorem. Sed nec odio. Suspendisse eu ante. Quisque neque mauris, consectetuer tellus tincidunt dictum faucibus vestibulum. Cras turpis at nulla. Etiam blandit sed, ornare eu, ullamcorper fringilla, justo nibh rutrum ut, eleifend at, accumsan augue id purus laoreet iaculis scelerisque.
-									</p>
-									<p>
-										Integer faucibus et, congue ac, mattis at, vulputate vitae, velit. Pellentesque eget sapien id lectus. Ut eu nulla in faucibus arcu turpis et magnis dis parturient montes, nascetur ridiculus mus. Mauris aliquet elit. Sed quam ultrices posuere ante eget dolor leo sodales tempor. Quisque at arcu nec elit porta tellus hendrerit feugiat lectus at turpis.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="section section-post-footer">
-							<div class="section_wrapper clearfix">
-								<div class="column one post-pager">
-									<div class="pager-single">
-										<span>1</span><a href="#"><span>2</span></a>
-									</div>
-								</div>
-							</div>
-						</div>
+						<?php
+						echo '<div class="section the_content">';
+						echo '<div class="section_wrapper">';
+						echo '<div class="the_content_wrapper">';
+						echo $data['content'];
+						echo '</div>';
+						echo '</div>';
+						echo '</div>';
+						?>
+						
 						<div class="section section-post-about">
 							<div class="section_wrapper clearfix">
 								<div class="column one author-box">
 									<div class="author-box-wrapper">
 										<div class="avatar-wrapper">
-											<img alt="Max Themes" src="upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64">
+											<img alt="Max Themes" src="/public/upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64">
 										</div>
 										<div class="desc-wrapper">
 											<h6><a href="#">Max Themes</a></h6>
@@ -97,7 +91,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/1-600x400.jpg" class="scale-with-grid wp-post-image" alt="1"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/1-600x400.jpg" class="scale-with-grid wp-post-image" alt="1"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> February 18, 2014</span>
 										<h6><a href="#">Content Builder for posts</a></h6>
@@ -107,7 +101,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> January 23, 2014</span>
 										<h6><a href="#">Post format HTML5 Video</a></h6>
@@ -117,7 +111,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/8-600x400.jpg" class="scale-with-grid wp-post-image" alt="8"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/8-600x400.jpg" class="scale-with-grid wp-post-image" alt="8"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> January 22, 2014</span>
 										<h6><a href="#">Post format Image. Especially for vertical images.</a></h6>
@@ -213,4 +207,4 @@
 				</div>
 			</div>
 		</div>
-	</div>
+</div>

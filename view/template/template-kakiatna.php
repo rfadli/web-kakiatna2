@@ -118,13 +118,72 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 					<!-- #menu -->
 					<nav id="menu" class="menu-main-menu-container">
 					<ul id="menu-main-menu" class="menu">
-						<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="home-corporate.html"><b><span>Home</span></b></a></li>
-						<li class="menu-item  "><a href="tabs.html"><b><span style="color: #3C191A">About Us</span></b></a></li>
-						<li class="menu-item  "><a href="business.html"><b><span style="color: #3C191A">Business</span></b></a></li>
-						<li class="menu-item  "><a href="career.html"><b><span style="color: #3C191A">Career</span></b></a></li>
-						<li class="menu-item  "><a href="med.html"><b><span style="color: #3C191A">Media</span></b></a></li>
-						<li class="menu-item  "><a href="contact.html"><b><span style="color: #3C191A">Contact</span></b></a></li>
-						
+						<?php
+	                	if($_SERVER['REQUEST_URI'] == '/')
+						{
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/"><b><span>Home</span></b></a></li>';
+						}
+						else
+						{
+							echo '<li class="menu-item"><a href="/"><b><span style="color: #3C191A">Home</span></b></a></li>';
+						}
+	                	?>
+	                	
+	                	<?php
+	                	if($_SERVER['REQUEST_URI'] == '/aboutus/index/')
+						{
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/aboutus/index/"><b><span">About Us</span></b></a></li>';
+						}
+						else
+						{
+							echo '<li class="menu-item"><a href="/aboutus/index/"><b><span style="color: #3C191A">About Us</span></b></a></li>';
+						}
+	                	?>
+	                	
+	                	<?php
+	                	if($_SERVER['REQUEST_URI'] == '/business/index/')
+						{
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/business/index/"><b><span">Business</span></b></a></li>';
+						}
+						else
+						{
+							echo '<li class="menu-item"><a href="/business/index/"><b><span style="color: #3C191A">Business</span></b></a></li>';
+						}
+	                	?>
+	                	
+	                	<?php
+	                	if($_SERVER['REQUEST_URI'] == '/career/index/')
+						{
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/career/index/"><b><span>Career</span></b></a></li>';
+						}
+						else
+						{
+							echo '<li class="menu-item"><a href="/career/index/"><b><span style="color: #3C191A">Career</span></b></a></li>';
+						}
+	                	?>
+	                	
+	                	<?php
+	                	//if(($_SERVER['REQUEST_URI'] == '/category/index') || (substr($_SERVER['REQUEST_URI'],1,9 ) == 'category/' ))
+	                	if(($_SERVER['REQUEST_URI'] == '/media/index/') || (substr($_SERVER['REQUEST_URI'],1,13 ) == 'contentdetil/' ) || (substr($_SERVER['REQUEST_URI'],1,16 ) == 'contentcategory/' ))
+						{
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/media/index/"><b><span>Media</span></b></a></li>';
+						}
+						else
+						{
+							echo '<li class="menu-item"><a href="/media/index/"><b><span style="color: #3C191A">Media</span></b></a></li>';
+						}
+	                	?>
+	                	
+	                	<?php
+	                	if($_SERVER['REQUEST_URI'] == '/contact/index/')
+						{
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/contact/index/"><b><span>Contact</span></b></a></li>';
+						}
+						else
+						{
+							echo '<li class="menu-item"><a href="/contact/index/"><b><span style="color: #3C191A">Contact</span></b></a></li>';
+						}
+	                	?>
 					</ul>
 					</nav><a class="responsive-menu-toggle" href="#"><i class='icon-menu'></i></a>
 				</div>

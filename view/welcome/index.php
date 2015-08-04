@@ -68,7 +68,7 @@
 							data-endspeed="300" 
 
 							>
-							<a href='#' class='tp-button blue small'>See offer</a> 
+							<a href='#' class='tp-button blue small'>See offer </a> 
 						</div>
 					</li>
 					<!-- SLIDE  -->

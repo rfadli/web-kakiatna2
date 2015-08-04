@@ -18,29 +18,29 @@
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />	
 
 
-<link rel='stylesheet' id='contact-form-7-css'  href='css/cform.css' type='text/css' media='all' />
-<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='css/tp_twitter_plugin.css' type='text/css' media='screen' />
-<link rel='stylesheet' id='rs-plugin-settings-css'  href='rs-plugin/css/settings.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='/public/css/cform.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='/public/css/tp_twitter_plugin.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='/public/rs-plugin/css/settings.css' type='text/css' media='all' />
 
-<link rel='stylesheet' id='select2-css'  href='css/select.css' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-layout-css'  href='css/woocommerce-layout.css' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
-<link rel='stylesheet' id='woocommerce-general-css'  href='css/woocommerce.css' type='text/css' media='all' />
-<link rel='stylesheet' id='style-css'  href='css/style.css' type='text/css' media='all' />
-<link rel='stylesheet' id='prettyPhoto-css'  href='css/prettyPhoto.css' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-carousel-css'  href='js/owl-carousel/owl.carousel.css' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-theme-css'  href='js/owl-carousel/owl.theme.css' type='text/css' media='all' />
-<link rel='stylesheet' id='jplayer-css'  href='css/blue.monday/jplayer.blue.monday.css' type='text/css' media='all' />
-<link rel='stylesheet' id='jquery-ui-css'  href='css/ui/jquery.ui.all.css' type='text/css' media='all' />
-<link rel='stylesheet' id='responsive-css'  href='css/responsive.css' type='text/css' media='all' />
-<link rel='stylesheet' id='images-green-css'  href='css/skins/green/images.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mediaelement-css'  href='js/mediaelement/mediaelementplayer.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-mediaelement-css'  href='js/mediaelement/wp-mediaelement.css' type='text/css' media='all' />
-<link rel='stylesheet' id='style-colors-php-css'  href='css/style-colors.css' type='text/css' media='all' />
-<link rel='stylesheet' id='style-php-css'  href='css/style-2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mfn-woo-css'  href='css/woocommerce.css' type='text/css' media='all' />
-<link rel="stylesheet" href="css/fonts/mfn-icons.css" media="all" />
-<link rel="stylesheet" href="css/custom.css" media="all" />
+<link rel='stylesheet' id='select2-css'  href='/public/css/select.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='/public/css/woocommerce-layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/public/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='/public/css/woocommerce.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/public/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='/public/css/prettyPhoto.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='/public/js/owl-carousel/owl.carousel.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-theme-css'  href='/public/js/owl-carousel/owl.theme.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jplayer-css'  href='/public/css/blue.monday/jplayer.blue.monday.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css'  href='/public/css/ui/jquery.ui.all.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='/public/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='images-green-css'  href='/public/css/skins/green/images.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='/public/js/mediaelement/mediaelementplayer.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='/public/js/mediaelement/wp-mediaelement.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-colors-php-css'  href='/public/css/style-colors.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-php-css'  href='/public/css/style-2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-woo-css'  href='/public/css/woocommerce.css' type='text/css' media='all' />
+<link rel="stylesheet" href="/public/css/fonts/mfn-icons.css" media="all" />
+<link rel="stylesheet" href="/public/css/custom.css" media="all" />
 
 <link rel='stylesheet' id='Ubuntu-css'  href='http://fonts.googleapis.com/css?family=Ubuntu%3A100%2C300%2C400%2C400italic%2C700&amp;ver=4.2' type='text/css' media='all' />
 
@@ -340,7 +340,7 @@
 								<div class="column one author-box">
 									<div class="author-box-wrapper">
 										<div class="avatar-wrapper">
-											<img alt="Max Themes" src="upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64">
+											<img alt="Max Themes" src="/public/upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64">
 										</div>
 										<div class="desc-wrapper">
 											<h6><a href="#">Max Themes</a></h6>
@@ -360,7 +360,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/3-600x400.jpg" class="scale-with-grid wp-post-image" alt="3"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/3-600x400.jpg" class="scale-with-grid wp-post-image" alt="3"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> February 17, 2014</span>
 										<h6><a href="#">Revolution Slider left sidebar</a></h6>
@@ -380,7 +380,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> January 23, 2014</span>
 										<h6><a href="#">Post format HTML5 Video</a></h6>
@@ -399,7 +399,7 @@
 										<li class="comment byuser comment-author-admin bypostauthor even thread-even depth-1 parent" id="comment-16">
 										<div id="div-comment-16" class="comment-body">
 											<div class="comment-author vcard">
-												<img alt="" src="upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
+												<img alt="" src="/public/upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
 											</div>
 											<div class="comment-meta commentmetadata">
 												<a href="#">
@@ -413,7 +413,7 @@
 											<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2 parent" id="comment-17">
 											<div id="div-comment-17" class="comment-body">
 												<div class="comment-author vcard">
-													<img alt="" src="upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
+													<img alt="" src="/public/upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
 												</div>
 												<div class="comment-meta commentmetadata">
 													<a href="#">
@@ -427,7 +427,7 @@
 												<li class="comment byuser comment-author-admin bypostauthor even depth-3" id="comment-18">
 												<div id="div-comment-18" class="comment-body">
 													<div class="comment-author vcard">
-														<img alt="" src="upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
+														<img alt="" src="/public/upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
 													</div>
 													<div class="comment-meta commentmetadata">
 														<a href="#">
@@ -450,7 +450,7 @@
 										<li class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-19">
 										<div id="div-comment-19" class="comment-body">
 											<div class="comment-author vcard">
-												<img alt="" src="upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
+												<img alt="" src="/public/upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
 											</div>
 											<div class="comment-meta commentmetadata">
 												<a href="#">
@@ -465,7 +465,7 @@
 										<li class="comment even thread-even depth-1" id="comment-20">
 										<div id="div-comment-20" class="comment-body">
 											<div class="comment-author vcard">
-												<img alt="" src="upload/gravatar2.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn"><a href="http://muffinhosting.com" rel="external nofollow" class="url">Doris</a></cite><span class="says">says:</span>
+												<img alt="" src="/public/upload/gravatar2.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn"><a href="http://muffinhosting.com" rel="external nofollow" class="url">Doris</a></cite><span class="says">says:</span>
 											</div>
 											<div class="comment-meta commentmetadata">
 												<a href="#">
@@ -508,7 +508,7 @@
 						<ul>
 							<li class="post-519 post type-post status-publish format-standard has-post-thumbnail hentry category-motion tag-css3 tag-framework tag-wordpress">
 							<div class="photo">
-								<img width="80" height="60" src="upload/1-80x60.jpg" class="scale-with-grid wp-post-image" alt="1"/>
+								<img width="80" height="60" src="/public/upload/1-80x60.jpg" class="scale-with-grid wp-post-image" alt="1"/>
 							</div>
 							<div class="desc ">
 								<h6><a class="title" href="#">Content Builder for posts</a></h6>
@@ -519,7 +519,7 @@
 							</li>
 							<li class="post-507 post type-post status-publish format-standard has-post-thumbnail hentry category-jquery tag-themeforest">
 							<div class="photo">
-								<img width="80" height="60" src="upload/3-80x60.jpg" class="scale-with-grid wp-post-image" alt="3"/>
+								<img width="80" height="60" src="/public/upload/3-80x60.jpg" class="scale-with-grid wp-post-image" alt="3"/>
 							</div>
 							<div class="desc ">
 								<h6><a class="title" href="j#">Revolution Slider left sidebar</a></h6>
@@ -601,7 +601,7 @@
 					<ul>
 						<li class="post-519 post type-post status-publish format-standard has-post-thumbnail hentry category-motion tag-css3 tag-framework tag-wordpress">
 						<div class="photo">
-							<img width="80" height="60" src="upload/1-80x60.jpg" class="scale-with-grid wp-post-image" alt="1"/>
+							<img width="80" height="60" src="/public/upload/1-80x60.jpg" class="scale-with-grid wp-post-image" alt="1"/>
 						</div>
 						<div class="desc ">
 							<h6><a class="title" href="#">Content Builder for posts</a></h6>
@@ -612,7 +612,7 @@
 						</li>
 						<li class="post-507 post type-post status-publish format-standard has-post-thumbnail hentry category-jquery tag-themeforest">
 						<div class="photo">
-							<img width="80" height="60" src="upload/3-80x60.jpg" class="scale-with-grid wp-post-image" alt="3"/>
+							<img width="80" height="60" src="/public/upload/3-80x60.jpg" class="scale-with-grid wp-post-image" alt="3"/>
 						</div>
 						<div class="desc ">
 							<h6><a class="title" href="#">Revolution Slider left sidebar</a></h6>
@@ -679,10 +679,10 @@
 
 
 
-<script type='text/javascript' src='js/jquery/jquery.js'></script>
-<script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='rs-plugin/js/jquery.themepunch.tools.min.js'></script>
-<script type='text/javascript' src='rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/public/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.tools.min.js'></script>
+<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
 
 <script type='text/javascript'>
 /* <![CDATA[ */
@@ -690,32 +690,32 @@ var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Full
 var _wpmejsSettings = {"pluginPath":"/js\/mediaelement\/"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='js/mediaelement/mediaelement-and-player.min.js'></script>
-<script type='text/javascript' src='js/mediaelement/wp-mediaelement.js'></script>
+<script type='text/javascript' src='/public/js/mediaelement/mediaelement-and-player.min.js'></script>
+<script type='text/javascript' src='/public/js/mediaelement/wp-mediaelement.js'></script>
 
 
-<script type='text/javascript' src='js/jquery.form.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery.form.min.js'></script>
 
-<script type='text/javascript' src='js/frontend/add-to-cart.min.js'></script>
-<script type='text/javascript' src='js/select2/select2.min.js'></script>
-<script type='text/javascript' src='js/jquery-blockui/jquery.blockUI.min.js'></script>
-<script type='text/javascript' src='js/frontend/woocommerce.min.js'></script>
-<script type='text/javascript' src='js/jquery-cookie/jquery.cookie.min.js'></script>
+<script type='text/javascript' src='/public/js/frontend/add-to-cart.min.js'></script>
+<script type='text/javascript' src='/public/js/select2/select2.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery-blockui/jquery.blockUI.min.js'></script>
+<script type='text/javascript' src='/public/js/frontend/woocommerce.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery-cookie/jquery.cookie.min.js'></script>
 <script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
 
-<script type='text/javascript' src='js/frontend/cart-fragments.min.js'></script>
-<script type='text/javascript' src='js/jquery/ui/core.min.js'></script>
-<script type='text/javascript' src='js/jquery/ui/widget.min.js'></script>
-<script type='text/javascript' src='js/jquery/ui/mouse.min.js'></script>
-<script type='text/javascript' src='js/jquery/ui/sortable.min.js'></script>
-<script type='text/javascript' src='js/jquery/ui/tabs.min.js'></script>
-<script type='text/javascript' src='js/jquery/ui/accordion.min.js'></script>
-<script type='text/javascript' src='js/owl-carousel/owl.carousel.min.js'></script>
-<script type='text/javascript' src='js/jquery.jplayer.min.js'></script>
-<script type='text/javascript' src='js/jquery.plugins.js'></script>
-<script type='text/javascript' src='js/mfn.menu.js'></script>
-<script type='text/javascript' src='js/scripts.js'></script>
-<script type='text/javascript' src='js/twitter.js'></script>
+<script type='text/javascript' src='/public/js/frontend/cart-fragments.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/core.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/widget.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/mouse.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/sortable.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/tabs.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/accordion.min.js'></script>
+<script type='text/javascript' src='/public/js/owl-carousel/owl.carousel.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery.jplayer.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery.plugins.js'></script>
+<script type='text/javascript' src='/public/js/mfn.menu.js'></script>
+<script type='text/javascript' src='/public/js/scripts.js'></script>
+<script type='text/javascript' src='/public/js/twitter.js'></script>
 
 
 

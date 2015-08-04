@@ -146,6 +146,7 @@
 		</div>
 		<!-- END REVOLUTION SLIDER -->
 	</div>
+</header>
 
 <div id="Content">
 		<div class="content_wrapper clearfix">

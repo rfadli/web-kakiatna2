@@ -11,7 +11,6 @@ class media_controller extends controller
 		);
 		$limit = 1;
 		$mnews = $content->find($news)->sort(array("time_created" => -1))->limit($limit);
-		//$mnews = $content->findOne($news);
 		
 		$blog = array(
 			'category_content' => new MongoId(BLOG),
@@ -19,7 +18,6 @@ class media_controller extends controller
 		);
 		$limit = 1;
 		$mblog = $content->find($blog)->sort(array("time_created" => -1))->limit($limit);
-		//$mblog = $content->findOne($blog);
 		
 		$press_kit = array(
 			'category_content' => new MongoId(PRESS_KIT),

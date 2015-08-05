@@ -205,7 +205,8 @@
 								echo $key['content'];
 								//echo 'Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo mullam. Sed non mauris vitae erat consequat auctor eu in elit.';
 								echo '</p>';
-								echo '<a href="/contentcategory/index?id='.BLOG .'">Read more ...</a>';
+								//echo '<a href="/contentdetil/index?id='.$key['_id'].'"" class="post-more">Read more</a>';
+								echo '<a href="/contentdetil/index?id='.$key['_id'].'">Read more ...</a>';
 								echo '</div>';
 							}
 							?>

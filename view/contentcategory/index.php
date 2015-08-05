@@ -66,12 +66,6 @@
 										echo '</div>';
 										echo '<div class="post-excerpt">';
 										echo $key['content'];
-										//echo '<h6>Now you can use Content Builder for posts also! Read more for simple example.</h6>';
-										//echo '<audio class="wp-audio-shortcode" id="audio-519-1" preload="none" style="width: 100%; visibility: hidden;" controls="controls"><source type="audio/mpeg" src="upload/audio230a.mp3?_=1"/><a href="upload/audio.mp3">http://themes.muffingroup.com/cake/upload/audio.mp3</a></audio>';
-										//echo '<br/>';
-										//echo '<p>';
-										//echo 'Suspendisse turpis et odio. Vestibulum aliquam odio. Nunc at sapien. Aliquam eleifend, ligula. Integer nibh consectetuer tincidunt enim. Aliquam ultricies ante. Nullam eleifend in, vulputate adipiscing.';
-										//echo '</p>';
 										echo '</div>';
 										echo '<div class="post-footer">';
 										echo '<a href="/contentdetil/index?id='.$key['_id'].'"" class="post-more">Read more</a>';

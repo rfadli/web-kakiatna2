@@ -60,11 +60,13 @@
 									</div>
 									<div id="-6">
 										<?php
+										echo $mpress_release['title'];
 										echo $mpress_release['content'];
 										?>
 									</div>
 									<div id="-7">
 										<?php
+										echo $mpress_kit['title'];
 										echo $mpress_kit['content'];
 										?>
 									</div>

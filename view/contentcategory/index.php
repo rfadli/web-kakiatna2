@@ -35,7 +35,6 @@
 										echo '<div class="post-item isotope-item clearfix post-519 post type-post status-publish format-standard has-post-thumbnail hentry category-motion tag-css3 tag-framework tag-wordpress">';
 										echo '<div class="post-meta-modern">';
 										echo '<div class="date">';
-										//date("d-m-Y",$ddt['time_created'])
 										echo '<span class="day">'.date("d",$key['time_created']).'</span><span class="month">'.date("M",$key['time_created']).'</span><span class="year">2014</span>';
 										echo '</div>';
 										echo '<div class="button-comments">';

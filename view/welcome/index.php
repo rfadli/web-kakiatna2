@@ -1,5 +1,5 @@
 	<div id="mfn-rev-slider">
-		<div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullscreen-container pd0">
+		
 		<!-- START REVOLUTION SLIDER 4.6.9 fullscreen mode -->
 			<div id="rev_slider_9_2_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:818px;">
 													<!-- START REVOLUTION SLIDER 4.6.9 fullwidth mode -->
@@ -23,7 +23,7 @@
 				</div>
 			</div>
 			
-		</div>
+		
 		<!-- END REVOLUTION SLIDER -->
 	</div>
 </header>

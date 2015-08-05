@@ -32,6 +32,13 @@
 				<div id="post-379" class="post-379 post type-post status-publish format-video has-post-thumbnail hentry category-javascript category-motion tag-mysql post_format-post-format-video">
 					<div class="section section-post-header">
 						<div class="section_wrapper clearfix">
+							<div class="column one portfolio-meta">
+								<ul class="next-prev-nav">
+									<li class="prev"><a class="button button_icon" href="#"><i class="icon-left-open"></i></a></li>
+									<li class="next"><a class="button button_icon" href="#"><i class="icon-right-open"></i></a></li>
+									<li class="list"><a class="button button_icon" href="#"><i class="icon-menu"></i></a></li>
+								</ul>
+							</div>
 							<?php
 					    	$curl = new Curl();
 							

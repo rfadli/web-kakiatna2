@@ -21,7 +21,7 @@
 										{
 											echo '<h5>';
 											echo $key['title'];
-											echo '</h5><br />';
+											echo '</h5>';
 											echo $key['content'];
 										}
 										
@@ -43,7 +43,7 @@
 										{
 											echo '<h5>';
 											echo $key['title'];
-											echo '</h5><br />';
+											echo '</h5>';
 											echo $key['content'];
 										}
 										

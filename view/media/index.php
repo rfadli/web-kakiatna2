@@ -60,13 +60,17 @@
 									</div>
 									<div id="-6">
 										<?php
+										echo '<h5>';
 										echo $mpress_release['title'];
+										echo '</h5>';
 										echo $mpress_release['content'];
 										?>
 									</div>
 									<div id="-7">
 										<?php
+										echo '<h5>';
 										echo $mpress_kit['title'];
+										echo '</h5>';
 										echo $mpress_kit['content'];
 										?>
 									</div>

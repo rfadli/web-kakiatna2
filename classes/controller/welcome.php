@@ -24,13 +24,29 @@ class welcome_controller extends controller
 		);
 		$msubsidiaries = $content->find($subsidiaries);
 		
+		$news = array(
+			'category_content' => new MongoId(NEWS),
+			'contributor_id' => CLIENT_ID,
+		);
+		$limit = 1;
+		$mnews = $content->find($news)->sort(array("time_created" => -1))->limit($limit);
+		
+		$blog = array(
+			'category_content' => new MongoId(BLOG),
+			'contributor_id' => CLIENT_ID,
+		);
+		$limit = 1;
+		$mblog = $content->find($blog)->sort(array("time_created" => -1))->limit($limit);
+		
 		//$tw = $this->getLatestTweet();
 		$p = array(
 			'page_header' => "Dashboard",
 			'page_description' => "Dashboard",
 			'mcontent' => $mcontent,
 			'mslider' => $mslider,
-			'msubsidiaries' => $msubsidiaries
+			'msubsidiaries' => $msubsidiaries,
+			'mnews' => $mnews,
+			'mblog' => $mblog
 			//'lastest_tweet' => $tw['text'],
 			//'lastest_tweet_time' => $tw['time'],
 		);

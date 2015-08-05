@@ -9,12 +9,13 @@ class css
 		$this->datcss = array();
 	}
 	
-	public function add($link, $rel="stylesheet", $type="text/css")
+	public function add($link, $rel="stylesheet", $type="text/css", $media="all")
 	{
 		$p = array(
 			'link' => $link,
 			'rel' => $rel,
-			'type' => $type
+			'type' => $type,
+			'media' => $media
 		);
 		$this->datcss[] = $p;
 	}
@@ -24,7 +25,7 @@ class css
 		$hasil = "";
 		foreach($this->datcss as $d)
 		{
-			$hasil .= '<link href="'.$d['link'].'" rel="'.$d['rel'].'" type="'.$d['type'].'" />'."\n";
+			$hasil .= '<link href="'.$d['link'].'" rel="'.$d['rel'].'" type="'.$d['type'].'" media="'.$d['media'].'" />'."\n";
 		}
 		
 		return $hasil;

@@ -203,25 +203,28 @@
 								echo '<h6>'.$key['title'].'</h6>';
 								echo '<p>';
 								echo $key['content'];
-								//echo 'Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo mullam. Sed non mauris vitae erat consequat auctor eu in elit.';
 								echo '</p>';
-								//echo '<a href="/contentdetil/index?id='.$key['_id'].'"" class="post-more">Read more</a>';
 								echo '<a href="/contentdetil/index?id='.$key['_id'].'">Read more ...</a>';
 								echo '</div>';
 							}
 							?>
-							<div class="column one-third column_column">
-								
+							<div class="column one-third column_column">	
 							</div>
-							<div class="column one-third column_column">
-								<h3>News</h3>
-								<hr class="hr_left">
-								<h6>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum vdio sit amet nibh vulputate cursus a sit amet.</h6>
-								<p>
-									Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo mullam. Sed non mauris vitae erat consequat auctor eu in elit.
-								</p>
-								<a href="#">Read more ...</a>
-							</div>
+							
+							<?php
+							foreach ($mnews as $key) 
+							{
+								echo '<div class="column one-third column_column">';
+								echo '<h3>News</h3>';
+								echo '<hr class="hr_left">';
+								echo '<h6>'.$key['title'].'</h6>';
+								echo '<p>';
+								echo $key['content'];
+								echo '</p>';
+								echo '<a href="/contentdetil/index?id='.$key['_id'].'">Read more ...</a>';
+								echo '</div>';
+							}
+							?>
 						</div>
 					</div>
 				</div>

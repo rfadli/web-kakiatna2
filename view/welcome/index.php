@@ -195,7 +195,7 @@
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
 							<div class="column one-third column_column">
-								<h3>ABOUT US</h3>
+								<h3>Blog</h3>
 								<hr class="hr_left">
 								<h6>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum vdio sit amet nibh vulputate cursus a sit amet.</h6>
 								<p>
@@ -207,7 +207,7 @@
 								
 							</div>
 							<div class="column one-third column_column">
-								<h3>ABOUT US</h3>
+								<h3>News</h3>
 								<hr class="hr_left">
 								<h6>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum vdio sit amet nibh vulputate cursus a sit amet.</h6>
 								<p>

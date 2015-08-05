@@ -1,4 +1,30 @@
 </header>
+<div id="Filters" >
+		<div class="container">
+			<div class="column one">
+			
+				<!--ul class="filters_buttons">
+					<li class="tags"><a class="button open" href="#"> <i class="icon-tag"></i> Tags</a></li>
+				</ul-->
+				
+				<div class="filters_wrapper">
+					<ul class="tags">
+						<li><a data-rel=".tag-css3" href="#">css3</a></li>
+						<li><a data-rel=".tag-framework" href="#">framework</a></li>
+						<li><a data-rel=".tag-grid" href="#">grid</a></li>
+						<li><a data-rel=".tag-html5" href="#">html5</a></li>
+						<li><a data-rel=".tag-mysql" href="#">mysql</a></li>
+						<li><a data-rel=".tag-themeforest" href="#">themeforest</a></li>
+						<li><a data-rel=".tag-wordpress" href="#">wordpress</a></li>
+						<li><a data-rel=".tag-zend" href="#">zend</a></li>
+						<li class="close"><a href="#"><i class="icon-cancel"></i></a></li>
+					</ul>
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
 <div id="Content">
 		<div class="content_wrapper clearfix">
 			<!-- .sections_group -->

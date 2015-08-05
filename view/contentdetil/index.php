@@ -8,7 +8,6 @@
 						<div class="section_wrapper clearfix">
 							<?php
 					    	$curl = new Curl();
-							
 							if(isset($data['_id']))
 							{
 								$q = array(
@@ -17,10 +16,8 @@
 									'width' => 881,
 									
 								);
-								
 								$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
 								$rest = $curl->response;
-								
 								$json = json_decode($rest, TRUE);
 								
 								$url = '';
@@ -45,9 +42,6 @@
 									<div class="author">
 										By <a href="#">Admin</a>
 									</div>
-									<!--div class="category">
-										In <a href="#" rel="category tag">Javascript</a>, <a href="#" rel="category tag">Motion</a>
-									</div-->
 									<div class="date">
 										<?php
 										echo date("M d,Y",$data['time_created'])

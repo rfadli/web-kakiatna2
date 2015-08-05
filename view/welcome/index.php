@@ -1,29 +1,149 @@
 	<div id="mfn-rev-slider">
-		
+		<div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullscreen-container pd0">
 		<!-- START REVOLUTION SLIDER 4.6.9 fullscreen mode -->
-			<div id="rev_slider_9_2_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:818px;">
-													<!-- START REVOLUTION SLIDER 4.6.9 fullwidth mode -->
-				<div id="rev_slider_9_2" class="rev_slider fullwidthabanner" style="display:none;max-height:818px;height:818px;">
-					<ul>
-						<!-- SLIDE  -->
-						<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+			<div id="rev_slider_4_1" class="rev_slider fullscreenbanner dnone">
+				<ul>	
+					<!-- SLIDE  -->
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
 						<!-- MAIN IMAGE -->
-						<img src="/public/upload/3.jpg" alt="3" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<img src="/public/upload/gravatar.png"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 						<!-- LAYERS -->
-						</li>
-						<!-- SLIDE  -->
-						<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption tp-fade" 
+							data-x="624" 
+							data-y="57"  
+							data-speed="300" 
+							data-start="500" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption tp-fade" 
+							data-x="91" 
+							data-y="165"  
+							data-speed="300" 
+							data-start="800" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption tp-fade" 
+							data-x="272" 
+							data-y="371"  
+							data-speed="300" 
+							data-start="1100" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption tp-fade tp-resizeme" 
+							data-x="226" 
+							data-y="473"  
+							data-speed="300" 
+							data-start="1400" 
+							data-easing="Power3.easeInOut" 
+							data-splitin="none" 
+							data-splitout="none"  
+							data-endelementdelay="0" 
+							 data-end="5700" 
+							data-endspeed="300" 
+
+							>
+							<a href='#' class='tp-button blue small'>See offer </a> 
+						</div>
+					</li>
+					<!-- SLIDE  -->
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
 						<!-- MAIN IMAGE -->
-						<img src="/public/upload/heart_motion.jpg" alt="heart_motion" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<img src="/public/upload/gravatar.png"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 						<!-- LAYERS -->
-						</li>
-					</ul>
-					<div class="tp-bannertimer tp-bottom" >
-					</div>
-				</div>
+
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption tp-fade" 
+							data-x="624" 
+							data-y="57"  
+							data-speed="300" 
+							data-start="500" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption tp-fade" 
+							data-x="91" 
+							data-y="165"  
+							data-speed="300" 
+							data-start="800" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption tp-fade" 
+							data-x="272" 
+							data-y="371"  
+							data-speed="300" 
+							data-start="1100" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption tp-fade tp-resizeme" 
+						 	data-x="226" 
+						 	data-y="473"  
+							data-speed="300" 
+							data-start="1400" 
+							data-easing="Power3.easeInOut" 
+							data-splitin="none" 
+							data-splitout="none" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+						 	data-end="5700" 
+							data-endspeed="300" 
+
+							><a href='#' class='tp-button blue small'>See offer</a> 
+						</div>
+					</li>
+				</ul>
+				<div class="tp-bannertimer tp-bottom" ></div>	
 			</div>
 			
-		
+		</div>
 		<!-- END REVOLUTION SLIDER -->
 	</div>
 </header>

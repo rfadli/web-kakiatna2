@@ -58,7 +58,7 @@
 										echo 'By <a href="#">Admin</a>';
 										echo '</div>';
 										echo '<div class="category">';
-										echo 'In <a href="#" rel="category tag">Motion</a>';
+										//echo 'In <a href="#" rel="category tag">Motion</a>';
 										echo '</div>';
 										echo '<div class="date">';
 										echo 'February 18, 2014';

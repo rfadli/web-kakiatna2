@@ -19,7 +19,6 @@
 										<?php
 										foreach ($mhistory as $key) 
 										{
-											echo 'dari admin <br />';
 											echo $key['content'];
 										}
 										?>
@@ -28,7 +27,6 @@
 										<?php
 										foreach ($mwordsceo as $key) 
 										{
-											echo 'dari admin <br />';
 											echo $key['content'];
 										}
 										?>
@@ -38,7 +36,6 @@
 										<?php
 										foreach ($mvision as $key) 
 										{
-											echo 'dari admin <br />';
 											echo $key['content'];
 										}
 										?>

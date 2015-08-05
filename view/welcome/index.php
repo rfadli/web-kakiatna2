@@ -3,25 +3,25 @@
 		<!-- START REVOLUTION SLIDER 4.6.9 fullscreen mode -->
 			<div id="rev_slider_9_2_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:818px;">
 													<!-- START REVOLUTION SLIDER 4.6.9 fullwidth mode -->
-													<div id="rev_slider_9_2" class="rev_slider fullwidthabanner" style="display:none;max-height:818px;height:818px;">
-														<ul>
-															<!-- SLIDE  -->
-															<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-															<!-- MAIN IMAGE -->
-															<img src="upload/3.jpg" alt="3" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-															<!-- LAYERS -->
-															</li>
-															<!-- SLIDE  -->
-															<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-															<!-- MAIN IMAGE -->
-															<img src="upload/heart_motion.jpg" alt="heart_motion" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-															<!-- LAYERS -->
-															</li>
-														</ul>
-														<div class="tp-bannertimer tp-bottom" >
-														</div>
-													</div>
-												</div>
+				<div id="rev_slider_9_2" class="rev_slider fullwidthabanner" style="display:none;max-height:818px;height:818px;">
+					<ul>
+						<!-- SLIDE  -->
+						<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+						<!-- MAIN IMAGE -->
+						<img src="/public/upload/3.jpg" alt="3" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!-- LAYERS -->
+						</li>
+						<!-- SLIDE  -->
+						<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+						<!-- MAIN IMAGE -->
+						<img src="/public/upload/heart_motion.jpg" alt="heart_motion" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!-- LAYERS -->
+						</li>
+					</ul>
+					<div class="tp-bannertimer tp-bottom" >
+					</div>
+				</div>
+			</div>
 			
 		</div>
 		<!-- END REVOLUTION SLIDER -->

@@ -66,7 +66,6 @@
 						echo '</div>';
 						echo '</div>';
 						?>
-						
 						<div class="section section-post-about">
 							<div class="section_wrapper clearfix">
 								<div class="column one author-box">
@@ -199,11 +198,6 @@
 						<li class="cat-item cat-item-16"><a href="#">Print</a>
 						</li>
 					</ul>
-					</aside><aside id="tp_widget_recent_tweets-2" class="widget widget_tp_widget_recent_tweets">
-					<h3>Recent Tweets</h3>
-					<div class="tp_recent_tweets">
-						<div id="example2"></div>
-					</div>
 					</aside>
 				</div>
 			</div>

@@ -55,6 +55,7 @@
 						echo '<div class="section the_content">';
 						echo '<div class="section_wrapper">';
 						echo '<div class="the_content_wrapper">';
+						echo '<h5>'.$data['title'].'</h5>';
 						echo $data['content'];
 						echo '</div>';
 						echo '</div>';

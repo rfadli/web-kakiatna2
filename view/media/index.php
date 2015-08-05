@@ -19,7 +19,6 @@
 										<?php
 										foreach ($mnews as $key) 
 										{
-											echo 'dari admin';
 											echo $key['content'];
 										}
 										
@@ -39,7 +38,6 @@
 										<?php
 										foreach ($mblog as $key ) 
 										{
-											echo 'BLOG dari admin';
 											echo $key['content'];
 										}
 										

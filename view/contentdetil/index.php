@@ -4,101 +4,144 @@
 		<div class="content_wrapper clearfix">
 			<!-- .sections_group -->
 			<div class="sections_group">
-				<div id="portfolio-item-223" class="post-223 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-types-applications">
-					<div class="section section-portfolio-header">
+				<div id="post-379" class="post-379 post type-post status-publish format-video has-post-thumbnail hentry category-javascript category-motion tag-mysql post_format-post-format-video">
+					<div class="section section-post-header">
 						<div class="section_wrapper clearfix">
-							<div class="column one portfolio-meta">
-								<div class="categories">
-									<span class="label">Categories: </span><a href="#">Applications</a>
+							<?php
+					    	$curl = new Curl();
+							
+							if(isset($data['_id']))
+							{
+								$q = array(
+									'id' => trim($data['_id']),
+									'height' => 413,
+									'width' => 881,
+									
+								);
+								
+								$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
+								$rest = $curl->response;
+								
+								$json = json_decode($rest, TRUE);
+								
+								$url = '';
+								if($json['status'] == "OK")
+								{
+									$url = $json['url'];
+								}
+								
+						        echo '<div class="column one post-photo-wrapper">';
+								echo '<div class="post-photo">';
+								echo '<img src="'.$url.'" class="scale-with-grid wp-post-image" alt="1" style="height: 413.6px;">';
+								echo '</div>';
+								echo '</div>';
+							}
+					    	?>
+						</div>
+					</div>
+					<div class="post-wrapper-content">
+						<div class="section section-post-meta">
+							<div class="section_wrapper clearfix">
+								<div class="column one post-meta">
+									<div class="author">
+										By <a href="#">Admin</a>
+									</div>
+									<!--div class="category">
+										In <a href="#" rel="category tag">Javascript</a>, <a href="#" rel="category tag">Motion</a>
+									</div-->
+									<div class="date">
+										<?php
+										echo date("M d,Y",$data['time_created'])
+										?>
+									</div>
+									<hr class="hr_narrow hr_left">
 								</div>
-								<ul class="next-prev-nav">
-									<li class="prev"><a class="button button_icon" href="video-with-left-sidebar.html"><i class="icon-left-open"></i></a></li>
-									<li class="next"><a class="button button_icon" href="content-builder.html"><i class="icon-right-open"></i></a></li>
-								</ul>
 							</div>
-							<div class="column one photo">
-								<div id="rev_slider_9_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:818px;">
-									<!-- START REVOLUTION SLIDER 4.6.9 fullwidth mode -->
-									<div id="rev_slider_9_1" class="rev_slider fullwidthabanner" style="display:none;max-height:818px;height:818px;">
-										<ul>
-											<!-- SLIDE  -->
-											<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-											<!-- MAIN IMAGE -->
-											<img src="upload/3.jpg" alt="3" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-											<!-- LAYERS -->
-											</li>
-											<!-- SLIDE  -->
-											<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-											<!-- MAIN IMAGE -->
-											<img src="upload/heart_motion.jpg" alt="heart_motion" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-											<!-- LAYERS -->
-											</li>
-										</ul>
-										<div class="tp-bannertimer tp-bottom" >
+						</div>
+						<?php
+						echo '<div class="section the_content">';
+						echo '<div class="section_wrapper">';
+						echo '<div class="the_content_wrapper">';
+						echo $data['content'];
+						echo '</div>';
+						echo '</div>';
+						echo '</div>';
+						?>
+						
+						<div class="section section-post-about">
+							<div class="section_wrapper clearfix">
+								<div class="column one author-box">
+									<div class="author-box-wrapper">
+										<div class="avatar-wrapper">
+											<img alt="Max Themes" src="/public/upload/gravatar.png" class="avatar avatar-64 photo" height="64" width="64">
+										</div>
+										<div class="desc-wrapper">
+											<h6><a href="#">Max Themes</a></h6>
+											<div class="desc">
+												We are an experienced team creating great, unique and easy to set up templates for WordPress. We are also creating websites and web applications. In our work we use the latest technologies, and our heads are always full of ideas. Our domain is creativity, experience and openness to new horizons.
+											</div>
 										</div>
 									</div>
 								</div>
-								<!-- END REVOLUTION SLIDER -->
 							</div>
 						</div>
 					</div>
-
-					<div class="section the_content">
-						<div class="section_wrapper">
-							<div class="the_content_wrapper">
-								<h5>Nulla facilisi. Vestibulum pharetra vulputate semper. Nunc eu lectus eu elit porttitor sollicitudin. Sed varius est ut nibh accumsan tempor consectetur libero varius. Suspendisse at dolor sed magna pretium bibendum.</h5>
-								<p>
-									Mauris enim nisl, iaculis laoreet feugiat eu, porta vitae neque. Sed sit amet purus eu diam tempor gravida. Etiam sit amet elit non mauris sodales ultricies congue ac dolor. Pellentesque euismod adipiscing massa, nec faucibus enim ultrices eu. Vivamus elementum, metus eu semper porttitor.
-								</p>
-								<p>
-									Maecenas tempus, ante a gravida consequat, mi ipsum varius orci, sed hendrerit nibh mauris in nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="section section-portfolio-related">
+					<div class="section section-post-related">
 						<div class="section_wrapper clearfix">
-							<div class="column one-third post-related post-2763 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-types-applications portfolio-types-wordpress-themes">
-								<a class="photo_mask" href="#">
-								<div class="mask">
+							<div class="section-related-adjustment">
+								<div class="column one-third post-related post-519 post type-post status-publish format-standard has-post-thumbnail hentry category-motion tag-css3 tag-framework tag-wordpress">
+									<a class="photo_mask" href="#">
+									<div class="mask">
+									</div>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/1-600x400.jpg" class="scale-with-grid wp-post-image" alt="1"></a>
+									<div class="desc">
+										<span class="date"><i class="fa fa-clock-o"></i> February 18, 2014</span>
+										<h6><a href="#">Content Builder for posts</a></h6>
+									</div>
 								</div>
-								<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/4-600x400.jpg" class="scale-with-grid wp-post-image" alt="4"/></a>
-								<div class="desc">
-									<span class="date"><i class="fa fa-clock-o"></i> October 3, 2012</span>
-									<h6><a href="#">Mattis consectetur</a></h6>
+								<div class="column one-third post-related post-10284 post type-post status-publish format-video has-post-thumbnail hentry category-jquery category-motion post_format-post-format-video">
+									<a class="photo_mask" href="#">
+									<div class="mask">
+									</div>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
+									<div class="desc">
+										<span class="date"><i class="fa fa-clock-o"></i> January 23, 2014</span>
+										<h6><a href="#">Post format HTML5 Video</a></h6>
+									</div>
+								</div>
+								<div class="column one-third post-related post-10270 post type-post status-publish format-image has-post-thumbnail hentry category-javascript category-print post_format-post-format-image">
+									<a class="photo_mask" href="#">
+									<div class="mask">
+									</div>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/8-600x400.jpg" class="scale-with-grid wp-post-image" alt="8"></a>
+									<div class="desc">
+										<span class="date"><i class="fa fa-clock-o"></i> January 22, 2014</span>
+										<h6><a href="#">Post format Image. Especially for vertical images.</a></h6>
+									</div>
 								</div>
 							</div>
-							<div class="column one-third post-related post-227 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-types-applications portfolio-types-wordpress-themes">
-								<a class="photo_mask" href="#">
-								<div class="mask">
+						</div>
+					</div>
+					<div class="section section-post-comments">
+						<div class="section_wrapper clearfix">
+							<div class="column one comments">
+								<div id="comments">
+									<p class="nocomments">
+										Comments are closed.
+									</p>
 								</div>
-								<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"/></a>
-								<div class="desc">
-									<span class="date"><i class="fa fa-clock-o"></i> April 15, 2012</span>
-									<h6><a href="#">Aenean accumsan</a></h6>
-								</div>
-							</div>
-							<div class="column one-third post-related post-10500 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-types-applications">
-								<a class="photo_mask" href="#">
-								<div class="mask">
-								</div>
-								<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/9-600x400.jpg" class="scale-with-grid wp-post-image" alt="9"/></a>
-								<div class="desc">
-									<span class="date"><i class="fa fa-clock-o"></i> April 14, 2012</span>
-									<h6><a href="#">Nulla ipsum dolor</a></h6>
-								</div>
+								<!-- #comments -->
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
 			<!-- .four-columns - sidebar -->
 			<div class="four columns">
 				<div class="widget-area clearfix">
 					<aside id="search-2" class="widget widget_search">
-					<form method="get" action="#">
-						<input type="text" class="field" name="s" placeholder="Enter your search"/>
+					<form method="get"  action="#">
+						<input type="text" class="field" name="s"  placeholder="Enter your search"/>
 						<input type="submit" class="submit" value="Search"/>
 					</form>
 					</aside>
@@ -154,7 +197,7 @@
 						</li>
 						<li class="cat-item cat-item-15"><a href="#">Motion</a>
 						</li>
-						<li class="cat-item cat-item-16"><a href="category/print.html">Print</a>
+						<li class="cat-item cat-item-16"><a href="#">Print</a>
 						</li>
 					</ul>
 					</aside><aside id="tp_widget_recent_tweets-2" class="widget widget_tp_widget_recent_tweets">
@@ -166,4 +209,4 @@
 				</div>
 			</div>
 		</div>
-	</div>
+</div>

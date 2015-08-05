@@ -56,13 +56,11 @@
 									</div>
 									<div id="-6">
 										<?php
-										//echo 'BLOG dari admin';
 										echo $mpress_release['content'];
 										?>
 									</div>
 									<div id="-7">
 										<?php
-										//echo 'BLOG dari admin';
 										echo $mpress_kit['content'];
 										?>
 									</div>

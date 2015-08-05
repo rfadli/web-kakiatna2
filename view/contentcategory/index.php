@@ -80,22 +80,6 @@
 									}
 									?>
 									
-									
-
-									<!-- blog Item -->
-									
-
-									<!-- blog Item -->
-									
-
-									<!-- blog Item -->
-									
-
-									<!-- blog Item -->
-									
-									
-									<!-- blog Item -->
-									
 								</div>
 								<?php echo $pagination;?>
 							</div>

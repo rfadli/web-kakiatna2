@@ -1,5 +1,4 @@
 </header>
-
 <div id="Content">
 		<div class="content_wrapper clearfix">
 			<!-- .sections_group -->

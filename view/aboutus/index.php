@@ -12,7 +12,7 @@
 								<div class="jq-tabs tabs_wrapper tabs_vertical tabs_big_icon">
 									<ul>
 										<li><a href="#-10"><i class="icon-map"></i>HISTORY</a></li>
-										<li><a href="#-11"><i class="icon-quote"><br />WORDS FROM OUR CEO</i></a></li>
+										<li><a href="#-11"><i class="icon-quote"><br />Words From Our CEO</i></a></li>
 										<li><a href="#-12"><i class="icon-user-add"></i>VISION, MISSION AND VALUES</a></li>
 									</ul>
 									<div id="-10">

@@ -19,6 +19,9 @@
 										<?php
 										foreach ($mnews as $key) 
 										{
+											echo '<h5>';
+											echo $key['title'];
+											echo '</h5><br />';
 											echo $key['content'];
 										}
 										
@@ -38,6 +41,9 @@
 										<?php
 										foreach ($mblog as $key ) 
 										{
+											echo '<h5>';
+											echo $key['title'];
+											echo '</h5><br />';
 											echo $key['content'];
 										}
 										

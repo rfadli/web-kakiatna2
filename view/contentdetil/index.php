@@ -127,7 +127,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="section section-post-comments">
+					<!--div class="section section-post-comments">
 						<div class="section_wrapper clearfix">
 							<div class="column one comments">
 								<div id="comments">
@@ -205,7 +205,7 @@
 								<!-- #comments -->
 							</div>
 						</div>
-					</div>
+					</div-->
 				</div>
 			</div>
 			<!-- .four-columns - sidebar -->

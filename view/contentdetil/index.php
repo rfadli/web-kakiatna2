@@ -52,7 +52,7 @@
 									</div>
 									<div class="date">
 										<?php
-										echo date("F d,Y",$data['time_created'])
+										echo date("F d, Y",$data['time_created'])
 										?>
 									</div>
 									<hr class="hr_narrow hr_left">

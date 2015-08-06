@@ -13,6 +13,8 @@ class contentdetil_controller extends controller
 			'contributor_id' => CLIENT_ID,
 		);
 		$data = $content->findOne($q);
+		$limit = 3;
+		$recent = $content->find($q)->sort(array('time_created' => -1))->limit($limit);
 		
 		$b = array(
 			'category_content' => new MongoId(NEWS),
@@ -27,7 +29,7 @@ class contentdetil_controller extends controller
 			'page_header' => "Content",
 			'page_description' => "Content",
 			'data' => $data,
-			//'recent' => $recent,
+			'recent' => $recent,
 			'link' => $link
 		);
 		

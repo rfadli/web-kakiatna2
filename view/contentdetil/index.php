@@ -51,7 +51,9 @@
 										By <a href="#">Admin</a>
 									</div>
 									<div class="date">
-										February 18, 2014
+										<?php
+										echo date("M d,Y",$data['time_created'])
+										?>
 									</div>
 									<hr class="hr_narrow hr_left">
 								</div>

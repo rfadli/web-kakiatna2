@@ -33,7 +33,6 @@
 									echo '</div>';
 								}
 						    	?>
-								
 							</div>
 						</div>
 					</div>
@@ -93,13 +92,33 @@
 								<?php
 								foreach ($recent as $key) 
 								{
+									$curl = new Curl();
+									if(isset($key['_id']))
+									{
+										$q = array(
+											'id' => trim($key['_id']),
+											'height' => 400,
+											'width' => 600,
+											
+										);
+										$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
+										$rest = $curl->response;
+										$json = json_decode($rest, TRUE);
+										
+										$url = '';
+										if($json['status'] == "OK")
+										{
+											$url = $json['url'];
+										}
+									}	
+									
 									echo '<div class="column one-third post-related post-10284 post type-post status-publish format-video has-post-thumbnail hentry category-jquery category-motion post_format-post-format-video">';
 									echo '<a class="photo_mask" href="#">';
 									echo '<div class="mask">';
 									echo '</div>';
-									echo '<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>';
+									echo '<span class="button_image more"><i class="icon-link"></i></span><img src="'.$url.'" class="scale-with-grid wp-post-image" alt="6"></a>';
 									echo '<div class="desc">';
-									echo '<span class="date"><i class="fa fa-clock-o"></i> January 23, 2014</span>';
+									echo '<span class="date"><i class="fa fa-clock-o"></i> '.date("F d, Y",$key['time_created']).'</span>';
 									echo '<h6><a href="/contentdetil/index?id='.$key['_id'].'">'.$key['title'].'</h6>';
 									echo '</div>';
 									echo '</div>';

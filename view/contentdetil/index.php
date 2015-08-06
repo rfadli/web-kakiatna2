@@ -100,7 +100,7 @@
 									echo '<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>';
 									echo '<div class="desc">';
 									echo '<span class="date"><i class="fa fa-clock-o"></i> January 23, 2014</span>';
-									echo '<h6><a href="#">'.$key['title'].'</h6>';
+									echo '<h6><a href="/contentdetil/index?id='.$key['_id'].'">'.$key['title'].'</h6>';
 									echo '</div>';
 									echo '</div>';
 								}

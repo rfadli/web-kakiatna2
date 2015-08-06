@@ -67,11 +67,11 @@
 											echo $data['title'];
 											echo '</h4>';
 											?>
-											<div class="mfn-acc accordion_wrapper ">
+											
 											<?php
 											echo $data['content'];
 											?>
-											</div>
+											
 										</div>
 									</div>
 								</div>

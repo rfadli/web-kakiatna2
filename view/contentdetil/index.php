@@ -114,6 +114,16 @@
 										<h6><a href="#">Vimeo with right sidebar</a></h6>
 									</div>
 								</div>
+								<div class="column one-third post-related post-10284 post type-post status-publish format-video has-post-thumbnail hentry category-jquery category-motion post_format-post-format-video">
+									<a class="photo_mask" href="#">
+									<div class="mask">
+									</div>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
+									<div class="desc">
+										<span class="date"><i class="fa fa-clock-o"></i> January 23, 2014</span>
+										<h6><a href="#">Post format HTML5 Video</a></h6>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

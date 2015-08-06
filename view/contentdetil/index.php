@@ -74,34 +74,6 @@
 											</div>
 										</div>
 									</div>
-									<div class="column one-fourth column_blockquote">
-										<div class="blockquote blockquote_modern">
-											<div class="blockquote_wrapper">
-												<blockquote>
-													Aeneanscel erisque risus, metus congue posuere.
-												</blockquote>
-												<div class="author">
-													<a href="#">Max Themes</a>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="column one-fourth column_icon_box">
-										<div class="icon_box icon_position_top">
-											<a href="#">
-											<div class="icon_wrapper">
-												<i class="icon-cup-line"></i>
-											</div>
-											<div class="desc_wrapper">
-												<h4 class="title">Wanna coffee?</h4>
-												<hr>
-												<div class="desc">
-													Curabitur dapibus velit turpis, at sodales mi malesuada eu. Nam a tellus volutpat lacus tincidunt gravida eget non odio. Curabitur laoreet vel mauris quis rutrum.
-												</div>
-											</div>
-											</a>
-										</div>
-									</div>
 								</div>
 							</div>
 						</div>

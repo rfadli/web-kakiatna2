@@ -78,7 +78,7 @@
 								<div class="column one author-box">
 									<div class="author-box-wrapper">
 										<div class="avatar-wrapper">
-											<img alt="Max Themes" src="upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64">
+											<img alt="Max Themes" src="/public/upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64">
 										</div>
 										<div class="desc-wrapper">
 											<h6><a href="#">Max Themes</a></h6>
@@ -98,7 +98,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> January 23, 2014</span>
 										<h6><a href="#">Post format HTML5 Video</a></h6>
@@ -108,7 +108,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/1-600x400.jpg" class="scale-with-grid wp-post-image" alt="1"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/1-600x400.jpg" class="scale-with-grid wp-post-image" alt="1"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> August 13, 2013</span>
 										<h6><a href="#">Vimeo with right sidebar</a></h6>
@@ -127,7 +127,7 @@
 										<li class="comment byuser comment-author-admin bypostauthor even thread-even depth-1 parent" id="comment-12">
 										<div id="div-comment-12" class="comment-body">
 											<div class="comment-author vcard">
-												<img alt="" src="upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
+												<img alt="" src="/public/upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
 											</div>
 											<div class="comment-meta commentmetadata">
 												<a href="#">
@@ -141,7 +141,7 @@
 											<li class="comment odd alt depth-2 parent" id="comment-14">
 											<div id="div-comment-14" class="comment-body">
 												<div class="comment-author vcard">
-													<img alt="" src="upload/gravatar2.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">Karboniusz</cite><span class="says">says:</span>
+													<img alt="" src="/public/upload/gravatar2.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">Karboniusz</cite><span class="says">says:</span>
 												</div>
 												<div class="comment-meta commentmetadata">
 													<a href="#">
@@ -155,7 +155,7 @@
 												<li class="comment even depth-3" id="comment-15">
 												<div id="div-comment-15" class="comment-body">
 													<div class="comment-author vcard">
-														<img alt="" src="upload/gravatar2.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">Szejk</cite><span class="says">says:</span>
+														<img alt="" src="/public/upload/gravatar2.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">Szejk</cite><span class="says">says:</span>
 													</div>
 													<div class="comment-meta commentmetadata">
 														<a href="#">
@@ -178,7 +178,7 @@
 										<li class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-13">
 										<div id="div-comment-13" class="comment-body">
 											<div class="comment-author vcard">
-												<img alt="" src="upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
+												<img alt="" src="/public/upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
 											</div>
 											<div class="comment-meta commentmetadata">
 												<a href="#">

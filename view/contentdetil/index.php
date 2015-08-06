@@ -6,13 +6,7 @@
 				<div id="post-519" class="post-519 post type-post status-publish format-standard has-post-thumbnail hentry category-motion tag-css3 tag-framework tag-wordpress">
 					<div class="section section-post-header">
 						<div class="section_wrapper clearfix">
-							<div class="column one portfolio-meta">
-
-								<ul class="next-prev-nav">
-									<li class="prev"><a class="button button_icon" href="#"><i class="icon-left-open"></i></a></li>
-									<li class="list"><a class="button button_icon" href="#"><i class="icon-menu"></i></a></li>
-								</ul>
-							</div>
+							
 							<div class="column one post-photo-wrapper">
 								<?php
 						    	$curl = new Curl();

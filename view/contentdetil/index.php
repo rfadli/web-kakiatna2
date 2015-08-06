@@ -6,33 +6,40 @@
 				<div id="post-519" class="post-519 post type-post status-publish format-standard has-post-thumbnail hentry category-motion tag-css3 tag-framework tag-wordpress">
 					<div class="section section-post-header">
 						<div class="section_wrapper clearfix">
-							
+							<div class="column one portfolio-meta">
+
+								<ul class="next-prev-nav">
+									<li class="prev"><a class="button button_icon" href="#"><i class="icon-left-open"></i></a></li>
+									<li class="list"><a class="button button_icon" href="#"><i class="icon-menu"></i></a></li>
+								</ul>
+							</div>
 							<div class="column one post-photo-wrapper">
-								<div class="post-photo">
-									<?php
-									$curl = new Curl();
+								<?php
+						    	$curl = new Curl();
+								if(isset($data['_id']))
+								{
+									$q = array(
+										'id' => trim($data['_id']),
+										'height' => 570,
+										'width' => 1200,
+										
+									);
+									$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
+									$rest = $curl->response;
+									$json = json_decode($rest, TRUE);
 									
-									if(isset($data['_id']))
+									$url = '';
+									if($json['status'] == "OK")
 									{
-										$q = array(
-											'id' => trim($data['_id']),
-											'height' => 570,
-											'width' => 1200,
-											
-										);
-										$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
-										$rest = $curl->response;
-										$json = json_decode($rest, TRUE);
-										
-										$url = '';
-										if($json['status'] == "OK")
-										{
-											$url = $json['url'];
-										}
-										
-										echo '<img src="'.$url.'" class="scale-with-grid wp-post-image" alt="1">';
-									?>
-								</div>
+										$url = $json['url'];
+									}
+									
+									echo '<div class="post-photo">';
+									echo '<img src="'.$url.'" class="scale-with-grid wp-post-image" alt="1">';
+									echo '</div>';
+								}
+						    	?>
+								
 							</div>
 						</div>
 					</div>
@@ -44,9 +51,7 @@
 										By <a href="#">Admin</a>
 									</div>
 									<div class="date">
-									<?php
-									echo date("M d,Y",$data['time_created'])
-									?>
+										February 18, 2014
 									</div>
 									<hr class="hr_narrow hr_left">
 								</div>
@@ -57,11 +62,15 @@
 								<div class="items_group clearfix">
 									<div class="column one-second column_accordion">
 										<div class="accordion">
-											<?php echo '<h4 class="title">'.$data['title'].'</h4>'; ?>
+											<?php
+											echo '<h4 class="title">';
+											echo $data['title'];
+											echo '</h4>';
+											?>
 											<div class="mfn-acc accordion_wrapper ">
-												<?php
-												echo $data['content'];
-												?>
+											<?php
+											echo $data['content'];
+											?>
 											</div>
 										</div>
 									</div>

@@ -6,16 +6,32 @@
 				<div id="post-519" class="post-519 post type-post status-publish format-standard has-post-thumbnail hentry category-motion tag-css3 tag-framework tag-wordpress">
 					<div class="section section-post-header">
 						<div class="section_wrapper clearfix">
-							<div class="column one portfolio-meta">
-
-								<ul class="next-prev-nav">
-									<li class="prev"><a class="button button_icon" href="#"><i class="icon-left-open"></i></a></li>
-									<li class="list"><a class="button button_icon" href="#"><i class="icon-menu"></i></a></li>
-								</ul>
-							</div>
+							
 							<div class="column one post-photo-wrapper">
 								<div class="post-photo">
-									<img width="1200" height="570" src="/public/upload/1-1200x570.jpg" class="scale-with-grid wp-post-image" alt="1">
+									<?php
+									$curl = new Curl();
+									
+									if(isset($data['_id']))
+									{
+										$q = array(
+											'id' => trim($data['_id']),
+											'height' => 570,
+											'width' => 1200,
+											
+										);
+										$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
+										$rest = $curl->response;
+										$json = json_decode($rest, TRUE);
+										
+										$url = '';
+										if($json['status'] == "OK")
+										{
+											$url = $json['url'];
+										}
+										
+										echo '<img src="'.$url.'" class="scale-with-grid wp-post-image" alt="1">';
+									?>
 								</div>
 							</div>
 						</div>
@@ -25,13 +41,12 @@
 							<div class="section_wrapper clearfix">
 								<div class="column one post-meta">
 									<div class="author">
-										By <a href="#">Max Themes</a>
-									</div>
-									<div class="category">
-										In <a href="#" rel="category tag">Motion</a>
+										By <a href="#">Admin</a>
 									</div>
 									<div class="date">
-										February 18, 2014
+									<?php
+									echo date("M d,Y",$data['time_created'])
+									?>
 									</div>
 									<hr class="hr_narrow hr_left">
 								</div>
@@ -42,32 +57,11 @@
 								<div class="items_group clearfix">
 									<div class="column one-second column_accordion">
 										<div class="accordion">
-											<h4 class="title">Why we are sooo... good?</h4>
+											<?php echo '<h4 class="title">'.$data['title'].'</h4>'; ?>
 											<div class="mfn-acc accordion_wrapper ">
-												<div class="question">
-													<h5><span class="icon"><i class="icon-right-open"></i></span><strong>This is Photoshop's version</strong> of Lorem Ipsum.</h5>
-													<div class="answer">
-														Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.
-													</div>
-												</div>
-												<div class="question">
-													<h5><span class="icon"><i class="icon-right-open"></i></span>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</h5>
-													<div class="answer">
-														Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit
-													</div>
-												</div>
-												<div class="question">
-													<h5><span class="icon"><i class="icon-right-open"></i></span>Lorem quis bibendum auctor, <strong>nisi elit consequat nec</strong> sagittis sem nibh id elit. Duis sed</h5>
-													<div class="answer">
-														Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices
-													</div>
-												</div>
-												<div class="question">
-													<h5><span class="icon"><i class="icon-right-open"></i></span>Odio sit amet nibh vulputate cursus a sit amet</h5>
-													<div class="answer">
-														Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies a, gravida vitae, dapibus risus ante sodales lectus blandit eu, tempor diam pede cursus vitae, ultricies eu
-													</div>
-												</div>
+												<?php
+												echo $data['content'];
+												?>
 											</div>
 										</div>
 									</div>
@@ -113,7 +107,7 @@
 								<div class="column one author-box">
 									<div class="author-box-wrapper">
 										<div class="avatar-wrapper">
-											<img alt="Max Themes" src="/public/upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64">
+											<img alt="Max Themes" src="upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64">
 										</div>
 										<div class="desc-wrapper">
 											<h6><a href="#">Max Themes</a></h6>
@@ -133,7 +127,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/6-600x400.jpg" class="scale-with-grid wp-post-image" alt="6"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> January 23, 2014</span>
 										<h6><a href="#">Post format HTML5 Video</a></h6>
@@ -143,7 +137,7 @@
 									<a class="photo_mask" href="#">
 									<div class="mask">
 									</div>
-									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="/public/upload/1-600x400.jpg" class="scale-with-grid wp-post-image" alt="1"></a>
+									<span class="button_image more"><i class="icon-link"></i></span><img width="600" height="400" src="upload/1-600x400.jpg" class="scale-with-grid wp-post-image" alt="1"></a>
 									<div class="desc">
 										<span class="date"><i class="fa fa-clock-o"></i> August 13, 2013</span>
 										<h6><a href="#">Vimeo with right sidebar</a></h6>
@@ -162,7 +156,7 @@
 										<li class="comment byuser comment-author-admin bypostauthor even thread-even depth-1 parent" id="comment-12">
 										<div id="div-comment-12" class="comment-body">
 											<div class="comment-author vcard">
-												<img alt="" src="/public/upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
+												<img alt="" src="upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
 											</div>
 											<div class="comment-meta commentmetadata">
 												<a href="#">
@@ -176,7 +170,7 @@
 											<li class="comment odd alt depth-2 parent" id="comment-14">
 											<div id="div-comment-14" class="comment-body">
 												<div class="comment-author vcard">
-													<img alt="" src="/public/upload/gravatar2.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">Karboniusz</cite><span class="says">says:</span>
+													<img alt="" src="upload/gravatar2.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">Karboniusz</cite><span class="says">says:</span>
 												</div>
 												<div class="comment-meta commentmetadata">
 													<a href="#">
@@ -190,7 +184,7 @@
 												<li class="comment even depth-3" id="comment-15">
 												<div id="div-comment-15" class="comment-body">
 													<div class="comment-author vcard">
-														<img alt="" src="/public/upload/gravatar2.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">Szejk</cite><span class="says">says:</span>
+														<img alt="" src="upload/gravatar2.png" class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">Szejk</cite><span class="says">says:</span>
 													</div>
 													<div class="comment-meta commentmetadata">
 														<a href="#">
@@ -213,7 +207,7 @@
 										<li class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-13">
 										<div id="div-comment-13" class="comment-body">
 											<div class="comment-author vcard">
-												<img alt="" src="/public/upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
+												<img alt="" src="upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64"><cite class="fn">admin</cite><span class="says">says:</span>
 											</div>
 											<div class="comment-meta commentmetadata">
 												<a href="#">

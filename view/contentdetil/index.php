@@ -113,7 +113,7 @@
 									}	
 									
 									echo '<div class="column one-third post-related post-10284 post type-post status-publish format-video has-post-thumbnail hentry category-jquery category-motion post_format-post-format-video">';
-									echo '<a class="photo_mask" href="#">';
+									echo '<a class="photo_mask" href="/contentdetil/index?id='.$key['_id'].'">';
 									echo '<div class="mask">';
 									echo '</div>';
 									echo '<span class="button_image more"><i class="icon-link"></i></span><img src="'.$url.'" class="scale-with-grid wp-post-image" alt="6"></a>';

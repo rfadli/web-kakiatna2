@@ -17,7 +17,7 @@ class contentdetil_controller extends controller
 		//$recent = $content->find($q)->sort(array('time_created' => -1))->limit($limit);
 		
 		$b = array(
-			'category_content' => new MongoId(NEWS),
+			'category_content' => new MongoId($data['category_content']),
 			'contributor_id' => CLIENT_ID,
 		);
 		$limit = 3;

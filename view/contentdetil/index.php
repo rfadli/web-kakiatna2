@@ -77,7 +77,7 @@
 											<img alt="Max Themes" src="/public/upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64">
 										</div>
 										<div class="desc-wrapper">
-											<h6><a href="#">Max Themes</a></h6>
+											<h6><a href="#">Latest Post</a></h6>
 											<div class="desc">
 												We are an experienced team creating great, unique and easy to set up templates for WordPress. We are also creating websites and web applications. In our work we use the latest technologies, and our heads are always full of ideas. Our domain is creativity, experience and openness to new horizons.
 											</div>

@@ -57,26 +57,16 @@
 								</div>
 							</div>
 						</div>
-						<div class="section pad0" >
-							<div class="section_wrapper clearfix">
-								<div class="items_group clearfix">
-									<div class="column one-second column_accordion">
-										<div class="accordion">
-											<?php
-											echo '<h4 class="title">';
-											echo $data['title'];
-											echo '</h4>';
-											?>
-											
-											<?php
-											echo $data['content'];
-											?>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						<?php
+						echo '<div class="section the_content">';
+						echo '<div class="section_wrapper">';
+						echo '<div class="the_content_wrapper">';
+						echo '<h5>'.$data['title'].'</h5>';
+						echo $data['content'];
+						echo '</div>';
+						echo '</div>';
+						echo '</div>';
+						?>
 						<div class="section section-post-footer">
 							<div class="section_wrapper clearfix">
 								<div class="column one post-pager">

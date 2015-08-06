@@ -16,8 +16,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Cake</title>
 
-<meta name="description" content="Cake works with every business. No matter if you are cooker, blogger, designer or an astronaut - this wordpress theme is for everyone!" />
-<meta name="keywords" content="cake, wordpress, muffingroup, muffin builder, muffin options, page builder, theme, template, parallax, contact form 7, mega menu" />
+<meta name="description" content="Kakiatna indonesia is an investment holding company based in jakarta who traded at in the area of business energy, it & digital services healthcare, entertainment safinat logistic, f & b property management and engineering & construction site.With 13 companies that become part of kakiatna indonesia indonesia kakiatna present to make a real change in the welfare and indonesian nation economy toward the better ( improvement )." />
+<meta name="keywords" content="kakiatna, kakiatna indonesia, kakiatna energi, kakiatna, muffin options, page builder, theme, template, parallax, contact form 7, mega menu" />
 
 <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />	
 

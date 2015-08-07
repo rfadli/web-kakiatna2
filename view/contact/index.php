@@ -27,7 +27,7 @@
 							<div class="widget-area clearfix">
 								<aside id="text-3" class="widget widget_text">
 								<div class="textwidget">
-									<img width="50" height="50" src="/public/media/Address.png">
+									<img width="150" height="150" src="/public/media/Address.png">
 									<hr class="hr_left">
 									<?php
 									echo '<h6>';

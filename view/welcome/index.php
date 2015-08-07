@@ -199,7 +199,8 @@
 							foreach ($mblog as $key) 
 							{
 								echo '<div class="column one-third column_column">';
-								echo '<h3>Blog</h3>';
+								echo '<img width="50" height="50" src="/public/media/Blog.png">';
+								//echo '<h3>Blog</h3>';
 								echo '<hr class="hr_left">';
 								echo '<h6>'.$key['title'].'</h6>';
 								echo '<p>';
@@ -216,7 +217,8 @@
 							foreach ($mnews as $key) 
 							{
 								echo '<div class="column one-third column_column">';
-								echo '<h3>News</h3>';
+								echo '<img width="50" height="50" src="/public/media/News.png">';
+								//echo '<h3>News</h3>';
 								echo '<hr class="hr_left">';
 								echo '<h6>'.$key['title'].'</h6>';
 								echo '<p>';

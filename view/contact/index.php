@@ -28,7 +28,7 @@
 								<aside id="text-3" class="widget widget_text">
 								<div class="textwidget">
 									<img width="120" height="120" src="/public/media/Address.png">
-									<hr class="hr_left"><hr class="hr_center">
+									<hr class="hr_left hr_center">
 									<?php
 									echo '<h6>';
 									echo $mcontent['company'];

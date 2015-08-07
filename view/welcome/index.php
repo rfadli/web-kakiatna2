@@ -217,7 +217,7 @@
 							foreach ($mnews as $key) 
 							{
 								echo '<div class="column one-third column_column">';
-								echo '<img width="50" height="50" src="/public/media/News.png">';
+								echo '<img width="100" height="100" src="/public/media/News.png">';
 								//echo '<h3>News</h3>';
 								echo '<hr class="hr_left">';
 								echo '<h6>'.$key['title'].'</h6>';

@@ -11,7 +11,7 @@
 									<ul>
 										<h5>CAREER</h5>
 										<li><a href="#-4"><img width="50" height="50" src="/public/media/Why_work_with_us.png"><br/> Why work with us?</a></li>
-										<li><a href="#-5"><img width="50" height="50" src="/public/media/Job_Vacancy.png"></a></li>
+										<li><a href="#-5"><img width="50" height="50" src="/public/media/Job_Vacancy.png"><br/> Job Vacancy</a></li>
 									</ul>
 									<div id="-4">
 										<?php

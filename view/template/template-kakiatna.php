@@ -18,6 +18,7 @@
 
 <meta name="description" content="Kakiatna indonesia is an investment holding company based in jakarta who traded at in the area of business energy, it & digital services healthcare, entertainment safinat logistic, f & b property management and engineering & construction site.With 13 companies that become part of kakiatna indonesia indonesia kakiatna present to make a real change in the welfare and indonesian nation economy toward the better ( improvement )." />
 <meta name="keywords" content="kakiatna, pt.kakiatna, PT.KAKIATNA, kakiatna indonesia, kakiatna energi, kakiatna, muffin options, page builder, theme, template, parallax, contact form 7, mega menu" />
+<meta name="DC.title" content="kakiatna indonesia" />
 
 <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />	
 

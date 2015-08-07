@@ -7,6 +7,10 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
+  <loc>http://dev.kakiatna.co.id/</loc>
   <loc>http://dev.kakiatna.co.id/contact/index</loc>
+  <loc>http://dev.kakiatna.co.id/aboutus/index</loc>
+  <loc>http://dev.kakiatna.co.id/businnes/index</loc>
+  <loc>http://dev.kakiatna.co.id/career/index</loc>
 </url>
 </urlset>

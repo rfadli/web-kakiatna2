@@ -58,58 +58,7 @@
 						
 					</li>
 					<!-- SLIDE  -->
-					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
-						<!-- MAIN IMAGE -->
-						<img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-						<!-- LAYERS -->
-
-						<!-- LAYER NR. 1 -->
-						<?php
-						$curl = new Curl();
-									
-						foreach ($mslider as $key) 
-						{
-							$q = array(
-								'id' => trim($key['_id']),
-								'height' => 180,
-								'width' => 180
-							);
-							
-							$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
-							$rest = $curl->response;
-							
-							$json = json_decode($rest, TRUE);
-							
-							$url = '';
-							if($json['status'] == "OK")
-							{
-								$url = $json['url'];
-							}
-						}
-						echo '<div class="tp-caption tp-fade" 
-							data-x="624" 
-							data-y="57"  
-							data-speed="300" 
-							data-start="500" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-							>';
-						echo '<img src="'.$url.'" alt="">';
-						echo '</div>';								
-						?>
-
-						<!-- LAYER NR. 2 -->
-						
-
-						<!-- LAYER NR. 3 -->
-						
-
-						<!-- LAYER NR. 4 -->
-						
-					</li>
+					
 				</ul>
 				<div class="tp-bannertimer tp-bottom" ></div>	
 			</div>

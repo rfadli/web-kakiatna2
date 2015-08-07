@@ -10,29 +10,7 @@
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 1 -->
-						<?php
-						$curl = new Curl();
-									
-						foreach ($mslider as $key) 
-						{
-							$q = array(
-								'id' => trim($key['_id']),
-								'height' => 180,
-								'width' => 180
-							);
-							
-							$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
-							$rest = $curl->response;
-							
-							$json = json_decode($rest, TRUE);
-							
-							$url = '';
-							if($json['status'] == "OK")
-							{
-								$url = $json['url'];
-							}
-						}
-						echo '<div class="tp-caption tp-fade" 
+						<div class="tp-caption tp-fade" 
 							data-x="624" 
 							data-y="57"  
 							data-speed="300" 
@@ -42,23 +20,125 @@
 							data-endelementdelay="0" 
 							data-end="5700" 
 							data-endspeed="300" 
-							>';
-						echo '<img src="'.$url.'" alt="">';
-						echo '</div>';								
-						?>
-						
+
+							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
+						</div>
 
 						<!-- LAYER NR. 2 -->
-						
+						<div class="tp-caption tp-fade" 
+							data-x="91" 
+							data-y="165"  
+							data-speed="300" 
+							data-start="800" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
+						</div>
 
 						<!-- LAYER NR. 3 -->
-						
+						<div class="tp-caption tp-fade" 
+							data-x="272" 
+							data-y="371"  
+							data-speed="300" 
+							data-start="1100" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
+						</div>
 
 						<!-- LAYER NR. 4 -->
-						
+						<div class="tp-caption tp-fade tp-resizeme" 
+							data-x="226" 
+							data-y="473"  
+							data-speed="300" 
+							data-start="1400" 
+							data-easing="Power3.easeInOut" 
+							data-splitin="none" 
+							data-splitout="none"  
+							data-endelementdelay="0" 
+							 data-end="5700" 
+							data-endspeed="300" 
+
+							>
+							<a href='#' class='tp-button blue small'>See offer</a> 
+						</div>
 					</li>
 					<!-- SLIDE  -->
-					
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
+						<!-- MAIN IMAGE -->
+						<img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!-- LAYERS -->
+
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption tp-fade" 
+							data-x="624" 
+							data-y="57"  
+							data-speed="300" 
+							data-start="500" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption tp-fade" 
+							data-x="91" 
+							data-y="165"  
+							data-speed="300" 
+							data-start="800" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption tp-fade" 
+							data-x="272" 
+							data-y="371"  
+							data-speed="300" 
+							data-start="1100" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption tp-fade tp-resizeme" 
+						 	data-x="226" 
+						 	data-y="473"  
+							data-speed="300" 
+							data-start="1400" 
+							data-easing="Power3.easeInOut" 
+							data-splitin="none" 
+							data-splitout="none" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+						 	data-end="5700" 
+							data-endspeed="300" 
+
+							><a href='#' class='tp-button blue small'>See offer</a> 
+						</div>
+					</li>
 				</ul>
 				<div class="tp-bannertimer tp-bottom" ></div>	
 			</div>

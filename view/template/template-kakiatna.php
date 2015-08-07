@@ -191,9 +191,6 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 		</div>
 	</div>
 
-	
-
-
 	<!-- #Content -->
 	<?php echo $content; ?>
 
@@ -209,19 +206,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 					 &copy; 2015 Cake. All Rights Reserved. <a target="_blank" rel="nofollow" href="#">Max Themes</a>
 				</div>
 				<!-- Social -->
-				<div class="social">
-					<ul>
-						<li class="facebook"><a target="_blank" href="#" title="Facebook"><i class="icon-facebook"></i></a></li>
-						<li class="googleplus"><a target="_blank" href="#" title="Google+"><i class="icon-gplus"></i></a></li>
-						<li class="twitter"><a target="_blank" href="#" title="Twitter"><i class="icon-twitter"></i></a></li>
-						<li class="vimeo"><a target="_blank" href="#" title="Vimeo"><i class="icon-vimeo"></i></a></li>
-						<li class="youtube"><a target="_blank" href="#" title="YouTube"><i class="icon-play"></i></a></li>
-						<li class="flickr"><a target="_blank" href="#" title="Flickr"><i class="icon-flickr"></i></a></li>
-						<li class="linked_in"><a target="_blank" href="#" title="LinkedIn"><i class="icon-linkedin"></i></a></li>
-						<li class="pinterest"><a target="_blank" href="#" title="Pinterest"><i class="icon-pinterest"></i></a></li>
-						<li class="dribbble"><a target="_blank" href="#" title="Dribbble"><i class="icon-dribbble"></i></a></li>
-					</ul>
-				</div>
+				
 			</div>
 		</div>
 	</div>

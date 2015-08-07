@@ -33,7 +33,8 @@
 							}
 						}
 						echo '<div class="tp-caption tp-fade" 
-							  
+							data-x="624" 
+							data-y="57"  
 							data-speed="300" 
 							data-start="500" 
 							data-easing="Power3.easeInOut" 
@@ -86,7 +87,8 @@
 							}
 						}
 						echo '<div class="tp-caption tp-fade" 
-							  
+							data-x="624" 
+							data-y="57"  
 							data-speed="300" 
 							data-start="500" 
 							data-easing="Power3.easeInOut" 

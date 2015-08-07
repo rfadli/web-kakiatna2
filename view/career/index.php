@@ -10,8 +10,8 @@
 								<div class="jq-tabs tabs_wrapper tabs_vertical">
 									<ul>
 										<h5>CAREER</h5>
-										<li><a href="#-4"><i class="icon-map"></i>Why Work With Us ?</a></li>
-										<li><a href="#-5"><i class="icon-quote"></i>Job Vacancy</a></li>
+										<li><a href="#-4"><img width="50" height="50" src="/public/media/Why_work_with_us.png"></a></li>
+										<li><a href="#-5"><img width="50" height="50" src="/public/media/Job_Vacancy.png"></a></li>
 									</ul>
 									<div id="-4">
 										<?php

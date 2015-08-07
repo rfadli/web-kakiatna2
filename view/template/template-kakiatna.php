@@ -213,29 +213,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 	</footer>
 </div>
 
-<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
-<script>
-    function google_maps_553e307a33451() {
-        var latlng = new google.maps.LatLng(-6.226098, 106.806517,15);
-        var myOptions = {
-            zoom: 14,
-            center: latlng,
-            zoomControl: true,
-            mapTypeControl: false,
-            streetViewControl: false,
-            scrollwheel: false,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(document.getElementById("google-map-area1"), myOptions);
-        var marker = new google.maps.Marker({
-            position: latlng,
-            map: map
-        });
-    }
-    jQuery(document).ready(function($) {
-        google_maps_553e307a33451();
-    });
-</script>
+<?php echo $js; ?>
 <script type='text/javascript' src='/public/js/jquery/jquery.js'></script>
 <script type='text/javascript' src='/public/js/jquery/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.tools.min.js'></script>
@@ -361,6 +339,30 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 						}
 	});	/*ready*/
 
+</script>
+
+<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
+<script>
+    function google_maps_553e307a33451() {
+        var latlng = new google.maps.LatLng(-6.226098, 106.806517,15);
+        var myOptions = {
+            zoom: 14,
+            center: latlng,
+            zoomControl: true,
+            mapTypeControl: false,
+            streetViewControl: false,
+            scrollwheel: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("google-map-area1"), myOptions);
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map
+        });
+    }
+    jQuery(document).ready(function($) {
+        google_maps_553e307a33451();
+    });
 </script>
 
 

@@ -16,8 +16,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Cake</title>
 
-<meta name="description" content="Kakiatna indonesia is an investment holding company based in jakarta who traded at in the area of business energy, it & digital services healthcare, entertainment safinat logistic, f & b property management and engineering & construction site.With 13 companies that become part of kakiatna indonesia indonesia kakiatna present to make a real change in the welfare and indonesian nation economy toward the better ( improvement )." />
-<meta name="keywords" content="kakiatna, kakiatna indonesia, kakiatna energi, kakiatna, muffin options, page builder, theme, template, parallax, contact form 7, mega menu" />
+<meta name="description" content="Cake works with every business. No matter if you are cooker, blogger, designer or an astronaut - this wordpress theme is for everyone!" />
+<meta name="keywords" content="cake, wordpress, muffingroup, muffin builder, muffin options, page builder, theme, template, parallax, contact form 7, mega menu" />
 
 <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />	
 
@@ -29,7 +29,31 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 //]]>
 </script>
 
-<?php echo $css;?>
+
+<link rel='stylesheet' id='contact-form-7-css'  href='/public/css/cform.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='/public/css/tp_twitter_plugin.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='/public/rs-plugin/css/settings.css' type='text/css' media='all' />
+
+<link rel='stylesheet' id='select2-css'  href='/public/css/select.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='/public/css/woocommerce-layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/public/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='/public/css/woocommerce.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/public/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='/public/css/prettyPhoto.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='/public/js/owl-carousel/owl.carousel.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-theme-css'  href='/public/js/owl-carousel/owl.theme.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jplayer-css'  href='/public/css/blue.monday/jplayer.blue.monday.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css'  href='/public/css/ui/jquery.ui.all.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='/public/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-colors-php-css'  href='/public/css/style-colors.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-php-css'  href='/public/css/style-2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-woo-css'  href='/public/css/woocommerce.css' type='text/css' media='all' />
+<link rel="stylesheet" href="/public/css/fonts/mfn-icons.css" media="all" />
+<link rel="stylesheet" href="/public/css/custom.css" media="all" />
+<link rel='stylesheet' id='images-green-css'  href='/public/css/skins/green/images.css' type='text/css' media='all' />
+
+<link rel='stylesheet' id='Ubuntu-css'  href='http://fonts.googleapis.com/css?family=Ubuntu%3A100%2C300%2C400%2C400italic%2C700&amp;ver=4.2' type='text/css' media='all' />
+
 
 	
 <style>
@@ -80,7 +104,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 			<div class="column one">
 				<!-- .logo -->
 				<div class="logo">
-					<h1><a id="logo" href="/" title="Cake"><img class="scale-with-grid" src="/public/upload/gambar/logo_dark.png" alt="Cake"/></a></h1>
+					<h1><a id="logo" href="home-corporate.html" title="Cake"><img class="scale-with-grid" src="upload/gambar/logo_dark.png" alt="Cake"/></a></h1>
 				</div>
 				<!-- .menu_wrapper -->
 				<div class="menu_wrapper">
@@ -94,86 +118,291 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 					<!-- #menu -->
 					<nav id="menu" class="menu-main-menu-container">
 					<ul id="menu-main-menu" class="menu">
-						<?php
-	                	if($_SERVER['REQUEST_URI'] == '/')
-						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/"><b><span>Home</span></b></a></li>';
-						}
-						else
-						{
-							echo '<li class="menu-item"><a href="/"><b><span style="color: #3C191A">Home</span></b></a></li>';
-						}
-	                	?>
-	                	
-	                	<?php
-	                	if($_SERVER['REQUEST_URI'] == '/aboutus/index/')
-						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/aboutus/index/"><b><span">About Us</span></b></a></li>';
-						}
-						else
-						{
-							echo '<li class="menu-item"><a href="/aboutus/index/"><b><span style="color: #3C191A">About Us</span></b></a></li>';
-						}
-	                	?>
-	                	
-	                	<?php
-	                	if($_SERVER['REQUEST_URI'] == '/business/index/')
-						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/business/index/"><b><span">Business</span></b></a></li>';
-						}
-						else
-						{
-							echo '<li class="menu-item"><a href="/business/index/"><b><span style="color: #3C191A">Business</span></b></a></li>';
-						}
-	                	?>
-	                	
-	                	<?php
-	                	if($_SERVER['REQUEST_URI'] == '/career/index/')
-						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/career/index/"><b><span>Career</span></b></a></li>';
-						}
-						else
-						{
-							echo '<li class="menu-item"><a href="/career/index/"><b><span style="color: #3C191A">Career</span></b></a></li>';
-						}
-	                	?>
-	                	
-	                	<?php
-	                	//if(($_SERVER['REQUEST_URI'] == '/category/index') || (substr($_SERVER['REQUEST_URI'],1,9 ) == 'category/' ))
-	                	if(($_SERVER['REQUEST_URI'] == '/media/index/') || (substr($_SERVER['REQUEST_URI'],1,13 ) == 'contentdetil/' ) || (substr($_SERVER['REQUEST_URI'],1,16 ) == 'contentcategory/' ))
-						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/media/index/"><b><span>Media</span></b></a></li>';
-						}
-						else
-						{
-							echo '<li class="menu-item"><a href="/media/index/"><b><span style="color: #3C191A">Media</span></b></a></li>';
-						}
-	                	?>
-	                	
-	                	<?php
-	                	if($_SERVER['REQUEST_URI'] == '/contact/index/')
-						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/contact/index/"><b><span>Contact</span></b></a></li>';
-						}
-						else
-						{
-							echo '<li class="menu-item"><a href="/contact/index/"><b><span style="color: #3C191A">Contact</span></b></a></li>';
-						}
-	                	?>
+						<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="home-corporate.html"><span>Home</span></a></li>
+						<li class="menu-item  "><a href="tabs.html"><span>About Us</span></a></li>
+						<li class="menu-item  "><a href="business.html"><span>Business</span></a></li>
+						<li class="menu-item  "><a href="career.html"><span>Career</span></a></li>
+						<li class="menu-item  "><a href="med.html"><span>Media</span></a></li>
+						<li class="menu-item  "><a href="contact.html"><span>Contact</span></a></li>
+						
 					</ul>
 					</nav><a class="responsive-menu-toggle" href="#"><i class='icon-menu'></i></a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!--slider-->	
-	
+
+	<div id="mfn-rev-slider">
+		<div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullscreen-container pd0">
+		<!-- START REVOLUTION SLIDER 4.6.9 fullscreen mode -->
+			<div id="rev_slider_4_1" class="rev_slider fullscreenbanner dnone">
+				<ul>	
+					<!-- SLIDE  -->
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
+						<!-- MAIN IMAGE -->
+						<img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!-- LAYERS -->
+
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption tp-fade" 
+							data-x="624" 
+							data-y="57"  
+							data-speed="300" 
+							data-start="500" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption tp-fade" 
+							data-x="91" 
+							data-y="165"  
+							data-speed="300" 
+							data-start="800" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption tp-fade" 
+							data-x="272" 
+							data-y="371"  
+							data-speed="300" 
+							data-start="1100" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption tp-fade tp-resizeme" 
+							data-x="226" 
+							data-y="473"  
+							data-speed="300" 
+							data-start="1400" 
+							data-easing="Power3.easeInOut" 
+							data-splitin="none" 
+							data-splitout="none"  
+							data-endelementdelay="0" 
+							 data-end="5700" 
+							data-endspeed="300" 
+
+							>
+							<a href='#' class='tp-button blue small'>See offer</a> 
+						</div>
+					</li>
+					<!-- SLIDE  -->
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
+						<!-- MAIN IMAGE -->
+						<img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!-- LAYERS -->
+
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption tp-fade" 
+							data-x="624" 
+							data-y="57"  
+							data-speed="300" 
+							data-start="500" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption tp-fade" 
+							data-x="91" 
+							data-y="165"  
+							data-speed="300" 
+							data-start="800" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption tp-fade" 
+							data-x="272" 
+							data-y="371"  
+							data-speed="300" 
+							data-start="1100" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="5700" 
+							data-endspeed="300" 
+
+							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption tp-fade tp-resizeme" 
+						 	data-x="226" 
+						 	data-y="473"  
+							data-speed="300" 
+							data-start="1400" 
+							data-easing="Power3.easeInOut" 
+							data-splitin="none" 
+							data-splitout="none" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+						 	data-end="5700" 
+							data-endspeed="300" 
+
+							><a href='#' class='tp-button blue small'>See offer</a> 
+						</div>
+					</li>
+				</ul>
+				<div class="tp-bannertimer tp-bottom" ></div>	
+			</div>
+			
+		</div>
+		<!-- END REVOLUTION SLIDER -->
+	</div>	
+	</header>
+
 
 	<!-- #Content -->
-	<?php echo $content; ?>
+	<div id="Content">
+		<div class="content_wrapper clearfix">
+			<!-- .sections_group -->
+			<div class="sections_group">
+
+				<div class="section dark center grey-bg">
+					<div class="section_wrapper clearfix">
+						<div class="items_group clearfix">
+							<div class="column one column_column">
+								<h3>YOUR BUSINESS WILL <span class="highlight highlight_image">GROW FASTER</span>
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<br />
+				<div class="section pad0" >
+					<div class="section_wrapper clearfix">
+						<div class="items_group clearfix">
+							<div class="column one column_column">
+								<h4>WE ARE TO MAKE A REAL DIFFERENCE</h4>
+								<span class="dropcap">L</span>
+								orem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra neque eget lorem[/highlight] luctus vehicula. Nullam lobortis ac libero vitae porta. Sed at est at elit vulputate mattis. Quisque condimentum quam dui, vel imperdiet est blandit id. In posuere erat tristique lacinia pharetra.
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- About, latest, contact -->
+				<div class="section aboutcorporate">
+					<div class="section_wrapper clearfix">
+						<div class="items_group clearfix">
+							<div class="column one-third column_column">
+								<h3>ABOUT US</h3>
+								<hr class="hr_left">
+								<h6>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum vdio sit amet nibh vulputate cursus a sit amet.</h6>
+								<p>
+									Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo mullam. Sed non mauris vitae erat consequat auctor eu in elit.
+								</p>
+								<a href="#">Read more ...</a>
+							</div>
+							<div class="column one-third column_column">
+								
+							</div>
+							<div class="column one-third column_column">
+								<h3>ABOUT US</h3>
+								<hr class="hr_left">
+								<h6>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum vdio sit amet nibh vulputate cursus a sit amet.</h6>
+								<p>
+									Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo mullam. Sed non mauris vitae erat consequat auctor eu in elit.
+								</p>
+								<a href="#">Read more ...</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- clients -->
+				<div class="section center">
+					<div class="section_wrapper clearfix">
+						<div class="items_group clearfix">
+							<div class="column one column_column">
+								<h2 class="mb0">SUBSIDIARIES</h2>
+							</div>
+							<div class="column one column_clients">
+								<div class="clients parallaxclients">
+									<ul>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="Client 1"><img width="155" height="80" src="upload/client_1.png" class="scale-with-grid wp-post-image" alt="client_1"/></a>
+										</div>
+										</li>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a href="#"><img width="155" height="80" src="upload/client_2.png" class="scale-with-grid wp-post-image" alt="client_2"/></a>
+										</div>
+										</li>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="Client 3"><img width="155" height="80" src="upload/client_3.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
+										</div>
+										</li>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="Client 4"><img width="155" height="80" src="upload/client_4.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+										</div>
+										</li>
+										<li class=" last_row last_row_mobile">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="Client 5"><img width="155" height="80" src="upload/client_5.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
+										</div>
+										</li>
+										<li class="last_in_row last_row last_row_mobile">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="Client 6"><img width="155" height="80" src="upload/client_6.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+										</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section the_content">
+					<div class="section_wrapper">
+						<div class="the_content_wrapper">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .four-columns - sidebar -->
+		</div>
+	</div>
 
 	<!-- #Footer -->
 	<footer id="Footer" class="clearfix">
+
 	<div class="footer_copy">
 		<div class="container">
 			<div class="column one">
@@ -183,51 +412,33 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 					 &copy; 2015 Cake. All Rights Reserved. <a target="_blank" rel="nofollow" href="#">Max Themes</a>
 				</div>
 				<!-- Social -->
+				<div class="social">
+					<ul>
+						<li class="facebook"><a target="_blank" href="#" title="Facebook"><i class="icon-facebook"></i></a></li>
+						<li class="googleplus"><a target="_blank" href="#" title="Google+"><i class="icon-gplus"></i></a></li>
+						<li class="twitter"><a target="_blank" href="#" title="Twitter"><i class="icon-twitter"></i></a></li>
+						<li class="vimeo"><a target="_blank" href="#" title="Vimeo"><i class="icon-vimeo"></i></a></li>
+						<li class="youtube"><a target="_blank" href="#" title="YouTube"><i class="icon-play"></i></a></li>
+						<li class="flickr"><a target="_blank" href="#" title="Flickr"><i class="icon-flickr"></i></a></li>
+						<li class="linked_in"><a target="_blank" href="#" title="LinkedIn"><i class="icon-linkedin"></i></a></li>
+						<li class="pinterest"><a target="_blank" href="#" title="Pinterest"><i class="icon-pinterest"></i></a></li>
+						<li class="dribbble"><a target="_blank" href="#" title="Dribbble"><i class="icon-dribbble"></i></a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
 	</footer>
 </div>
 
-<?php echo $js; ?>
-<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&amp;ver=1.3.4'></script>
 
-<script type='text/javascript'>
-/* <![CDATA[ */
-var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
-var _wpmejsSettings = {"pluginPath":"/public\/js\/mediaelement\/"};
-/* ]]> */
-</script>
 
-<script>
-//<![CDATA[
-jQuery(window).load(function(){
-var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","/public/upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
-//]]>
-</script>
 
-<script>
-    function google_maps_553e307a33451() {
-        var latlng = new google.maps.LatLng(-6.226098, 106.806517,15);
-        var myOptions = {
-            zoom: 14,
-            center: latlng,
-            zoomControl: true,
-            mapTypeControl: false,
-            streetViewControl: false,
-            scrollwheel: false,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(document.getElementById("google-map-area1"), myOptions);
-        var marker = new google.maps.Marker({
-            position: latlng,
-            map: map
-        });
-    }
-    jQuery(document).ready(function($) {
-        google_maps_553e307a33451();
-    });
-</script>
+
+<script type='text/javascript' src='/public/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/public/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.tools.min.js'></script>
+<script type='text/javascript' src='/public/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
 
 <script>
 //<![CDATA[
@@ -235,88 +446,7 @@ jQuery(window).load(function(){
 var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
 //]]>
 </script>
-
-<script>
-jQuery(document).ready(function($) {
-
-	// boxed fix
-		
-	// white/dark logo fix
 	
-	// show / hide
-	$('#configurator .control').click(function(e){
-		e.preventDefault();
-		if ($('#configurator').hasClass('active')){
-			$('#configurator').removeClass('active').animate({ 'left':-232 },500);
-		} else {
-			$('#configurator').addClass('active').animate({ 'left':-1 },500);
-		}
-	});
-
-	// layout select
-	$('#configurator .select-layout a').click(function(e){
-		e.preventDefault();
-		var newClass = $(this).attr('class');
-		$('body')
-			.removeClass('layout-full-width layout-boxed')
-			.addClass(newClass);
-		$(this)
-			.parent().addClass('active')
-			.siblings().removeClass('active');
-		if( newClass == 'layout-boxed' ) $('html').css('background-image','url("/public/images/patterns/9.png")');
-		jQuery(window).resize();
-	});
-	// action select
-	$('#configurator .select-action a').click(function(e){
-		e.preventDefault();
-		var action = $(this).attr('class');
-		if( action == 'show' ){
-			$('#Action_bar').show();	
-		} else {
-			$('#Action_bar').hide();
-		}	
-		$(this)
-			.parent().addClass('active')
-			.siblings().removeClass('active');
-	});
-	// header select
-	$('#configurator .select-header a').click(function(e){
-		e.preventDefault();
-		var newClass 	= $(this).attr('data-rel');
-		var newLogo 	= $(this).attr('data-image');
-		$('body')
-			.removeClass('header-bg header-alpha header-white header-dark')
-			.addClass(newClass);
-			$("#logo img").attr('src','/public/upload/logo.png');
-		$(this)
-			.parent().addClass('active')
-			.siblings().removeClass('active');
-	});
-	// color select
-	$('#configurator .select-color a').click(function(e){
-		e.preventDefault();
-		var value = $(this).attr('class');
-		if( value != 'default' ){
-			$('#configurator .inp-color').attr('name','mfn-c');
-		}
-		$('#configurator .inp-color').val(value);
-		$('#config').submit();
-	});
-	// bg select
-	$('#configurator .select-image a').click(function(e){
-		e.preventDefault();
-
-		var bg_attr = $(this).attr('data-rel');
-		var bg = 'url("'+ $(this).children('img').attr('src') +'") ' + bg_attr;
-		
-		$('html').css('background','none').css('background',bg);
-
-		// boxed layout
-		$('body').removeClass('layout-full-width').addClass('layout-boxed');
-	});
-
-});
-</script>
 
 <script type="text/javascript">
 
@@ -431,6 +561,31 @@ jQuery(document).ready(function($) {
 	});	/*ready*/
 
 </script>
+
+
+<script type='text/javascript' src='/public/js/jquery.form.min.js'></script>
+
+<script type='text/javascript' src='/public/js/frontend/add-to-cart.min.js'></script>
+<script type='text/javascript' src='/public/js/select2/select2.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery-blockui/jquery.blockUI.min.js'></script>
+<script type='text/javascript' src='/public/js/frontend/woocommerce.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery-cookie/jquery.cookie.min.js'></script>
+
+<script type='text/javascript' src='/public/js/frontend/cart-fragments.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/core.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/widget.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/mouse.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/sortable.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/tabs.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery/ui/accordion.min.js'></script>
+<script type='text/javascript' src='/public/js/owl-carousel/owl.carousel.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery.jplayer.min.js'></script>
+<script type='text/javascript' src='/public/js/jquery.plugins.js'></script>
+<script type='text/javascript' src='/public/js/mfn.menu.js'></script>
+<script type='text/javascript' src='/public/js/scripts.js'></script>
+
+
+
 
 </body>
 </html>

@@ -22,32 +22,7 @@
 							data-endspeed="300" 
 
 							>
-							<?php
-							$curl = new Curl();
-									
-							foreach ($mcontent as $key) 
-							{
-								$q = array(
-									'id' => trim($key['_id']),
-									'height' => 180,
-									'width' => 180
-								);
-								
-								$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
-								$rest = $curl->response;
-								
-								$json = json_decode($rest, TRUE);
-								
-								$url = '';
-								if($json['status'] == "OK")
-								{
-									$url = $json['url'];
-								}
-								
-								echo '<img src="'.$url.'" alt="">';	
-							}
-							
-							?>
+							<img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->
@@ -115,34 +90,7 @@
 							data-end="5700" 
 							data-endspeed="300" 
 
-							>
-							<?php
-							$curl = new Curl();
-									
-							foreach ($mcontent as $key) 
-							{
-								$q = array(
-									'id' => trim($key['_id']),
-									'height' => 180,
-									'width' => 180
-								);
-								
-								$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
-								$rest = $curl->response;
-								
-								$json = json_decode($rest, TRUE);
-								
-								$url = '';
-								if($json['status'] == "OK")
-								{
-									$url = $json['url'];
-								}
-								
-								echo '<img src="'.$url.'" alt="">';	
-							}
-							
-							?>
-							
+							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->

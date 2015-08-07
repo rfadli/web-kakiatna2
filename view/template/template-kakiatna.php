@@ -29,7 +29,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 //]]>
 </script>
 
-
+<?php echo $css; ?>
 <link rel='stylesheet' id='contact-form-7-css'  href='/public/css/cform.css' type='text/css' media='all' />
 <link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='/public/css/tp_twitter_plugin.css' type='text/css' media='screen' />
 <link rel='stylesheet' id='rs-plugin-settings-css'  href='/public/rs-plugin/css/settings.css' type='text/css' media='all' />

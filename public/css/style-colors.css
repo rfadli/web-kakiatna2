@@ -170,13 +170,13 @@
 	
 /* Accordion / FAQ / Tabs */
 	.accordion .question > h5 span.icon, .faq .question > h5 span.icon {
-		color: #6ea81a;
+		color: #CD171E;
 	}
 	 .accordion .question > h5 span.icon:after, .faq .question > h5 span.icon:after {
-	 	border-color: #6ea81a;
+	 	border-color: #CD171E;
 	 }
 	.accordion .active.question > h5 span.icon, .faq .active.question > h5 span.icon {
-		background: #6ea81a;
+		background: #CD171E;
 	}
 	
 	.ui-tabs .ui-tabs-nav li a {

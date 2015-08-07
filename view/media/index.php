@@ -12,8 +12,8 @@
 										<h5>MEDIA</h5>
 										<li><a href="#-4"><img width="50" height="50" src="/public/media/News.png"></a></li>
 										<li><a href="#-5"><img width="50" height="50" src="/public/media/Blog.png"></a></li>
-										<li><a href="#-6"><i class="icon-user-add"></i>Press Release</a></li>
-										<li><a href="#-7"><i class="icon-quote"></i>Press Kit</a></li>
+										<li><a href="#-6"><img width="50" height="50" src="/public/media/Press_Release.png"></a></li>
+										<li><a href="#-7"><img width="50" height="50" src="/public/media/Press_Kit.png"></a></li>
 									</ul>
 									<div id="-4">
 										<?php

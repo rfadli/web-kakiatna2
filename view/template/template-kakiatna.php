@@ -20,7 +20,6 @@
 <meta name="keywords" content="cake, wordpress, muffingroup, muffin builder, muffin options, page builder, theme, template, parallax, contact form 7, mega menu" />
 
 <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />	
-<p>kakiatna</p>
 
 <script>
 //<![CDATA[
@@ -222,7 +221,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 <script>
 //<![CDATA[
 jQuery(window).load(function(){
-var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
+var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl = jQuery("#logo img");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr("src","/public/upload/logo_retina.png").width(retinaLogoW).height(retinaLogoH)}});
 //]]>
 </script>
 	
@@ -386,9 +385,6 @@ var retina = window.devicePixelRatio > 1 ? true : false;if(retina){var retinaEl 
 <script type='text/javascript' src='/public/js/jquery.plugins.js'></script>
 <script type='text/javascript' src='/public/js/mfn.menu.js'></script>
 <script type='text/javascript' src='/public/js/scripts.js'></script>
-
-
-
 
 </body>
 </html>

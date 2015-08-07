@@ -10,14 +10,14 @@
 								<div class="jq-tabs tabs_wrapper tabs_vertical">
 									<ul>
 										<li><a href="#-4"><i class="icon-map"></i>Overview</a></li>
-										<li><a href="#-5"><i class="icon-quote"></i>Energy</a></li>
-										<li><a href="#-6"><i class="icon-user-add"></i>IT&Digital Services</a></li>
-										<li><a href="#-7"><i class="icon-quote"></i>Healthcare</a></li>
-										<li><a href="#-8"><i class="icon-quote"></i>Food&Breverages</a></li>
-										<li><a href="#-8"><i class="icon-quote"></i>Entertainment</a></li>
-										<li><a href="#-8"><i class="icon-quote"></i>Logistic & SCM</a></li>
-										<li><a href="#-8"><i class="icon-quote"></i>Property Management</a></li>
-										<li><a href="#-8"><i class="icon-quote"></i>Engineering & Construction</a></li>
+										<li><a href="#-5"><img width="50" height="50" src="/public/media/Power_Plant.png"><br />Energy</a></li>
+										<li><a href="#-6"><img width="50" height="50" src="/public/media/IT _Digital Service.png"><br />IT&Digital Services</a></li>
+										<li><a href="#-7"><img width="50" height="50" src="/public/media/Healthcare.png"><br />Healthcare</a></li>
+										<li><a href="#-8"><img width="50" height="50" src="/public/media/Food_Beverage.png"><br />Food&Breverages</a></li>
+										<li><a href="#-8"><img width="50" height="50" src="/public/media/Entertainment.png"><br />Entertainment</a></li>
+										<li><a href="#-8"><img width="50" height="50" src="/public/media/Logistic_SCM.png"><br />Logistic & SCM</a></li>
+										<li><a href="#-8"><img width="50" height="50" src="/public/media/Property_Management.png"><br />Property Management</a></li>
+										<li><a href="#-8"><img width="50" height="50" src="/public/media/Engineering_Construction.png"><br />Engineering & Construction</a></li>
 									</ul>
 									<div id="-4">
 										<h5>Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis.</h5>

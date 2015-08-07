@@ -122,44 +122,44 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 						<?php
 	                	if($_SERVER['REQUEST_URI'] == '/')
 						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/"><b><span>Home</span></b></a></li>';
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/"><span>Home</span></a></li>';
 						}
 						else
 						{
-							echo '<li class="menu-item"><a href="/"><b><span style="color: #3C191A">Home</span></b></a></li>';
+							echo '<li class="menu-item"><a href="/"><span style="color: #3C191A">Home</span></a></li>';
 						}
 	                	?>
 	                	
 	                	<?php
 	                	if($_SERVER['REQUEST_URI'] == '/aboutus/index/')
 						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/aboutus/index/"><b><span">About Us</span></b></a></li>';
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/aboutus/index/"><span">About Us</span></a></li>';
 						}
 						else
 						{
-							echo '<li class="menu-item"><a href="/aboutus/index/"><b><span style="color: #3C191A">About Us</span></b></a></li>';
+							echo '<li class="menu-item"><a href="/aboutus/index/"><span style="color: #3C191A">About Us</span></a></li>';
 						}
 	                	?>
 	                	
 	                	<?php
 	                	if($_SERVER['REQUEST_URI'] == '/business/index/')
 						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/business/index/"><b><span">Business</span></b></a></li>';
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/business/index/"><span">Business</span></a></li>';
 						}
 						else
 						{
-							echo '<li class="menu-item"><a href="/business/index/"><b><span style="color: #3C191A">Business</span></b></a></li>';
+							echo '<li class="menu-item"><a href="/business/index/"><span style="color: #3C191A">Business</span></a></li>';
 						}
 	                	?>
 	                	
 	                	<?php
 	                	if($_SERVER['REQUEST_URI'] == '/career/index/')
 						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/career/index/"><b><span>Career</span></b></a></li>';
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/career/index/"><span>Career</span></a></li>';
 						}
 						else
 						{
-							echo '<li class="menu-item"><a href="/career/index/"><b><span style="color: #3C191A">Career</span></b></a></li>';
+							echo '<li class="menu-item"><a href="/career/index/"><span style="color: #3C191A">Career</span></a></li>';
 						}
 	                	?>
 	                	
@@ -167,22 +167,22 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 	                	//if(($_SERVER['REQUEST_URI'] == '/category/index') || (substr($_SERVER['REQUEST_URI'],1,9 ) == 'category/' ))
 	                	if(($_SERVER['REQUEST_URI'] == '/media/index/') || (substr($_SERVER['REQUEST_URI'],1,13 ) == 'contentdetil/' ) || (substr($_SERVER['REQUEST_URI'],1,16 ) == 'contentcategory/' ))
 						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/media/index/"><b><span>Media</span></b></a></li>';
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/media/index/"><span>Media</span></a></li>';
 						}
 						else
 						{
-							echo '<li class="menu-item"><a href="/media/index/"><b><span style="color: #3C191A">Media</span></b></a></li>';
+							echo '<li class="menu-item"><a href="/media/index/"><span style="color: #3C191A">Media</span></a></li>';
 						}
 	                	?>
 	                	
 	                	<?php
 	                	if($_SERVER['REQUEST_URI'] == '/contact/index/')
 						{
-							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/contact/index/"><b><span>Contact</span></b></a></li>';
+							echo '<li class="menu-item  current-menu-item page_item page-item-4311 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="/contact/index/"><span>Contact</span></a></li>';
 						}
 						else
 						{
-							echo '<li class="menu-item"><a href="/contact/index/"><b><span style="color: #3C191A">Contact</span></b></a></li>';
+							echo '<li class="menu-item"><a href="/contact/index/"><span style="color: #3C191A">Contact</span></a></li>';
 						}
 	                	?>
 					</ul>

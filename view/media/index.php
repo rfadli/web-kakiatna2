@@ -9,7 +9,7 @@
 							<div class="column one column_tabs">
 								<div class="jq-tabs tabs_wrapper tabs_vertical tabs_big_icon">
 									<ul>
-										<h5>MEDIA</h5>
+										<li><h5>MEDIA</h5></li>
 										<li><a href="#-4"><img width="50" height="50" src="/public/media/News.png"></a></li>
 										<li><a href="#-5"><img width="50" height="50" src="/public/media/Blog.png"></a></li>
 										<li><a href="#-6"><img width="50" height="50" src="/public/media/Press_Release.png"></a></li>

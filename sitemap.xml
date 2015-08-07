@@ -12,5 +12,6 @@
   <loc>http://dev.kakiatna.co.id/aboutus/index</loc>
   <loc>http://dev.kakiatna.co.id/businnes/index</loc>
   <loc>http://dev.kakiatna.co.id/career/index</loc>
+  <changefreq>hourly</changefreq>
 </url>
 </urlset>

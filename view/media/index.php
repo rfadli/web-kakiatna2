@@ -10,7 +10,7 @@
 								<div class="jq-tabs tabs_wrapper tabs_vertical">
 									<ul>
 										<h5>MEDIA</h5>
-										<li><a href="#-4"><img width="100" height="100" src="/public/media/News.png">News</a></li>
+										<li><a href="#-4"><img width="50" height="50" src="/public/media/News.png">News</a></li>
 										<li><a href="#-5"><i class="icon-quote"></i>Blog</a></li>
 										<li><a href="#-6"><i class="icon-user-add"></i>Press Release</a></li>
 										<li><a href="#-7"><i class="icon-quote"></i>Press Kit</a></li>

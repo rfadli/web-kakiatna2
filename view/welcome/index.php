@@ -6,7 +6,7 @@
 					<!-- SLIDE  -->
 					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
 						<!-- MAIN IMAGE -->
-						<img src="/public/upload/gravatar.png"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 1 -->
@@ -68,13 +68,13 @@
 							data-endspeed="300" 
 
 							>
-							<a href='#' class='tp-button blue small'>See offer </a> 
+							<a href='#' class='tp-button blue small'>See offer</a> 
 						</div>
 					</li>
 					<!-- SLIDE  -->
 					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
 						<!-- MAIN IMAGE -->
-						<img src="/public/upload/gravatar.png"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 1 -->

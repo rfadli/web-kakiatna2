@@ -168,7 +168,7 @@
 				<br />
 				<div class="section pad0" >
 					<div class="section_wrapper clearfix">
-						<div class="items_group clearfix">
+						<div class="items_group ">
 							<div class="column one column_column">
 								<?php
 								foreach ($mcontent as $key ) 

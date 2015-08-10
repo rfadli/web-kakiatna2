@@ -19,7 +19,7 @@
 										<?php
 										foreach ($mnews as $key) 
 										{
-											echo '<b><h5>';
+											echo '<b><h5 style="color:#CD171E">';
 											echo $key['title'];
 											echo '</h5></b>';
 											echo $key['content'];
@@ -41,7 +41,7 @@
 										<?php
 										foreach ($mblog as $key ) 
 										{
-											echo '<b><h5>';
+											echo '<b><h5 style="color:#CD171E">';
 											echo $key['title'];
 											echo '</h5></b>';
 											echo $key['content'];
@@ -60,7 +60,7 @@
 									</div>
 									<div id="-6">
 										<?php
-										echo '<h5>';
+										echo '<h5 style="color:#CD171E">';
 										echo $mpress_release['title'];
 										echo '</h5>';
 										echo $mpress_release['content'];
@@ -68,7 +68,7 @@
 									</div>
 									<div id="-7">
 										<?php
-										echo '<h5>';
+										echo '<h5 style="color:#CD171E">';
 										echo $mpress_kit['title'];
 										echo '</h5>';
 										echo $mpress_kit['content'];

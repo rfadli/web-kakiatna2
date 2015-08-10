@@ -24,7 +24,7 @@
 									<div id="-5">
 										<div class="column one column_accordion">
 											<div class="accordion">
-												<h4 class="title">Job Vacancy</h4>
+												<h4 style="color:#CD171E" class="title">Job Vacancy</h4>
 												<div class="mfn-acc accordion_wrapper">
 													<?php
 													$curl = new Curl();

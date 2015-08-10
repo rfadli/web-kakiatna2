@@ -204,7 +204,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 				<a id="back_to_top" href="#"><i class="icon-up-open-big"></i></a>
 				<!-- Copyrights -->
 				<div class="copyright">
-					 &copy; 2015 Cake. All Rights Reserved. <a target="_blank" rel="nofollow" href="#">Max Themes</a>
+					 &copy; 2015 PT.Kakiatna Indonesia. All Rights Reserved.
 				</div>
 				<!-- Social -->
 				

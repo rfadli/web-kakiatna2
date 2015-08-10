@@ -31,7 +31,6 @@
 										<h5 style="color:#CD171E">PT.Kakiatna Energi</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Energi is a private power investment and development company. With the IPP (Independent Power Producer) scheme currently being upthrust by the state electricity company to accelerate more power plant procurement in various parts of Indonesia, Kakiatna Energi aims to be the biggest private power producer in Indonesia.<br/><br/>
-										
 										<div class="post-footer">
 											<a href="http://kakiatna.co.id/" class="post-more" target="_blank">View more</a>
 												<div class="button-comments">
@@ -43,7 +42,6 @@
 										<h5 style="color:#CD171E">PT. Nusantara Energi Mandiri</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Nusantara Energi Mandiri  is an engineering, procurement, and construction company yang secara khusus berkutat di dalam sektor power plant. Didirikan pada tahun 2008, Nusantara Energi Mandiri telah memiliki pengalaman dalam pengembangan PLTA Jatigede bersama dengan Sinohydro Co., Ltd. <br/><br/>
-										
 										<div class="post-footer">
 											<a href="http://kakiatna.co.id/" class="post-more" target="_blank">View more</a>
 												<div class="button-comments">
@@ -55,7 +53,6 @@
 										<h5 style="color:#CD171E">PT. Kakiatna Energi Services</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Energi Services is a power plant operation & maintenance company. <br/><br/>
-										
 										<div class="post-footer">
 											<a href="http://kakiatna.co.id/" class="post-more" target="_blank">View more</a>
 												<div class="button-comments">
@@ -70,7 +67,6 @@
 										<h5 style="color:#CD171E">PT. Rise Infobisnis Semesta Ekasolusi</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Rise Infobisnis Semesta Ekasolusi is a retail consultant and IT solution company. <br/><br/>
-										
 										<div class="post-footer">
 											<a href="http://rise.biz.id/" class="post-more" target="_blank" >View more</a>
 												<div class="button-comments">
@@ -82,7 +78,6 @@
 										<h5 style="color:#CD171E">PT. Digita Media Utama</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Digita Media Utama (Digitama) is a digital media & content provider. Digitama memiliki produk digital antara lain Digishelf, sebuah e-book store, Digibeat, on-demand music streaming service, Digilive, live streaming concert platform, dan Digiumm, Islamic news and reference portal. <br/><br/>
-										
 										<div class="post-footer">
 											<a href="http://digitama.com/" class="post-more" target="_blank" >View more</a>
 												<div class="button-comments">
@@ -94,7 +89,6 @@
 										<h5 style="color:#CD171E">PT. Digitama Teknologi</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Digitama Teknologi is a mobile app developer based in Cimahi, West Java. Digitama Teknologi has developed a child game for Android and iOS<br/><br/>
-										
 										<div class="post-footer">
 											<a href="http://digitamateknologi.co.id/" class="post-more" target="_blank" >View more</a>
 												<div class="button-comments">

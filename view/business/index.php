@@ -165,7 +165,7 @@
 										</div>
 									</div>
 									
-									<div id="-11">
+									<div id="-12">
 										<h5>PT. Kakiatna Enjiniring</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Enjiniring is a technical consultant with expertise in power plant project consultation.  <br/>
@@ -176,6 +176,16 @@
 												</div>
 										</div>
 										<br/><br/>
+										<h5>PT. Cipta Kakiatna</h5>
+										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										 PT. Cipta Kakiatna is a general construction company.   <br/>
+										<div class="post-footer">
+											<a href="http://ciptakakiatna.co.id/" class="post-more" target="_blank" >View more</a>
+												<div class="button-comments">
+													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
+												</div>
+										</div>
+										
 									</div>
 									
 								</div>

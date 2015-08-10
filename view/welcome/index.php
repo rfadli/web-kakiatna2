@@ -272,12 +272,7 @@
 											<a target="_blank" href="#" title="Client 6"><img width="155" height="80" src="/public/upload/client_6.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
-										<li class="last_in_row last_row last_row_mobile">
-										
-										</li>
-										<li class="last_in_row last_row last_row_mobile">
-										
-										</li>
+										<center>
 										<li class=" last_row last_row_mobile">
 										<div class="client_wrapper">
 											<a target="_blank" href="#" title="Client 5"><img width="155" height="80" src="/public/upload/client_5.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
@@ -288,6 +283,7 @@
 											<a target="_blank" href="#" title="Client 3"><img width="155" height="80" src="/public/upload/client_3.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
 										</div>
 										</li>
+										</center>
 									</ul>
 								</div>
 							</div>

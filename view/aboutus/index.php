@@ -28,7 +28,7 @@
 										<?php
 										foreach ($mwordsceo as $key) 
 										{
-											echo '<h2 style="color:#CD171E">'.$key['title'].'</h2>';
+											echo '<h3 style="color:#CD171E">'.$key['title'].'</h3>';
 											echo $key['content'];
 										}
 										?>

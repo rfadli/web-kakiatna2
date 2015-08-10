@@ -66,7 +66,7 @@
 									<div id="-6">
 										<h5>PT. Rise Infobisnis Semesta Ekasolusi</h5>
 										<img src="/public/upload/gambar/polos.jpg" width="200" height="60"><br/>
-										 PT. Kakiatna Energi is a private power investment and development company. With the IPP scheme currently sedang ramai digalangkan oleh PLN untuk mempercepat pengadaan tenaga listrik di seluruh penjuru negeri, Kakiatna Energi aims to be the biggest private power producer in Indonesia. <br/><br/>
+										 PT. Rise Infobisnis Semesta Ekasolusi is a retail consultant and IT solution company. <br/><br/>
 										
 										<div class="post-footer">
 											<a href="http://kakiatna.co.id/" class="post-more">View more</a>
@@ -75,6 +75,31 @@
 												</div>
 										</div>
 										<br/><br/>
+										
+										<h5>PT. Digita Media Utama</h5>
+										<img src="/public/upload/gambar/polos.jpg" width="200" height="60"><br/>
+										 PT. Digita Media Utama (Digitama) is a digital media & content provider. Digitama memiliki produk digital antara lain Digishelf, sebuah e-book store, Digibeat, on-demand music streaming service, Digilive, live streaming concert platform, dan Digiumm, Islamic news and reference portal. <br/><br/>
+										
+										<div class="post-footer">
+											<a href="http://kakiatna.co.id/" class="post-more">View more</a>
+												<div class="button-comments">
+													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
+												</div>
+										</div>
+										<br/><br/>
+										
+										<h5>PT. Digitama Teknologi</h5>
+										<img src="/public/upload/gambar/polos.jpg" width="200" height="60"><br/>
+										 PT. Digitama Teknologi is a mobile app developer based in Cimahi, West Java. Digitama Teknologi has developed a child game for Android and iOS<br/><br/>
+										
+										<div class="post-footer">
+											<a href="http://kakiatna.co.id/" class="post-more">View more</a>
+												<div class="button-comments">
+													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
+												</div>
+										</div>
+										<br/><br/>
+										
 									</div>
 									<div id="-7">
 										<h5>Aliquam sodales tortor vitae ipsum. Aliquam nulla</h5>

@@ -16,8 +16,8 @@
 										<li><a href="#-8"><img width="50" height="50" src="/public/media/Food_Beverage.png"><br />Food&Breverages</a></li>
 										<li><a href="#-9"><img width="50" height="50" src="/public/media/Entertainment.png"><br />Entertainment</a></li>
 										<li><a href="#-10"><img width="50" height="50" src="/public/media/Logistic_SCM.png"><br />Logistic & SCM</a></li>
-										<li><a href="#-8"><img width="50" height="50" src="/public/media/Property_Management.png"><br />Property Management</a></li>
-										<li><a href="#-8"><img width="50" height="50" src="/public/media/Engineering_Construction.png"><br />Engineering & Construction</a></li>
+										<li><a href="#-11"><img width="50" height="50" src="/public/media/Property_Management.png"><br />Property Management</a></li>
+										<li><a href="#-12"><img width="50" height="50" src="/public/media/Engineering_Construction.png"><br />Engineering & Construction</a></li>
 									</ul>
 									
 									<div id="-4">
@@ -151,6 +151,41 @@
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
 										</div>
+									</div>
+									
+									<div id="-11">
+										<h5>PT. Kakiatna Digitama</h5>
+										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										 PT. Kakiatna Digitama is a property management company. <br/>
+										<div class="post-footer">
+											<a href="http://kakiatnadigitama.co.id/" class="post-more" target="_blank" >View more</a>
+												<div class="button-comments">
+													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
+												</div>
+										</div>
+									</div>
+									
+									<div id="-11">
+										<h5>PT. Kakiatna Enjiniring</h5>
+										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										 PT. Kakiatna Enjiniring is a technical consultant with expertise in power plant project consultation.  <br/>
+										<div class="post-footer">
+											<a href="http://kakiatnaenjiniring.co.id/" class="post-more" target="_blank" >View more</a>
+												<div class="button-comments">
+													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
+												</div>
+										</div>
+										<br/><br/>
+										<h5>PT. Cipta Kakiatna</h5>
+										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										 PT. Cipta Kakiatna is a general construction company.   <br/>
+										<div class="post-footer">
+											<a href="http://ciptakakiatna.co.id/" class="post-more" target="_blank" >View more</a>
+												<div class="button-comments">
+													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
+												</div>
+										</div>
+										
 									</div>
 									
 								</div>

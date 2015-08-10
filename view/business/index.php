@@ -28,7 +28,7 @@
 									<div id="-5">
 										<h5>PT.Kakiatna Energi</h5>
 										<img src="/public/upload/gambar/polos.jpg" width="200" height="60"><br/>
-										 PT. Kakiatna Energi is a private power investment and development company. With the IPP scheme currently sedang ramai digalangkan oleh PLN untuk mempercepat pengadaan tenaga listrik di seluruh penjuru negeri, Kakiatna Energi aims to be the biggest private power producer in Indonesia. <br/><br/>
+										 PT. Kakiatna Energi is a private power investment and development company. With the IPP (Independent Power Producer) scheme currently being upthrust by the state electricity company to accelerate more power plant procurement in various parts of Indonesia, Kakiatna Energi aims to be the biggest private power producer in Indonesia.<br/><br/>
 										
 										<div class="post-footer">
 											<a href="http://kakiatna.co.id/" class="post-more">View more</a>

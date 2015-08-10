@@ -48,21 +48,36 @@
 															$url = $json['url'];
 														}
 														
-														echo '<div class="question">';
-														echo '<h5><span class="icon"><i class="icon-right-open"></i></span>'.$key['title'].'</h5>';
-														echo '<div class="answer">';
-														if(isset($url))
+														if(isset($key['content']))
 														{
-															echo '<img src="'.$url.'" alt="">';
+															echo '<div class="question">';
+															echo '<h5><span class="icon"><i class="icon-right-open"></i></span>'.$key['title'].'</h5>';
+															echo '<div class="answer">';
+															if(isset($url))
+															{
+																echo '<img src="'.$url.'" alt="">';
+															}
+															else
+															{
+																echo '<img src="/public/upload/pic_about_cake_small.png" alt="">';
+															}
+															
+															echo $key['content'];
+															echo '</div>';
+															echo '</div>';
 														}
 														else
 														{
-															echo '<img src="/public/upload/pic_about_cake_small.png" alt="">';
+															echo '<div class="question">';
+															echo '<h5><span class="icon"><i class="icon-right-open"></i></span>'.$key['title'].'</h5>';
+															echo '<div class="answer">';
+															echo 'Sorry, there are currently no open positions';
+															echo '</div>';
+															echo '</div>';
 														}
 														
-														echo $key['content'];
-														echo '</div>';
-														echo '</div>';
+														
+														
 													}
 													?>
 												</div>

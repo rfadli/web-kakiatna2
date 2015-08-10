@@ -19,7 +19,7 @@
 										<?php
 										foreach ($mhistory as $key) 
 										{
-											echo '<h5>'.$key['title'].'</h5>';
+											echo '<h5 style="color:#CD171E">'.$key['title'].'</h5>';
 											echo $key['content'];
 										}
 										?>

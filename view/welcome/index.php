@@ -273,12 +273,10 @@
 										</div>
 										</li>
 										<li class="last_in_row last_row last_row_mobile">
-										<div class="client_wrapper">
-										</div>
+										
 										</li>
 										<li class="last_in_row last_row last_row_mobile">
-										<div class="client_wrapper">
-										</div>
+										
 										</li>
 										<li class=" last_row last_row_mobile">
 										<div class="client_wrapper">

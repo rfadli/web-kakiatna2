@@ -15,7 +15,7 @@
 										<li><a href="#-7"><img width="50" height="50" src="/public/media/Healthcare.png"><br />Healthcare</a></li>
 										<li><a href="#-8"><img width="50" height="50" src="/public/media/Food_Beverage.png"><br />Food&Breverages</a></li>
 										<li><a href="#-9"><img width="50" height="50" src="/public/media/Entertainment.png"><br />Entertainment</a></li>
-										<li><a href="#-8"><img width="50" height="50" src="/public/media/Logistic_SCM.png"><br />Logistic & SCM</a></li>
+										<li><a href="#-10"><img width="50" height="50" src="/public/media/Logistic_SCM.png"><br />Logistic & SCM</a></li>
 										<li><a href="#-8"><img width="50" height="50" src="/public/media/Property_Management.png"><br />Property Management</a></li>
 										<li><a href="#-8"><img width="50" height="50" src="/public/media/Engineering_Construction.png"><br />Engineering & Construction</a></li>
 									</ul>
@@ -72,7 +72,7 @@
 										 PT. Rise Infobisnis Semesta Ekasolusi is a retail consultant and IT solution company. <br/><br/>
 										
 										<div class="post-footer">
-											<a href="http://kakiatna.co.id/" class="post-more">View more</a>
+											<a target="_blank" href="http://rise.biz.id/" class="post-more">View more</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -84,7 +84,7 @@
 										 PT. Digita Media Utama (Digitama) is a digital media & content provider. Digitama memiliki produk digital antara lain Digishelf, sebuah e-book store, Digibeat, on-demand music streaming service, Digilive, live streaming concert platform, dan Digiumm, Islamic news and reference portal. <br/><br/>
 										
 										<div class="post-footer">
-											<a href="http://kakiatna.co.id/" class="post-more">View more</a>
+											<a target="_blank" href="http://digitama.com/" class="post-more">View more</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -96,7 +96,7 @@
 										 PT. Digitama Teknologi is a mobile app developer based in Cimahi, West Java. Digitama Teknologi has developed a child game for Android and iOS<br/><br/>
 										
 										<div class="post-footer">
-											<a href="http://kakiatna.co.id/" class="post-more">View more</a>
+											<a target="_blank" href="http://digitamateknologi.co.id/" class="post-more">View more</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -110,7 +110,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										PT. Energi Penta Medika is a healtchare company behind “The Djakarta Clinic”, a hemodialysis clinic slates to open in 2016.<br/>
 										<div class="post-footer">
-											<a href="http://kakiatna.co.id/" class="post-more">View more</a>
+											<a target="_blank" href="http://thedjakartaclinic.co.id/" class="post-more">View more</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -122,7 +122,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Retail Usaha Mandiri is a restaurant chain company with “Bebek Edan Cak Topa” as its flagship restaurant. <br/>
 										<div class="post-footer">
-											<a href="http://kakiatna.co.id/" class="post-more">View more</a>
+											<a target="_blank" href="http://rumindonesia.com/" class="post-more">View more</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -134,7 +134,19 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kaninga Sinema Indonesia is an integrated entertainment & showbusiness company. It was founded as a production house for Indonesian films, but along the way it expanded its business into films distribution and theatres.  <br/>
 										<div class="post-footer">
-											<a href="http://kakiatna.co.id/" class="post-more">View more</a>
+											<a href="http://kaninga.co.id/" class="post-more">View more</a>
+												<div class="button-comments">
+													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
+												</div>
+										</div>
+									</div>
+									
+									<div id="-10">
+										<h5>PT. Kakiatna Logistik</h5>
+										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										 PT. Kakiatna Logistik is a freight forwarding company. <br/>
+										<div class="post-footer">
+											<a target="_blank" href="http://kakiatnalogistik.co.id/" class="post-more">View more</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>

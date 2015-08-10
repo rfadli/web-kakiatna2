@@ -38,7 +38,7 @@
 										<?php
 										foreach ($mvision as $key) 
 										{
-											echo '<h5 style="color:#CD171E">'.$key['title'].'</h5>';
+											//echo '<h5 style="color:#CD171E">'.$key['title'].'</h5>';
 											echo $key['content'];
 										}
 										?>

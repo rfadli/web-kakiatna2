@@ -21,7 +21,7 @@
 <meta name="DC.title" content="kakiatna indonesia" />
 <meta name="robots" content="index, nofollow" />
 
-<link rel="shortcut icon" href="/public/media/Master_Logo_2015_.png" type="image/x-icon" />	
+<link rel="shortcut icon" href="/public/media/Master_ico_.ico" type="image/x-icon" />	
 
 <script>
 //<![CDATA[

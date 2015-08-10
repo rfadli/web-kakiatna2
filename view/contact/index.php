@@ -7,9 +7,9 @@
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
 							<div class="column one column_column">
-								<!--div class="textcenter">
-									<img style="max-width: 230px;" src="/public/upload/logo_dark_retina.png" alt=""/>
-								</div-->
+								<div class="textcenter">
+									<img style="max-width: 230px;" src="/public/media/Master_Logo_2015_.png" alt=""/>
+								</div>
 							</div>
 						</div>
 					</div>

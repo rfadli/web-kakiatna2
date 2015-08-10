@@ -19,12 +19,14 @@
 										<li><a href="#-8"><img width="50" height="50" src="/public/media/Property_Management.png"><br />Property Management</a></li>
 										<li><a href="#-8"><img width="50" height="50" src="/public/media/Engineering_Construction.png"><br />Engineering & Construction</a></li>
 									</ul>
+									
 									<div id="-4">
 										<h5>Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis.</h5>
 										 Phasellus ultricies ipsum urna, et consequat massa mattis quis. Praesent quis tortor tortor. Phasellus eget elementum nunc, adipiscing malesuada neque. Sed tempus augue vitae ligula tincidunt, a vestibulum justo mattis. Nulla vel leo gravida, congue nibh vitae, auctor ante. Sed a dictum tortor. <br/>
 										<br/>
 										Quisque ac ipsum et orci accumsan dignissim. Cras dignissim urna ut quam facilisis iaculis. Nullam a lacinia sem. Praesent eu viverra mauris. Nullam ut lectus posuere, egestas lorem eget, commodo purus. Vivamus vitae sollicitudin quam. Mauris vel lobortis enim. Nulla facilisi.
 									</div>
+									
 									<div id="-5">
 										<h5>PT.Kakiatna Energi</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
@@ -63,6 +65,7 @@
 										<br/><br/>
 										
 									</div>
+									
 									<div id="-6">
 										<h5>PT. Rise Infobisnis Semesta Ekasolusi</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
@@ -101,15 +104,14 @@
 										<br/><br/>
 										
 									</div>
+									
 									<div id="-7">
-										<h5>Aliquam sodales tortor vitae ipsum. Aliquam nulla</h5>
-										<img src="/public/upload/gambar/polos.jpg" width="200" height="60"><br/>
-										 Phasellus ultricies ipsum urna, et consequat massa mattis quis. Praesent quis tortor tortor. Phasellus eget elementum nunc, adipiscing malesuada neque. Sed tempus augue vitae ligula tincidunt, a vestibulum justo mattis. Nulla vel leo gravida, congue nibh vitae, auctor ante. Sed a dictum tortor. <br/>
-										<br/>
-										Quisque ac ipsum et orci accumsan dignissim. Cras dignissim urna ut quam facilisis iaculis. Nullam a lacinia sem. Praesent eu viverra mauris. Nullam ut lectus posuere, egestas lorem eget, commodo purus. Vivamus vitae sollicitudin quam. Mauris vel lobortis enim. Nulla facilisi. <br/>
-										<br/>
-										Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus
+										<h5>PT. Energi Penta Medika </h5>
+										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										PT. Energi Penta Medika is a healtchare company behind “The Djakarta Clinic”, a hemodialysis clinic slates to open in 2016.<br/>
+										
 									</div>
+									
 									<div id="-8">
 										<h5>Aliquam sodales tortor vitae ipsum. Aliquam nulla</h5>
 										 Phasellus ultricies ipsum urna, et consequat massa mattis quis. Praesent quis tortor tortor. Phasellus eget elementum nunc, adipiscing malesuada neque. Sed tempus augue vitae ligula tincidunt, a vestibulum justo mattis. Nulla vel leo gravida, congue nibh vitae, auctor ante. Sed a dictum tortor. <br/>

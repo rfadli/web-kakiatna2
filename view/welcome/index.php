@@ -158,7 +158,7 @@
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
 							<div class="column one column_column">
-								<h3>YOUR BUSINESS WILL <span class="highlight highlight_image">GROW FASTER</span>
+								<h3>WE ARE HERE TO <span class="highlight highlight_image">MAKE A REAL DIFFERENCE</span>
 								</h3>
 							</div>
 						</div>

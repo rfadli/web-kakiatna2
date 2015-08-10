@@ -179,7 +179,7 @@
 								}
 								?>
 								
-								<span class="dropcap">L</span>
+								<span class="dropcap">K</span>
 								Kakiatna Group is a conglomerate of companies whose range of operations span in various industries such as
 								Energy, Food & Beverages, IT, Mobile Applications, Healthcare, Independent Power Producer, Engineering and
 								Construction and Logistic. Kakiatna Group is managed under the parent company of PT. Kakiatna Indonesia, a

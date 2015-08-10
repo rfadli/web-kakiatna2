@@ -19,6 +19,7 @@
 										<?php
 										foreach ($mhistory as $key) 
 										{
+											echo '<h5>'.$key['title'].'</h5>';
 											echo $key['content'];
 										}
 										?>

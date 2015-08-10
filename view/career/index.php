@@ -68,12 +68,9 @@
 														}
 														else
 														{
-															echo '<div class="question">';
-															echo '<h5><span class="icon"><i class="icon-right-open"></i></span>'.$key['title'].'</h5>';
-															echo '<div class="answer">';
+															
 															echo 'Sorry, there are currently no open positions';
-															echo '</div>';
-															echo '</div>';
+															
 														}
 														
 														

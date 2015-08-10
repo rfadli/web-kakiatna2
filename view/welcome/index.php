@@ -264,7 +264,7 @@
 										</li>
 										<li class=" last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="#" title="Client 5"><img width="155" height="80" src="upload/client_5.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
+											<a target="_blank" href="#" title="Client 5"><img width="155" height="80" src="/public/upload/client_5.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
 										</div>
 										</li>
 										<li class="last_in_row last_row last_row_mobile">

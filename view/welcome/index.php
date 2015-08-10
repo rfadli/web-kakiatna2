@@ -242,36 +242,36 @@
 							<div class="column one column_clients">
 								<div class="clients parallaxclients">
 									<ul>
-										<?php
-					                 	$curl = new Curl();
-										
-										foreach ($msubsidiaries as $key) 
-										{
-											$q = array(
-												'id' => trim($key['_id']),
-												'height' => 120,
-												'width' => 120
-											);
-											
-											$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
-											$rest = $curl->response;
-											
-											$json = json_decode($rest, TRUE);
-											
-											$url = '';
-											if($json['status'] == "OK")
-											{
-												$url = $json['url'];
-											}
-											
-											echo '<li class=" last_row">';
-											echo '<div class="client_wrapper">';
-											echo '<a target="_blank" href="#" title="'.$key['title'].'"><img src="'.$url.'" class="scale-with-grid wp-post-image" alt="client_1"/></a>';
-											echo '</div>';
-											echo '</li>';
-										
-										}
-					                    ?>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="Client 1"><img width="155" height="80" src="/public/upload/client_1.png" class="scale-with-grid wp-post-image" alt="client_1"/></a>
+										</div>
+										</li>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a href="#"><img width="155" height="80" src="/public/upload/client_2.png" class="scale-with-grid wp-post-image" alt="client_2"/></a>
+										</div>
+										</li>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="Client 3"><img width="155" height="80" src="/public/upload/client_3.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
+										</div>
+										</li>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="Client 4"><img width="155" height="80" src="/public/upload/client_4.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+										</div>
+										</li>
+										<li class=" last_row last_row_mobile">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="Client 5"><img width="155" height="80" src="upload/client_5.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
+										</div>
+										</li>
+										<li class="last_in_row last_row last_row_mobile">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="Client 6"><img width="155" height="80" src="/public/upload/client_6.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+										</div>
+										</li>
 									</ul>
 								</div>
 							</div>

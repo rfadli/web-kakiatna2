@@ -39,10 +39,10 @@
 	
 /* Selections */
 	*::-moz-selection {
-		background-color: #76B51B;
+		background-color: #565656;
 	}
 	*::selection {
-		background-color: #76B51B;		
+		background-color: #565656;		
 	}
 	
 /* Headings font */

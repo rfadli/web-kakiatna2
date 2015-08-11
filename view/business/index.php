@@ -98,6 +98,7 @@
 										<br/><br/>
 										<div class="clearfix"></div>	
 									</div>
+									<div class="clearfix"></div>	
 									
 									<div id="-7">
 										<h5 style="color:#CD171E">PT. Energi Penta Medika </h5>

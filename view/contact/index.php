@@ -9,7 +9,7 @@
 							<div class="column one column_column">
 								<br /><br /><br />
 								<div class="textcenter">
-									<img style="max-width: 230px;" src="/public/media/Master_Logo_2015_.png" alt=""/>
+									<img style="max-width: 250px;" src="/public/media/Master_Logo_2015_.png" alt=""/>
 								</div>
 							</div>
 						</div>

@@ -96,8 +96,7 @@
 												</div>
 										</div>
 										<br/><br/>
-										<div class="section_wrapper clearfix">
-										</div>	
+										<div class="clearfix"></div>	
 									</div>
 									
 									<div id="-7">

@@ -60,7 +60,6 @@
 												</div>
 										</div>
 										<br/><br/>
-										
 									</div>
 									
 									<div id="-6">
@@ -178,7 +177,6 @@
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
 										</div>
-										
 									</div>
 									
 								</div>

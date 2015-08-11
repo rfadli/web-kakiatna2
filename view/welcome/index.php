@@ -10,65 +10,22 @@
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 1 -->
-						<div class="tp-caption tp-fade" 
-							data-x="624" 
-							data-y="57"  
-							data-speed="300" 
-							data-start="500" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							>
+						<div class="tp-caption tp-fade">
 							<img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->
-						<div class="tp-caption tp-fade" 
-							data-x="91" 
-							data-y="165"  
-							data-speed="300" 
-							data-start="800" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
+						<div class="tp-caption tp-fade">
+							<img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 3 -->
-						<div class="tp-caption tp-fade" 
-							data-x="272" 
-							data-y="371"  
-							data-speed="300" 
-							data-start="1100" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
+						<div class="tp-caption tp-fade">
+							<img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 4 -->
-						<div class="tp-caption tp-fade tp-resizeme" 
-							data-x="226" 
-							data-y="473"  
-							data-speed="300" 
-							data-start="1400" 
-							data-easing="Power3.easeInOut" 
-							data-splitin="none" 
-							data-splitout="none"  
-							data-endelementdelay="0" 
-							 data-end="5700" 
-							data-endspeed="300" 
-
-							>
+						<div class="tp-caption tp-fade tp-resizeme">
 							<a href='#' class='tp-button blue small'>See offer</a> 
 						</div>
 					</li>
@@ -79,65 +36,23 @@
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 1 -->
-						<div class="tp-caption tp-fade" 
-							data-x="624" 
-							data-y="57"  
-							data-speed="300" 
-							data-start="500" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							><img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
+						<div class="tp-caption tp-fade">
+							<img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->
-						<div class="tp-caption tp-fade" 
-							data-x="91" 
-							data-y="165"  
-							data-speed="300" 
-							data-start="800" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							><img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
+						<div class="tp-caption tp-fade">
+							<img src="/public/upload/revslider/home_corporate/cake_corporate_version.png" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 3 -->
-						<div class="tp-caption tp-fade" 
-							data-x="272" 
-							data-y="371"  
-							data-speed="300" 
-							data-start="1100" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="5700" 
-							data-endspeed="300" 
-
-							><img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
+						<div class="tp-caption tp-fade" >
+							<img src="/public/upload/revslider/home_corporate/arrow_dark.png" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 4 -->
-						<div class="tp-caption tp-fade tp-resizeme" 
-						 	data-x="226" 
-						 	data-y="473"  
-							data-speed="300" 
-							data-start="1400" 
-							data-easing="Power3.easeInOut" 
-							data-splitin="none" 
-							data-splitout="none" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-						 	data-end="5700" 
-							data-endspeed="300" 
-
-							><a href='#' class='tp-button blue small'>See offer</a> 
+						<div class="tp-caption tp-fade tp-resizeme">
+							<a href='#' class='tp-button blue small'>See offer</a> 
 						</div>
 					</li>
 				</ul>

@@ -38,7 +38,6 @@ class welcome_controller extends controller
 		$limit = 1;
 		$mblog = $content->find($blog)->sort(array("time_created" => -1))->limit($limit);
 		
-		//$tw = $this->getLatestTweet();
 		$p = array(
 			'page_header' => "Dashboard",
 			'page_description' => "Dashboard",
@@ -47,13 +46,10 @@ class welcome_controller extends controller
 			'msubsidiaries' => $msubsidiaries,
 			'mnews' => $mnews,
 			'mblog' => $mblog
-			//'lastest_tweet' => $tw['text'],
-			//'lastest_tweet_time' => $tw['time'],
 		);
 		$content = $this->getView(DOCVIEW.'welcome/index.php', $p);
 		$this->addView('content', $content);
 		
-		//$this->tambah();
 		$this->render(array());
 	}
 	

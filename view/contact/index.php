@@ -7,6 +7,7 @@
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
 							<div class="column one column_column">
+								<br /><br /><br />
 								<div class="textcenter">
 									<img style="max-width: 230px;" src="/public/media/Master_Logo_2015_.png" alt=""/>
 								</div>
@@ -27,7 +28,6 @@
 							<div class="widget-area clearfix">
 								<aside id="text-3" class="widget widget_text">
 								<div class="textwidget">
-									<br /><br /><br />
 									<img width="100" height="100" src="/public/media/Address.png">
 									<hr class="hr_left hr_center">
 									<?php

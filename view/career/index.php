@@ -29,7 +29,7 @@
 												<div class="mfn-acc accordion_wrapper">
 													<?php
 													$curl = new Curl();
-													print_r($mjobs);
+													echo $mjobs;
 													die;
 													
 													if(isset($mjobs))

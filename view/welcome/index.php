@@ -20,7 +20,7 @@
 							data-endspeed="300" 
 
 							>
-							<img src="/public/images/slide/HOME1.png" alt=""> 
+							<img src="/public/images/slide/HOME1.jpg" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->

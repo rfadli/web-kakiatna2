@@ -6,7 +6,7 @@
 				<div class="section pad0" >
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
-							<div class="column one column_tabs">
+							<div class="column one column_tabs" style="border:0">
 								<div class="jq-tabs tabs_wrapper tabs_vertical tabs_big_icon">
 									<ul>
 										<!--center><h5 style="color:#CD171E">CAREER</h5></center-->

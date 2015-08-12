@@ -158,7 +158,7 @@
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
 							<div class="column one column_column">
-								<h3>WE ARE HERE TO <span class="highlight highlight_image">MAKE A REAL DIFFERENCE</span>
+								<h3>Commitment for A<span class="highlight highlight_image">Change</span>
 								</h3>
 							</div>
 						</div>
@@ -170,17 +170,9 @@
 					<div class="section_wrapper clearfix">
 						<div class="items_group ">
 							<div class="column one column_column">
-								<?php
-								foreach ($mcontent as $key ) 
-								{
-									echo '<h4>';
-									echo $key['title'];
-									echo '</h4>';	
-								}
-								?>
-								
+								<!--h4></h4-->
 								<span class="dropcap">K</span>
-								Kakiatna Group is a conglomerate of companies whose range of operations span in various industries such as
+								Akiatna Group is a conglomerate of companies whose range of operations span in various industries such as
 								Energy, Food & Beverages, IT, Mobile Applications, Healthcare, Independent Power Producer, Engineering and
 								Construction and Logistic. Kakiatna Group is managed under the parent company of PT. Kakiatna Indonesia, a
 								Jakarta based company. PT. Kakiatna Indonesia was founded in 2009 under a different name, PT. Gizania Group.

@@ -36,7 +36,7 @@
 									</div>
 									
 									
-									<div id="-5" style="border:20">
+									<div id="-5" style="border:0">
 										<h4 style="color:#CD171E"><u>ENERGY</u></h4>
 										<br />
 										

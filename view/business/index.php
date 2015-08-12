@@ -74,6 +74,9 @@
 									</div>
 									
 									<div id="-6">
+										<h5 style="color:#CD171E">IT & Digital Service</h5>
+										<br />
+										
 										<h5 style="color:#CD171E">PT. Rise Infobisnis Semesta Ekasolusi</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Rise Infobisnis Semesta Ekasolusi is a retail consultant and IT solution company. <br/><br/>

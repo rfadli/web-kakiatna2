@@ -13,7 +13,7 @@
 										<li><a href="#-5"><img width="50" height="50" src="/public/media/Power_Plant.png"><br />Energy</a></li>
 										<li><a href="#-6"><img width="50" height="50" src="/public/media/IT _Digital Service.png"><br />IT & Digital Services</a></li>
 										<li><a href="#-7"><img width="50" height="50" src="/public/media/Healthcare.png"><br />Healthcare</a></li>
-										<li><a href="#-8"><img width="50" height="50" src="/public/media/Food_Beverage.png"><br />Food & Breverages</a></li>
+										<li><a href="#-8"><img width="50" height="50" src="/public/media/Food_Beverage.png"><br />Food & Beverages</a></li>
 										<li><a href="#-9"><img width="50" height="50" src="/public/media/Entertainment.png"><br />Entertainment</a></li>
 										<li><a href="#-10"><img width="50" height="50" src="/public/media/Logistic_SCM.png"><br />Logistic & SCM</a></li>
 										<li><a href="#-11"><img width="50" height="50" src="/public/media/Property_Management.png"><br />Property Management</a></li>
@@ -127,7 +127,7 @@
 									</div>
 									
 									<div id="-8">
-										<h5 style="color:#CD171E">FOOD & BREVERAGES</h5>
+										<h5 style="color:#CD171E">FOOD & BEVERAGES</h5>
 										<br />
 										
 										<h5 style="color:#CD171E">PT. Retail Usaha Mandiri</h5>

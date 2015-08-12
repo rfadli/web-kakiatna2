@@ -187,11 +187,11 @@
 				<div class="section aboutcorporate">
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
-							
+							<div class="colum ncolumn_column" style="width: 10%"></div>
 							<?php
 							foreach ($mblog as $key) 
 							{
-								echo '<div class="column one-second column_column">';
+								echo '<div class="column one-third column_column">';
 								//echo '<img width="100" height="100" src="/public/media/Blog.png">';
 								echo '<h3>Blog</h3>';
 								echo '<hr class="hr_left">';
@@ -209,7 +209,7 @@
 							<?php
 							foreach ($mnews as $key) 
 							{
-								echo '<div class="column one-second column_column">';
+								echo '<div class="column one-third column_column">';
 								//echo '<img width="100" height="100" src="/public/media/News.png">';
 								echo '<h3>News</h3>';
 								echo '<hr class="hr_left">';
@@ -221,6 +221,7 @@
 								echo '</div>';
 							}
 							?>
+							<div class="colum ncolumn_column" style="width: 10%"></div>
 						</div>
 					</div>
 				</div>

@@ -36,7 +36,7 @@
 									</div>
 									
 									<div id="-5">
-										<h3 style="color:#CD171E">ENERGY</h3>
+										<h4 style="color:#CD171E">ENERGY</h4>
 										<br />
 										
 										<h5 style="color:#CD171E">PT.Kakiatna Energi</h5>

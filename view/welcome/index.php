@@ -252,17 +252,29 @@
 										</li>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="#" title="Client 4"><img width="155" height="80" src="/public/upload/client_4.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+											<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT. Kakiatna Logistik"><img width="155" height="80" src="/public/images/logo/kakiatnalogistik.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 										</div>
 										</li>
 										<li class=" last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="#" title="Client 5"><img width="155" height="80" src="/public/upload/client_5.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
+											<a target="_blank" href="#" title="PT. Nusantara Energi Mandiri"><img width="155" height="80" src="/public/images/logo/Nusantar.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
 										</div>
 										</li>
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="#" title="Client 6"><img width="155" height="80" src="/public/upload/client_6.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+											<a target="_blank" href="http://www.rumindonesia.com/" title="PT. Retail Usaha Mandiri"><img width="155" height="80" src="/public/images/logo/RUM.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+										</div>
+										</li>
+										<div class="column one-third column_column"></div>
+											
+										<li class="last_in_row last_row last_row_mobile">
+										<div class="client_wrapper">
+											<a target="_blank" href="http://www.thedjakartaclinic.com/" title="PT. Energi Penta Medika"><img width="155" height="80" src="/public/images/logo/EPM.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+										</div>
+										</li>
+										<li class="last_in_row last_row last_row_mobile">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="PT. Kaninga Sinema Indonesia"><img width="155" height="80" src="/public/images/logo/Kaninga.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
 									</ul>

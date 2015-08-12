@@ -17,7 +17,7 @@
 										<?php
 										foreach ($mwhywork as $key) 
 										{
-											echo '<h5>WHY WORK WITH US?</h5><br />';
+											echo '<h5 style="color:#CD171E">WHY WORK WITH US?</h5><br />';
 											echo $key['content'];
 										}
 										?>

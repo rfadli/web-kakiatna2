@@ -237,7 +237,7 @@
 									<ul>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="#" title="Client 1"><img width="155" height="80" src="/public/upload/client_1.png" class="scale-with-grid wp-post-image" alt="client_1"/></a>
+											<a target="_blank" href="www.digitama.com" title="PT.Digita Media Utama"><img width="155" height="80" src="/public/images/logo/Digitama.jpg" class="scale-with-grid wp-post-image" alt="client_1"/></a>
 										</div>
 										</li>
 										<li class=" last_row">

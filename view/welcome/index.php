@@ -247,7 +247,7 @@
 										</li>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="#" title="Client 3"><img width="155" height="80" src="/public/upload/client_3.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
+											<a target="_blank" href="kakiatnaenergi.co.id" title="PT. Kakiatna Energi"><img width="155" height="80" src="/public/images/logo/kakiatnaenergi.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
 										</div>
 										</li>
 										<li class=" last_row">

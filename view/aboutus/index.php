@@ -11,9 +11,9 @@
 							<div class="column one column_tabs">
 								<div class="jq-tabs tabs_wrapper tabs_vertical tabs_big_icon">
 									<ul>
-										<li><a href="#-10"><img width="50" height="50" src="/public/media/History.png"><br />HISTORY</a></li>
-										<li><a href="#-11"><img width="50" height="50" src="/public/media/Words_from_CEO.png"><br />WORDS FROM OUR CEO</i></a></li>
-										<li><a href="#-12"><img width="50" height="50" src="/public/media/Value.png"><br />VISION, MISSION AND VALUES</a></li>
+										<li><a href="#-10"><img width="50" height="50" src="/public/media/History.png"><br />History</a></li>
+										<li><a href="#-11"><img width="50" height="50" src="/public/media/Words_from_CEO.png"><br />Words from Our CEO</i></a></li>
+										<li><a href="#-12"><img width="50" height="50" src="/public/media/Value.png"><br />Vision, Mission and Values</a></li>
 									</ul>
 									<div id="-10">
 										<?php

@@ -73,7 +73,7 @@
 							data-easing="Power3.easeInOut" 
 							data-elementdelay="0" 
 							data-endelementdelay="0" 
-							data-end="5700" 
+							data-end="500" 
 							data-endspeed="300" 
 
 							><img width="1200" height="570" src="/public/images/slide/HOME3.jpg" alt=""> 

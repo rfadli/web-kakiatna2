@@ -17,6 +17,7 @@
 										<?php
 										foreach ($mwhywork as $key) 
 										{
+											echo '<h5>WHY WORK WITH US?</h5><br />';
 											echo $key['content'];
 										}
 										?>

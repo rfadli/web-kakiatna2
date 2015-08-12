@@ -15,7 +15,7 @@
 										<li><a href="#-11"><img width="50" height="50" src="/public/media/Words_from_CEO.png"><br />Words from Our CEO</i></a></li>
 										<li><a href="#-12"><img width="50" height="50" src="/public/media/Value.png"><br />Vision, Mission and Values</a></li>
 									</ul>
-									<div id="-10">
+									<div id="-10" style="border:0">
 										<?php
 										foreach ($mhistory as $key) 
 										{
@@ -24,7 +24,7 @@
 										}
 										?>
 									</div>
-									<div id="-11">
+									<div id="-11" style="border:0">
 										<?php
 										foreach ($mwordsceo as $key) 
 										{
@@ -33,7 +33,7 @@
 										}
 										?>
 									</div>
-									<div id="-12">
+									<div id="-12" style="border:0">
 										
 										<?php
 										foreach ($mvision as $key) 

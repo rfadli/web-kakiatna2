@@ -33,7 +33,7 @@
 						
 					</li>
 					<!-- SLIDE  -->
-					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="1"  data-saveperformance="off" >
 						<!-- MAIN IMAGE -->
 						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
 						<!-- LAYERS -->
@@ -61,7 +61,7 @@
 						
 					</li>
 					
-					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="1"  data-saveperformance="off" >
 						<!-- MAIN IMAGE -->
 						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
 						<!-- LAYERS -->

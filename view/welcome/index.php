@@ -1,4 +1,4 @@
-	<div id="mfn-rev-slider">
+	<div id="mfn-rev-slider" style="background-color: #FFFFFF">
 		<div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullscreen-container pd0">
 		<!-- START REVOLUTION SLIDER 4.6.9 fullscreen mode -->
 			<div id="rev_slider_4_1" class="rev_slider fullscreenbanner dnone">

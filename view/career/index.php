@@ -26,7 +26,7 @@
 										<div class="column one column_accordion">
 											<div class="accordion">
 												<h4 style="color:#CD171E" class="title">JOB VACANCY</h4>
-												<div class="mfn-acc accordion_wrapper">
+												
 													<?php
 													$curl = new Curl();
 													
@@ -51,6 +51,7 @@
 																$url = $json['url'];
 															}
 															
+															echo '<div class="mfn-acc accordion_wrapper">';
 															echo '<div class="question">';
 															echo '<h5><span class="icon"><i class="icon-right-open"></i></span>'.$key['title'].'</h5>';
 															echo '<div class="answer">';
@@ -66,23 +67,24 @@
 															echo $key['content'];
 															echo '</div>';
 															echo '</div>';
+															echo '</div>';
 															
 														}
 													}
 													else
 													{
+														echo '<div class="mfn-acc accordion_wrapper">';
 														echo '<div class="question">';
 														echo '<h5><span class="icon"><i class="icon-right-open"></i></span>Test</h5>';
 														echo '<div class="answer">';
 														echo 'test';
 														echo '</div>';
 														echo '</div>';
-														echo '</div>';	
+														echo '</div>';
 													}
 													
 													
 													?>
-												</div>
 											</div>
 										</div>
 									</div>

@@ -8,7 +8,7 @@
 						<div class="items_group clearfix">
 							<div class="column one column_tabs">
 								<div class="jq-tabs tabs_wrapper tabs_vertical tabs_big_icon">
-									<ul style="border-left-color: #bbbbbb">
+									<ul style="border-left-color: #0073AA">
 										<li><a href="#-4" style="color:#CD171E">Overview</a></li>
 										<li><a href="#-5"><img width="50" height="50" src="/public/media/Power_Plant.png"><br />Energy</a></li>
 										<li><a href="#-6"><img width="50" height="50" src="/public/media/IT _Digital Service.png"><br />IT & Digital Services</a></li>

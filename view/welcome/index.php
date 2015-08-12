@@ -30,21 +30,7 @@
 						
 
 						<!-- LAYER NR. 4 -->
-						<div class="tp-caption tp-fade tp-resizeme" 
-							data-x="226" 
-							data-y="473"  
-							data-speed="300" 
-							data-start="1400" 
-							data-easing="Power3.easeInOut" 
-							data-splitin="none" 
-							data-splitout="none"  
-							data-endelementdelay="0" 
-							 data-end="5700" 
-							data-endspeed="300" 
-
-							>
-							<a href='#' class='tp-button blue small'>See offer</a> 
-						</div>
+						
 					</li>
 					<!-- SLIDE  -->
 					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >

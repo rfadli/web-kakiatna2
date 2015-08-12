@@ -4,9 +4,9 @@
 			<div id="rev_slider_4_1" class="rev_slider fullscreenbanner dnone">
 				<ul>	
 					<!-- SLIDE  -->
-					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="1"  data-saveperformance="off" >
 						<!-- MAIN IMAGE -->
-						<img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 1 -->
@@ -35,7 +35,7 @@
 					<!-- SLIDE  -->
 					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
 						<!-- MAIN IMAGE -->
-						<img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 1 -->
@@ -63,7 +63,7 @@
 					
 					<li data-transition="notransition" data-slotamount="1" data-masterspeed="100"  data-saveperformance="off" >
 						<!-- MAIN IMAGE -->
-						<img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 1 -->

@@ -20,7 +20,7 @@
 							data-endspeed="300" 
 
 							>
-							<img width="1400" height="900" src="/public/images/slide/HOME1.jpg" alt=""> 
+							<img width="1300" height="900" src="/public/images/slide/HOME1.jpg" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->
@@ -48,7 +48,7 @@
 							data-end="5700" 
 							data-endspeed="300" 
 
-							><img width="1400" height="900" src="/public/images/slide/HOME2.jpg" alt=""> 
+							><img width="1300" height="900" src="/public/images/slide/HOME2.jpg" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->
@@ -76,7 +76,7 @@
 							data-end="5700" 
 							data-endspeed="300" 
 
-							><img width="1400" height="900" src="/public/images/slide/HOME3.jpg" alt=""> 
+							><img width="1300" height="900" src="/public/images/slide/HOME3.jpg" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->

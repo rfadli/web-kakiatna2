@@ -29,14 +29,12 @@
 												<div class="mfn-acc accordion_wrapper">
 													<?php
 													$curl = new Curl();
-													echo $mjobs;
-													die;
 													
-													if(isset($mjobs))
+													foreach ($mjobs as $key) 
 													{
-														foreach ($mjobs as $key) 
+														if(isset($key['content']))
 														{
-															$q = array(
+																$q = array(
 																'id' => trim($key['_id']),
 																'height' => 120,
 																'width' => 120
@@ -68,18 +66,20 @@
 															echo $key['content'];
 															echo '</div>';
 															echo '</div>';
-															
 														}
+														else
+															{
+																echo '<div class="question">';
+																echo '<h5><span class="icon"><i class="icon-right-open"></i></span>test</h5>';
+																echo '<div class="answer">';
+																echo 'test';
+																echo '</div>';
+																echo '</div>';
+															}
+														
+														
 													}
-													else
-													{
-														echo '<div class="question">';
-														echo '<h5><span class="icon"><i class="icon-right-open"></i></span>Test</h5>';
-														echo '<div class="answer">';
-														echo 'test';
-														echo '</div>';
-														echo '</div>';
-													}
+													
 													
 													
 													?>

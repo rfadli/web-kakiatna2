@@ -30,27 +30,27 @@
 													<?php
 													$curl = new Curl();
 													
-													foreach ($mjobs as $key) 
+													if(isset($mjobs))
 													{
-														$q = array(
-															'id' => trim($key['_id']),
-															'height' => 120,
-															'width' => 120
-														);
-														
-														$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
-														$rest = $curl->response;
-														
-														$json = json_decode($rest, TRUE);
-														
-														$url = '';
-														if($json['status'] == "OK")
+														foreach ($mjobs as $key) 
 														{
-															$url = $json['url'];
-														}
-														
-														if(isset($key['content']))
-														{
+															$q = array(
+																'id' => trim($key['_id']),
+																'height' => 120,
+																'width' => 120
+															);
+															
+															$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
+															$rest = $curl->response;
+															
+															$json = json_decode($rest, TRUE);
+															
+															$url = '';
+															if($json['status'] == "OK")
+															{
+																$url = $json['url'];
+															}
+															
 															echo '<div class="question">';
 															echo '<h5><span class="icon"><i class="icon-right-open"></i></span>'.$key['title'].'</h5>';
 															echo '<div class="answer">';
@@ -66,20 +66,15 @@
 															echo $key['content'];
 															echo '</div>';
 															echo '</div>';
+															
 														}
-														else
-														{
-															echo '<div class="question">';
-															echo '<h5><span class="icon"><i class="icon-right-open"></i></span>'.$key['title'].'</h5>';
-															echo '<div class="answer">';
-															echo 'Sorry, there are currently no open positions';
-															echo '</div>';
-															echo '</div>';
-														}
-														
-														
-														
 													}
+													else
+													{
+														echo 'belum ada';	
+													}
+													
+													
 													?>
 												</div>
 											</div>

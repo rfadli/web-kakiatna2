@@ -187,7 +187,7 @@
 				<div class="section aboutcorporate">
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
-							<div class="colum ncolumn_column" style="width: 10%"></div>
+							<div class="colum column_column" style="width: 10%"></div>
 							<?php
 							foreach ($mblog as $key) 
 							{
@@ -221,7 +221,7 @@
 								echo '</div>';
 							}
 							?>
-							<div class="colum ncolumn_column" style="width: 10%"></div>
+							<div class="colum column_column" style="width: 10%"></div>
 						</div>
 					</div>
 				</div>

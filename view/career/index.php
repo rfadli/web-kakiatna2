@@ -13,7 +13,7 @@
 										<li><a href="#-4"><img width="50" height="50" src="/public/media/Why_work_with_us.png"><br/> Why work with us?</a></li>
 										<li><a href="#-5"><img width="50" height="50" src="/public/media/Job_Vacancy.png"><br/> Job Vacancy</a></li>
 									</ul>
-									<div id="-4">
+									<div id="-4" style="border:0">
 										<?php
 										foreach ($mwhywork as $key) 
 										{
@@ -22,7 +22,7 @@
 										}
 										?>
 									</div>
-									<div id="-5">
+									<div id="-5" style="border:0">
 										<div class="column one column_accordion">
 											<div class="accordion">
 												<h4 style="color:#CD171E" class="title">JOB VACANCY</h4>

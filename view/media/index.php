@@ -16,7 +16,7 @@
 										<li><a href="#-6"><img width="50" height="50" src="/public/media/Press_Release.png"><br />Press Release</a></li>
 										
 									</ul>
-									<div id="-4">
+									<div id="-4" style="border:0">
 										<?php
 										foreach ($mnews as $key) 
 										{
@@ -38,7 +38,7 @@
 										</div>
 										
 									</div>
-									<div id="-5">
+									<div id="-5" style="border:0">
 										<?php
 										foreach ($mblog as $key ) 
 										{
@@ -59,7 +59,7 @@
 										</div>
 									
 									</div>
-									<div id="-6">
+									<div id="-6" style="border:0">
 										<?php
 										echo '<h5 style="color:#CD171E">';
 										echo $mpress_release['title'];
@@ -67,7 +67,7 @@
 										echo $mpress_release['content'];
 										?>
 									</div>
-									<div id="-7">
+									<div id="-7" style="border:0">
 										<?php
 										echo '<h5 style="color:#CD171E">';
 										echo $mpress_kit['title'];

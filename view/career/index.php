@@ -76,6 +76,7 @@
 														echo '<div class="answer">';
 														echo 'test';
 														echo '</div>';
+														echo '</div>';
 														echo '</div>';	
 													}
 													

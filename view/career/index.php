@@ -71,7 +71,12 @@
 													}
 													else
 													{
-														echo 'belum ada';	
+														echo '<div class="question">';
+														echo '<h5><span class="icon"><i class="icon-right-open"></i></span>Test</h5>';
+														echo '<div class="answer">';
+														echo 'test';
+														echo '</div>';
+														echo '</div>';	
 													}
 													
 													

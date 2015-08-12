@@ -74,7 +74,7 @@
 									</div>
 									
 									<div id="-6">
-										<h5 style="color:#CD171E">IT & Digital Service</h5>
+										<h5 style="color:#CD171E">IT & DIGITAL SERVICE</h5>
 										<br />
 										
 										<h5 style="color:#CD171E">PT. Rise Infobisnis Semesta Ekasolusi</h5>
@@ -112,6 +112,9 @@
 									
 									
 									<div id="-7">
+										<h5 style="color:#CD171E">HEALTHCARE</h5>
+										<br />
+										
 										<h5 style="color:#CD171E">PT. Energi Penta Medika </h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										PT. Energi Penta Medika is a healtchare company behind “The Djakarta Clinic”, a hemodialysis clinic slates to open in 2016.<br/>
@@ -124,6 +127,9 @@
 									</div>
 									
 									<div id="-8">
+										<h5 style="color:#CD171E">FOOD & BREVERAGES</h5>
+										<br />
+										
 										<h5 style="color:#CD171E">PT. Retail Usaha Mandiri</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Retail Usaha Mandiri is a restaurant chain company with “Bebek Edan Cak Topa” as its flagship restaurant. <br/>
@@ -136,6 +142,9 @@
 									</div>
 									
 									<div id="-9">
+										<h5 style="color:#CD171E">ENTERTAINMENT</h5>
+										<br />
+										
 										<h5 style="color:#CD171E">PT. Kaninga Sinema Indonesia</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kaninga Sinema Indonesia is an integrated entertainment & showbusiness company. It was founded as a production house for Indonesian films, but along the way it expanded its business into films distribution and theatres.  <br/>
@@ -148,6 +157,9 @@
 									</div>
 									
 									<div id="-10">
+										<h5 style="color:#CD171E">LOGISTIC & SCM</h5>
+										<br />
+										
 										<h5 style="color:#CD171E">PT. Kakiatna Logistik</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Logistik is a freight forwarding company. <br/>
@@ -160,6 +172,9 @@
 									</div>
 									
 									<div id="-11">
+										<h5 style="color:#CD171E">PROPERTY MANAGEMENT</h5>
+										<br />
+										
 										<h5 style="color:#CD171E">PT. Kakiatna Digitama</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Digitama is a property management company. <br/>
@@ -172,6 +187,9 @@
 									</div>
 									
 									<div id="-12">
+										<h5 style="color:#CD171E">ENGINEERING & CONSTRUCTION</h5>
+										<br />
+										
 										<h5 style="color:#CD171E">PT. Kakiatna Enjiniring</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Enjiniring is a technical consultant with expertise in power plant project consultation.  <br/>

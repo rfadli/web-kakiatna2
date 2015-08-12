@@ -8,7 +8,7 @@
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
 							
-							<div class="column one column_tabs">
+							<div class="column one column_tabs" style="border:0">
 								<div class="jq-tabs tabs_wrapper tabs_vertical tabs_big_icon">
 									<ul>
 										<li><a href="#-10"><img width="50" height="50" src="/public/media/History.png"><br />History</a></li>

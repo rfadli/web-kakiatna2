@@ -20,7 +20,7 @@
 							data-endspeed="300" 
 
 							>
-							<img src="/public/upload/revslider/home_corporate/girl.png" alt=""> 
+							<img src="/public/upload/images/slide/HOME.png" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->

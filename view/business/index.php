@@ -23,7 +23,7 @@
 									<div id="-4">
 										<h5 style="color:#CD171E">OVERVIEW</h5>
 										 Kakiatna Indonesia subsidiaries consist of 13 companies of various business sectors, from Energy to IT & Digital Services. Through these wide range of sectors, Kakiatna Indonesia hopes to bring a real and significant improvement to the people of Indonesia.<br />
-										 Kakiatna Indonesia business areas includes:<br />
+										 Kakiatna Indonesia business areas includes:<br /><br />
 										 - Energy <br />
 										 - IT & Digital Service <br />
 										 - Healthcare <br />

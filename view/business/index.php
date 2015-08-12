@@ -36,7 +36,7 @@
 									</div>
 									
 									
-									<div id="-5">
+									<div id="-5" style="border:0">
 										<h4 style="color:#CD171E"><u>ENERGY</u></h4>
 										<br />
 										
@@ -74,7 +74,7 @@
 										<br/><br/>
 									</div>
 									
-									<div id="-6">
+									<div id="-6" style="border:0">
 										<h5 style="color:#CD171E">IT & DIGITAL SERVICE</h5>
 										<br />
 										
@@ -112,7 +112,7 @@
 									</div>
 									
 									
-									<div id="-7">
+									<div id="-7" style="border:0">
 										<h5 style="color:#CD171E">HEALTHCARE</h5>
 										<br />
 										
@@ -127,7 +127,7 @@
 										</div>
 									</div>
 									
-									<div id="-8">
+									<div id="-8" style="border:0">
 										<h5 style="color:#CD171E">FOOD & BEVERAGES</h5>
 										<br />
 										
@@ -142,7 +142,7 @@
 										</div>
 									</div>
 									
-									<div id="-9">
+									<div id="-9" style="border:0">
 										<h5 style="color:#CD171E">ENTERTAINMENT</h5>
 										<br />
 										
@@ -157,7 +157,7 @@
 										</div>
 									</div>
 									
-									<div id="-10">
+									<div id="-10" style="border:0">
 										<h5 style="color:#CD171E">LOGISTIC & SCM</h5>
 										<br />
 										
@@ -172,7 +172,7 @@
 										</div>
 									</div>
 									
-									<div id="-11">
+									<div id="-11" style="border:0">
 										<h5 style="color:#CD171E">PROPERTY MANAGEMENT</h5>
 										<br />
 										
@@ -187,7 +187,7 @@
 										</div>
 									</div>
 									
-									<div id="-12">
+									<div id="-12" style="border:0">
 										<h5 style="color:#CD171E">ENGINEERING & CONSTRUCTION</h5>
 										<br />
 										

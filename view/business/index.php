@@ -32,8 +32,9 @@
 										 - Food & Beverage <br />
 										 - Property Management <br />
 										 - Engineering & Construction <br/>
-										<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+										
 									</div>
+									<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 									
 									<div id="-5">
 										<h4 style="color:#CD171E"><u>ENERGY</u></h4>

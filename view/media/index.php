@@ -9,11 +9,11 @@
 							<div class="column one column_tabs">
 								<div class="jq-tabs tabs_wrapper tabs_vertical tabs_big_icon">
 									<ul>
-										<center><h5 style="color:#CD171E">MEDIA</h5></center>
-										<li><a href="#-4"><img width="50" height="50" src="/public/media/News.png"></a></li>
-										<li><a href="#-5"><img width="50" height="50" src="/public/media/Blog.png"></a></li>
-										<li><a href="#-6"><img width="50" height="50" src="/public/media/Press_Release.png"></a></li>
-										<li><a href="#-7"><img width="50" height="50" src="/public/media/Press_Kit.png"></a></li>
+										<!--center><h5 style="color:#CD171E">MEDIA</h5></center-->
+										<li><a href="#-4"><img width="50" height="50" src="/public/media/News.png"><br />News</a></li>
+										<li><a href="#-5"><img width="50" height="50" src="/public/media/Blog.png"><br /> Blog</a></li>
+										<li><a href="#-6"><img width="50" height="50" src="/public/media/Press_Release.png"><br />Press Release</a></li>
+										<li><a href="#-7"><img width="50" height="50" src="/public/media/Press_Kit.png"><br />Press Kit</a></li>
 									</ul>
 									<div id="-4">
 										<?php

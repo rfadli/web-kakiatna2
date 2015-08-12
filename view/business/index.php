@@ -74,7 +74,7 @@
 									</div>
 									
 									<div id="-6">
-										<h5 style="color:#CD171E"><b>IT & Digital Service</b></h5>
+										<h5 style="color:#CD171E">IT & Digital Service</h5>
 										<br />
 										
 										<h5 style="color:#CD171E">PT. Rise Infobisnis Semesta Ekasolusi</h5>

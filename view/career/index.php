@@ -12,6 +12,8 @@
 										<!--center><h5 style="color:#CD171E">CAREER</h5></center-->
 										<li><a href="#-4"><img width="50" height="50" src="/public/media/Why_work_with_us.png"><br/> Why work with us?</a></li>
 										<li><a href="#-5"><img width="50" height="50" src="/public/media/Job_Vacancy.png"><br/> Job Vacancy</a></li>
+										<div class="items_group clearfix">
+										</div>
 									</ul>
 									<div id="-4" style="border:0">
 										<?php

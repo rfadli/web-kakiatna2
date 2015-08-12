@@ -9,7 +9,7 @@
 							<div class="column one column_tabs">
 								<div class="jq-tabs tabs_wrapper tabs_vertical tabs_big_icon">
 									<ul>
-										<li><a href="#-4" style="color:#CD171E">OVERVIEW</a></li>
+										<li><a href="#-4" style="color:#CD171E">Overview</a></li>
 										<li><a href="#-5"><img width="50" height="50" src="/public/media/Power_Plant.png"><br />Energy</a></li>
 										<li><a href="#-6"><img width="50" height="50" src="/public/media/IT _Digital Service.png"><br />IT&Digital Services</a></li>
 										<li><a href="#-7"><img width="50" height="50" src="/public/media/Healthcare.png"><br />Healthcare</a></li>
@@ -21,10 +21,18 @@
 									</ul>
 									
 									<div id="-4">
-										<h5 style="color:#CD171E">Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis.</h5>
-										 Phasellus ultricies ipsum urna, et consequat massa mattis quis. Praesent quis tortor tortor. Phasellus eget elementum nunc, adipiscing malesuada neque. Sed tempus augue vitae ligula tincidunt, a vestibulum justo mattis. Nulla vel leo gravida, congue nibh vitae, auctor ante. Sed a dictum tortor. <br/>
-										<br/>
-										Quisque ac ipsum et orci accumsan dignissim. Cras dignissim urna ut quam facilisis iaculis. Nullam a lacinia sem. Praesent eu viverra mauris. Nullam ut lectus posuere, egestas lorem eget, commodo purus. Vivamus vitae sollicitudin quam. Mauris vel lobortis enim. Nulla facilisi.
+										<h5 style="color:#CD171E">OVERVIEW</h5>
+										 Kakiatna Indonesia’s subsidiaries consist of 13 companies of various business sectors, from Energy to IT & Digital Services. Through these wide range of sectors, Kakiatna Indonesia hopes to bring a real and significant improvement to the people of Indonesia.
+										 Kakiatna Indonesia business areas includes:<br />
+										 - Energy (link ke subpage-nya)
+										 - IT & Digital Service (link ke subpage-nya)
+										 - Healthcare (link ke subpage-nya)
+										 - Entertainment (link ke subpage-nya)
+										 - Logistic & SCM (link ke subpage-nya)
+										 - Food & Beverage (link ke subpage-nya)
+										 - Property Management (link ke subpage-nya)
+										 - Engineering & Construction (link ke subpage-nya)<br/>
+										
 									</div>
 									
 									<div id="-5">

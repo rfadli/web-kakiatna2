@@ -68,14 +68,10 @@
 															echo '</div>';
 														}
 														else
-															{
-																echo '<div class="question">';
-																echo '<h5><span class="icon"><i class="icon-right-open"></i></span>test</h5>';
-																echo '<div class="answer">';
-																echo 'test';
-																echo '</div>';
-																echo '</div>';
-															}
+														{
+															
+															echo 'test';
+														}
 														
 														
 													}

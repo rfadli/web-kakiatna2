@@ -34,7 +34,6 @@
 										?>
 									</div>
 									<div id="-12" style="border:0">
-										
 										<?php
 										foreach ($mvision as $key) 
 										{

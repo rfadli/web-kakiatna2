@@ -23,7 +23,7 @@
 
 .tabs_big_icon.ui-tabs .ui-tabs-nav { text-align: left; }
 .tabs_big_icon.ui-tabs .ui-tabs-nav li { margin: 0; text-align: center; border-width: 1px 1px 0 0; bottom: -1px; }
-.tabs_big_icon.ui-tabs .ui-tabs-nav li:first-child { border-left-width: 1px; }
+.tabs_big_icon.ui-tabs .ui-tabs-nav li:first-child { border-left-width: 0px; }
 .tabs_big_icon.ui-tabs .ui-tabs-nav li a { padding: 20px 30px; }
 .tabs_big_icon.ui-tabs .ui-tabs-nav li a i { display: block; margin-bottom: 10px; font-size: 30px; line-height: 30px; }
 

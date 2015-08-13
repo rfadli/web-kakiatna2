@@ -91,7 +91,7 @@
 					
 				</ul>
 				<h3>Commitment for A <span class="highlight highlight_image">Change</span>
-					<br />
+					<br /><br /><br /><br />
 				<div class="tp-bannertimer tp-bottom" ></div>	
 			</div>
 			

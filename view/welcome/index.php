@@ -12,7 +12,7 @@
 						<!-- LAYER NR. 1 -->
 						<div class="tp-caption tp-fade"
 							data-speed="20" 
-							data-start="500" 
+							data-start="600" 
 							data-easing="Power3.easeInOut" 
 							data-elementdelay="0" 
 							data-endelementdelay="0" 
@@ -41,7 +41,7 @@
 						<!-- LAYER NR. 1 -->
 						<div class="tp-caption tp-fade"
 							data-speed="20" 
-							data-start="500" 
+							data-start="600" 
 							data-easing="Power3.easeInOut" 
 							data-elementdelay="0" 
 							data-endelementdelay="0" 
@@ -69,7 +69,7 @@
 						<!-- LAYER NR. 1 -->
 						<div class="tp-caption tp-fade"
 							data-speed="20" 
-							data-start="500" 
+							data-start="600" 
 							data-easing="Power3.easeInOut" 
 							data-elementdelay="0" 
 							data-endelementdelay="0" 

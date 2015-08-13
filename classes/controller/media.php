@@ -3,7 +3,7 @@ class media_controller extends controller
 {
 	public function index()
 	{
-		$id = $_GET['id'];
+		//$id = $_GET['id'];
 		
 		$page = "";
 		if (isset($_GET['page']))
@@ -29,7 +29,7 @@ class media_controller extends controller
 		//$mcontent = $content->find($q);
 		
 		$pg = new Pagination();
-		$pg -> pag_url = "/media/index?id=".$id.'&page=';
+		$pg -> pag_url = "/media/index?".'&page=';
 		$pg -> calculate_pages($count, $docs_per_page, $page);
 		
 		$blog = array(

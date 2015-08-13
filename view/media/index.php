@@ -45,6 +45,7 @@
 											echo '<div class="post-footer">';
 											echo '<a href="/contentdetil/index?id='.$key['_id'] .'" class="post-more">Read more</a>';
 											echo '</div>';
+											echo '<br />';
 										}
 										
 										?>

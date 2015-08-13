@@ -6,8 +6,8 @@ class media_controller extends controller
 		//$id = $_GET['id'];
 		
 		$page = "";
-		if (isset($_GET['page']['#-5']))
-			$page = $_GET['page']['#-5'];
+		if (isset($_GET['page']))
+			$page = $_GET['page'];
 		
 		if(strlen(trim($page)) > 0)
 			$page = intval($page);

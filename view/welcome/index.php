@@ -104,7 +104,7 @@
 			<!-- .sections_group -->
 			<div class="sections_group">
 
-				<!--div class="section dark center grey-bg"-->
+				<div class="section dark center">
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
 							<div class="column one column_column">
@@ -113,7 +113,7 @@
 							</div>
 						</div>
 					</div>
-				<!--/div-->
+				</div>
 				
 				<br />
 				<div class="section pad0" >

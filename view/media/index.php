@@ -61,6 +61,7 @@
 										?>
 									</div>
 									<div id="-7" style="border:0">
+										<a href="/public/images/bg_subheader.png" download> test</a>
 										<?php
 										echo '<h5 style="color:#CD171E">';
 										echo $mpress_kit['title'];

@@ -88,8 +88,9 @@
 						<!-- LAYER NR. 4 -->
 						
 					</li>
-					<h3>Commitment for A <span class="highlight highlight_image">Change</span>
+					
 				</ul>
+				<h3>Commitment for A <span class="highlight highlight_image">Change</span>
 				<div class="tp-bannertimer tp-bottom" ></div>	
 			</div>
 			

@@ -37,10 +37,10 @@
 									
 									
 									<div id="-5" style="border:0">
-										<h4 style="color:#CD171E"><u>ENERGY</u></h4>
+										<h4 style="color:#CD171E">ENERGY</h4>
 										<br />
 										
-										<h5 style="color:#CD171E">PT.Kakiatna Energi</h5>
+										<h5 style="color:#CD171E">Kakiatna Energi</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Energi is a private power investment and development company. With the IPP (Independent Power Producer) scheme currently being upthrust by the state electricity company to accelerate more power plant procurement in various parts of Indonesia, Kakiatna Energi aims to be the biggest private power producer in Indonesia.<br/><br/>
 										<div class="post-footer">
@@ -51,7 +51,7 @@
 										</div>
 										<br/><br/>
 										
-										<h5 style="color:#CD171E">PT. Nusantara Energi Mandiri</h5>
+										<h5 style="color:#CD171E">Nusantara Energi Mandiri</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Nusantara Energi Mandiri  is an engineering, procurement, and construction company yang secara khusus berkutat di dalam sektor power plant. Didirikan pada tahun 2008, Nusantara Energi Mandiri telah memiliki pengalaman dalam pengembangan PLTA Jatigede bersama dengan Sinohydro Co., Ltd. <br/><br/>
 										<div class="post-footer">
@@ -62,7 +62,7 @@
 										</div>
 										<br/><br/>
 										
-										<h5 style="color:#CD171E">PT. Kakiatna Energi Services</h5>
+										<h5 style="color:#CD171E">Kakiatna Energi Services</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Energi Services is a power plant operation & maintenance company. <br/><br/>
 										<div class="post-footer">
@@ -78,7 +78,7 @@
 										<h5 style="color:#CD171E">IT & DIGITAL SERVICE</h5>
 										<br />
 										
-										<h5 style="color:#CD171E">PT. Rise Infobisnis Semesta Ekasolusi</h5>
+										<h5 style="color:#CD171E">Rise Infobisnis Semesta Ekasolusi</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Rise Infobisnis Semesta Ekasolusi is a retail consultant and IT solution company. <br/><br/>
 										<div class="post-footer">
@@ -89,7 +89,7 @@
 										</div>
 										<br/><br/>
 										
-										<h5 style="color:#CD171E">PT. Digita Media Utama</h5>
+										<h5 style="color:#CD171E">Digita Media Utama</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Digita Media Utama (Digitama) is a digital media & content provider. Digitama memiliki produk digital antara lain Digishelf, sebuah e-book store, Digibeat, on-demand music streaming service, Digilive, live streaming concert platform, dan Digiumm, Islamic news and reference portal. <br/><br/>
 										<div class="post-footer">
@@ -100,7 +100,7 @@
 										</div>
 										<br/><br/>
 										
-										<h5 style="color:#CD171E">PT. Digitama Teknologi</h5>
+										<h5 style="color:#CD171E">Digitama Teknologi</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Digitama Teknologi is a mobile app developer based in Cimahi, West Java. Digitama Teknologi has developed a child game for Android and iOS<br/><br/>
 										<div class="post-footer">
@@ -116,7 +116,7 @@
 										<h5 style="color:#CD171E">HEALTHCARE</h5>
 										<br />
 										
-										<h5 style="color:#CD171E">PT. Energi Penta Medika </h5>
+										<h5 style="color:#CD171E">Energi Penta Medika </h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										PT. Energi Penta Medika is a healtchare company behind “The Djakarta Clinic”, a hemodialysis clinic slates to open in 2016.<br/>
 										<div class="post-footer">
@@ -131,7 +131,7 @@
 										<h5 style="color:#CD171E">FOOD & BEVERAGES</h5>
 										<br />
 										
-										<h5 style="color:#CD171E">PT. Retail Usaha Mandiri</h5>
+										<h5 style="color:#CD171E">Retail Usaha Mandiri</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Retail Usaha Mandiri is a restaurant chain company with “Bebek Edan Cak Topa” as its flagship restaurant. <br/>
 										<div class="post-footer">
@@ -146,7 +146,7 @@
 										<h5 style="color:#CD171E">ENTERTAINMENT</h5>
 										<br />
 										
-										<h5 style="color:#CD171E">PT. Kaninga Sinema Indonesia</h5>
+										<h5 style="color:#CD171E">Kaninga Sinema Indonesia</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kaninga Sinema Indonesia is an integrated entertainment & showbusiness company. It was founded as a production house for Indonesian films, but along the way it expanded its business into films distribution and theatres.  <br/>
 										<div class="post-footer">
@@ -161,7 +161,7 @@
 										<h5 style="color:#CD171E">LOGISTIC & SCM</h5>
 										<br />
 										
-										<h5 style="color:#CD171E">PT. Kakiatna Logistik</h5>
+										<h5 style="color:#CD171E">Kakiatna Logistik</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Logistik is a freight forwarding company. <br/>
 										<div class="post-footer">
@@ -176,7 +176,7 @@
 										<h5 style="color:#CD171E">PROPERTY MANAGEMENT</h5>
 										<br />
 										
-										<h5 style="color:#CD171E">PT. Kakiatna Digitama</h5>
+										<h5 style="color:#CD171E">Kakiatna Digitama</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Digitama is a property management company. <br/>
 										<div class="post-footer">
@@ -191,7 +191,7 @@
 										<h5 style="color:#CD171E">ENGINEERING & CONSTRUCTION</h5>
 										<br />
 										
-										<h5 style="color:#CD171E">PT. Kakiatna Enjiniring</h5>
+										<h5 style="color:#CD171E">Kakiatna Enjiniring</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Enjiniring is a technical consultant with expertise in power plant project consultation.  <br/>
 										<div class="post-footer">
@@ -201,7 +201,7 @@
 												</div>
 										</div>
 										<br/><br/>
-										<h5 style="color:#CD171E">PT. Cipta Kakiatna</h5>
+										<h5 style="color:#CD171E">Cipta Kakiatna</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Cipta Kakiatna is a general construction company.   <br/>
 										<div class="post-footer">

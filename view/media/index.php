@@ -24,10 +24,16 @@
 											echo $key['title'];
 											echo '</h5></b>';
 											echo $key['content'];
+											
+											echo '<div class="post-footer">';
+											echo '<a href="/contentdetil/index?id='.$key['_id'] .'" class="post-more">Read more</a>';
+											echo '<div class"button-comments">';
+											echo '<a href="#"><span class="icon-wrapper"><i class="icon-comment-empty-fa"></i></span></a>';
+											echo '</div>';
+											echo '</div>';
 										}
-										
 										?>
-										<div class="post-footer">
+										<!--div class="post-footer">
 										<?php
 										echo '<a href="/contentcategory/index?id='.NEWS .'" class="post-more">Read more</a>';
 										?>	
@@ -35,7 +41,7 @@
 														<a href="#"><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
 													
-										</div>
+										</div-->
 										<?php echo $pagination;?>
 									</div>
 									<div id="-5" style="border:0">

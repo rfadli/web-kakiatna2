@@ -27,10 +27,11 @@
 											
 											echo '<div class="post-footer">';
 											echo '<a href="/contentdetil/index?id='.$key['_id'] .'" class="post-more">Read more</a>';
-											echo '<div class"button-comments">';
-											echo '<a href="#"><span class="icon-wrapper"><i class="icon-comment-empty-fa"></i></span></a>';
+											//echo '<div class"button-comments">';
+											//echo '<a href="#"><span class="icon-wrapper"><i class="icon-comment-empty-fa"></i></span></a>';
+											//echo '</div>';
 											echo '</div>';
-											echo '</div>';
+											echo '<br />';
 										}
 										?>
 										<!--div class="post-footer">

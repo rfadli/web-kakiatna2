@@ -16,7 +16,6 @@
 										<li><a href="#-6"><img width="50" height="50" src="/public/media/Press_Release.png"><br />Press Release</a></li>
 										
 									</ul>
-									<fieldset>
 									<div id="-4" style="border:0">
 										<?php
 										foreach ($mnews as $key) 
@@ -39,8 +38,6 @@
 										</div>
 										
 									</div>
-									</fieldset>
-									
 									<div id="-5" style="border:0">
 										<?php
 										foreach ($mblog as $key ) 

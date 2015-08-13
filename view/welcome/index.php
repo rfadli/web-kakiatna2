@@ -11,16 +11,16 @@
 
 						<!-- LAYER NR. 1 -->
 						<div class="tp-caption tp-fade"
-							data-speed="300" 
+							data-speed="20" 
 							data-start="500" 
 							data-easing="Power3.easeInOut" 
 							data-elementdelay="0" 
 							data-endelementdelay="0" 
 							data-end="5700" 
-							data-endspeed="300" 
+							data-endspeed="20" 
 
 							>
-							<img width="1400" height="650" src="/public/images/slide/HOME1.jpg" alt=""> 
+							<img width="1500" height="650" src="/public/images/slide/HOME1.jpg" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->
@@ -40,15 +40,15 @@
 
 						<!-- LAYER NR. 1 -->
 						<div class="tp-caption tp-fade"
-							data-speed="300" 
+							data-speed="20" 
 							data-start="500" 
 							data-easing="Power3.easeInOut" 
 							data-elementdelay="0" 
 							data-endelementdelay="0" 
 							data-end="5700" 
-							data-endspeed="300" 
+							data-endspeed="20" 
 
-							><img width="1400" height="650" src="/public/images/slide/HOME2.jpg" alt=""> 
+							><img width="1500" height="650" src="/public/images/slide/HOME2.jpg" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->
@@ -68,15 +68,15 @@
 
 						<!-- LAYER NR. 1 -->
 						<div class="tp-caption tp-fade"
-							data-speed="300" 
+							data-speed="20" 
 							data-start="500" 
 							data-easing="Power3.easeInOut" 
 							data-elementdelay="0" 
 							data-endelementdelay="0" 
 							data-end="5700" 
-							data-endspeed="300" 
+							data-endspeed="20" 
 
-							><img width="1400" height="650" src="/public/images/slide/HOME3.jpg" alt=""> 
+							><img width="1500" height="650" src="/public/images/slide/HOME3.jpg" alt=""> 
 						</div>
 
 						<!-- LAYER NR. 2 -->

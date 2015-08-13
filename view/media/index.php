@@ -36,7 +36,7 @@
 												</div>
 													
 										</div>
-										
+										<?php echo $pagination;?>
 									</div>
 									<div id="-5" style="border:0">
 										<?php

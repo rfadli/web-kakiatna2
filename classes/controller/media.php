@@ -3,14 +3,36 @@ class media_controller extends controller
 {
 	public function index()
 	{
+		$id = $_GET['id'];
+		
+		$page = "";
+		if (isset($_GET['page']))
+			$page = $_GET['page'];
+		
+		if(strlen(trim($page)) > 0)
+			$page = intval($page);
+		else
+			$page = 1;
+		
+		$docs_per_page = 3;
+		$skip = (int)($docs_per_page * ($page - 1));
+		
+		
 		$db = Db::init();
 		$content = $db->content;
 		$news = array(
 			'category_content' => new MongoId(NEWS),
 			'contributor_id' => CLIENT_ID,
 		);
-		$limit = 1;
-		$mnews = $content->find($news)->sort(array("time_created" => -1))->limit($limit);
+		//$limit = 1;
+		//$mnews = $content->find($news)->sort(array("time_created" => -1))->limit($limit);
+		$c = $content->find($news)->limit($docs_per_page)->skip($skip)->sort(array("time_created" => -1));
+		$count = $content->count($q);
+		//$mcontent = $content->find($q);
+		
+		$pg = new Pagination();
+		$pg -> pag_url = "/media/index?id=".$id.'&page=';
+		$pg -> calculate_pages($count, $docs_per_page, $page);
 		
 		$blog = array(
 			'category_content' => new MongoId(BLOG),
@@ -34,7 +56,9 @@ class media_controller extends controller
 		$p = array(
 			'page_header' => "Media",
 			'page_description' => "Media",
-			'mnews' => $mnews,
+			'mnews' => $c,
+			'pagination' => $pg->Show(),
+			'idx' => (($page-1)*$docs_per_page)+1,
 			'mblog' => $mblog,
 			'mpress_kit' => $mpress_kit,
 			'mpress_release' => $mpress_release

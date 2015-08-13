@@ -24,8 +24,6 @@ class media_controller extends controller
 			'category_content' => new MongoId(NEWS),
 			'contributor_id' => CLIENT_ID,
 		);
-		//$limit = 1;
-		//$mnews = $content->find($news)->sort(array("time_created" => -1))->limit($limit);
 		$c = $content->find($news)->limit($docs_per_page)->skip($skip)->sort(array("time_created" => -1));
 		$count = $content->count($news);
 		//$mcontent = $content->find($q);
@@ -38,8 +36,10 @@ class media_controller extends controller
 			'category_content' => new MongoId(BLOG),
 			'contributor_id' => CLIENT_ID,
 		);
-		$limit = 1;
-		$mblog = $content->find($blog)->sort(array("time_created" => -1))->limit($limit);
+		//$limit = 1;
+		//$mblog = $content->find($blog)->sort(array("time_created" => -1))->limit($limit);
+		$d = $content->find($blog)->limit($docs_per_page)->skip($skip)->sort(array("time_created" => -1));
+		$count = $content->count($blog);
 		
 		$press_kit = array(
 			'category_content' => new MongoId(PRESS_KIT),
@@ -59,7 +59,7 @@ class media_controller extends controller
 			'mnews' => $c,
 			'pagination' => $pg->Show(),
 			'idx' => (($page-1)*$docs_per_page)+1,
-			'mblog' => $mblog,
+			'mblog' => $d,
 			'mpress_kit' => $mpress_kit,
 			'mpress_release' => $mpress_release
 		);

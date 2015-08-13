@@ -27,22 +27,10 @@
 											//echo $key['content'];
 											echo '<div class="post-footer">';
 											echo '<a href="/contentdetil/index?id='.$key['_id'] .'" class="post-more">Read more</a>';
-											//echo '<div class"button-comments">';
-											//echo '<a href="#"><span class="icon-wrapper"><i class="icon-comment-empty-fa"></i></span></a>';
-											//echo '</div>';
 											echo '</div>';
 											echo '<br />';
 										}
 										?>
-										<!--div class="post-footer">
-										<?php
-										echo '<a href="/contentcategory/index?id='.NEWS .'" class="post-more">Read more</a>';
-										?>	
-												<div class="button-comments">
-														<a href="#"><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
-												</div>
-													
-										</div-->
 										<?php echo $pagination;?>
 									</div>
 									<div id="-5" style="border:0">
@@ -52,18 +40,15 @@
 											echo '<b><h5 style="color:#CD171E">';
 											echo $key['title'];
 											echo '</h5></b>';
-											echo $key['content'];
+											//echo $key['content'];
+											echo util::limitString($key['content']);
+											echo '<div class="post-footer">';
+											echo '<a href="/contentdetil/index?id='.$key['_id'] .'" class="post-more">Read more</a>';
+											echo '</div>';
 										}
 										
 										?>
-										<div class="post-footer">
-										<?php
-										echo '<a href="/contentcategory/index?id='.BLOG.'" class="post-more">Read more</a>';
-										?>
-												<div class="button-comments">
-													<a href="#"><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
-												</div>
-										</div>
+										<?php echo $pagination;?>
 									
 									</div>
 									<div id="-6" style="border:0">

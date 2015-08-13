@@ -27,7 +27,7 @@ class media_controller extends controller
 		//$limit = 1;
 		//$mnews = $content->find($news)->sort(array("time_created" => -1))->limit($limit);
 		$c = $content->find($news)->limit($docs_per_page)->skip($skip)->sort(array("time_created" => -1));
-		$count = $content->count($q);
+		$count = $content->count($news);
 		//$mcontent = $content->find($q);
 		
 		$pg = new Pagination();

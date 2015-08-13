@@ -29,9 +29,9 @@
 											echo '<a href="/contentdetil/index?id='.$key['_id'] .'" class="post-more">Read more</a>';
 											echo '</div>';
 											echo '<br />';
+											echo $pagination;
 										}
 										?>
-										<?php echo $pagination;?>
 									</div>
 									<div id="-5" style="border:0">
 										<?php
@@ -46,10 +46,9 @@
 											echo '<a href="/contentdetil/index?id='.$key['_id'] .'" class="post-more">Read more</a>';
 											echo '</div>';
 											echo '<br />';
+											echo $pagination;
 										}
-										
 										?>
-										<?php echo $pagination;?>
 									
 									</div>
 									<div id="-6" style="border:0">

@@ -24,13 +24,12 @@
 											echo $key['title'];
 											echo '</h5></b>';
 											echo $key['content'];
-											
-											//echo '<div class="post-footer">';
+											echo '<div class="post-footer">';
 											echo '<a href="/contentdetil/index?id='.$key['_id'] .'" class="post-more">Read more</a>';
 											//echo '<div class"button-comments">';
 											//echo '<a href="#"><span class="icon-wrapper"><i class="icon-comment-empty-fa"></i></span></a>';
 											//echo '</div>';
-											//echo '</div>';
+											echo '</div>';
 											echo '<br />';
 										}
 										?>

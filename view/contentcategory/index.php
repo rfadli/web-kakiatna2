@@ -8,7 +8,6 @@
 						<div class="column one column_blog">
 							<div class="blog_wrapper isotope_wrapper modern">
 								<div class="posts_group">
-
 									<!-- blog Item -->
 									<?php
 									$curl = new Curl();
@@ -79,7 +78,7 @@
 										echo '</div>';
 									}
 									?>
-									
+									<!-- blog Item end -->
 								</div>
 								<?php echo $pagination;?>
 							</div>

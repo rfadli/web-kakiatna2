@@ -23,7 +23,8 @@
 											echo '<b><h5 style="color:#CD171E">';
 											echo $key['title'];
 											echo '</h5></b>';
-											echo $key['content'];
+											echo util::limitString($key['content']);
+											//echo $key['content'];
 											echo '<div class="post-footer">';
 											echo '<a href="/contentdetil/index?id='.$key['_id'] .'" class="post-more">Read more</a>';
 											//echo '<div class"button-comments">';

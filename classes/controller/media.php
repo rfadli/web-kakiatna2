@@ -3,7 +3,7 @@ class media_controller extends controller
 {
 	public function index()
 	{
-		$id = $_GET['id'];
+		$id = $_GET['_id'];
 		
 		$page = "";
 		if (isset($_GET['page']))

@@ -29,7 +29,7 @@ class media_controller extends controller
 		//$mcontent = $content->find($q);
 		
 		$pg = new Pagination();
-		$pg -> pag_url = "/media/index?".'&page=';
+		$pg -> pag_url = "/media/index".'&page=';
 		$pg -> calculate_pages($count, $docs_per_page, $page);
 		
 		$blog = array(

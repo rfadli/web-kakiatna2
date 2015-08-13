@@ -38,7 +38,7 @@ class media_controller extends controller
 		$count = $content->count($blog);
 		
 		$pg = new Pagination();
-		$pg -> pag_url = "/media/index?".'&page=?'.'&#-5';
+		$pg -> pag_url = "/media/index?".'&page=';
 		$pg -> calculate_pages($count, $docs_per_page, $page);
 		
 		

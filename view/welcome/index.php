@@ -16,7 +16,7 @@
 							data-easing="Power3.easeInOut" 
 							data-elementdelay="0" 
 							data-endelementdelay="0" 
-							data-end="5700" 
+							data-end="0" 
 							data-endspeed="20" 
 
 							>
@@ -45,7 +45,7 @@
 							data-easing="Power3.easeInOut" 
 							data-elementdelay="0" 
 							data-endelementdelay="0" 
-							data-end="5700" 
+							data-end="0" 
 							data-endspeed="20" 
 
 							><img width="1500" height="650" src="/public/images/slide/HOME2.jpg" alt=""> 
@@ -73,7 +73,7 @@
 							data-easing="Power3.easeInOut" 
 							data-elementdelay="0" 
 							data-endelementdelay="0" 
-							data-end="5700" 
+							data-end="0" 
 							data-endspeed="20" 
 
 							><img width="1500" height="650" src="/public/images/slide/HOME3.jpg" alt=""> 

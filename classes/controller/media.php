@@ -28,10 +28,6 @@ class media_controller extends controller
 		$count = $content->count($news);
 		//$mcontent = $content->find($q);
 		
-		$pg = new Pagination();
-		$pg -> pag_url = "/media/index?".'&page=';
-		$pg -> calculate_pages($count, $docs_per_page, $page);
-		
 		$blog = array(
 			'category_content' => new MongoId(BLOG),
 			'contributor_id' => CLIENT_ID,
@@ -40,6 +36,12 @@ class media_controller extends controller
 		//$mblog = $content->find($blog)->sort(array("time_created" => -1))->limit($limit);
 		$d = $content->find($blog)->limit($docs_per_page)->skip($skip)->sort(array("time_created" => -1));
 		$count = $content->count($blog);
+		
+		$pg = new Pagination();
+		$pg -> pag_url = "/media/index?".'&page=';
+		$pg -> calculate_pages($count, $docs_per_page, $page);
+		
+		
 		
 		$press_kit = array(
 			'category_content' => new MongoId(PRESS_KIT),

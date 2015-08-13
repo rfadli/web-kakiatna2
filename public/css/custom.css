@@ -244,7 +244,7 @@ width:16.667%;
 }
 
 .grey-bg {
-	padding-top:50px; padding-bottom:0px; background-color:#E3E3E3
+	padding-top:50px; padding-bottom:0px; background-color:rgba(135, 135, 135, 60);
 }
 .grey-bg h3{
 	margin-bottom: 10px;

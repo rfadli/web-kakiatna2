@@ -42,7 +42,7 @@
 										
 										<h5 style="color:#CD171E">Kakiatna Energi</h5>
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
-										 PT. Kakiatna Energi is a private power investment and development company. With the IPP (Independent Power Producer) scheme currently being upthrust by the state electricity company to accelerate more power plant procurement in various parts of Indonesia, Kakiatna Energi aims to be the biggest private power producer in Indonesia.<br/><br/>
+										 PT. Kakiatna Energi is a private power investment and development company. With the IPP (Independent Power Producer) scheme currently being upthrust by the state electricity company to accelerate more power plant procurement in various parts of Indonesia, Kakiatna Energi aims to be the biggest private power producer in Indonesia.<br/>
 										<div class="post-footer">
 											<a href="http://kakiatnaenergi.co.id/" class="post-more" target="_blank">View more</a>
 												<div class="button-comments">

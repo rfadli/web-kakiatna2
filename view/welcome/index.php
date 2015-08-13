@@ -108,6 +108,7 @@
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
 							<div class="column one column_column">
+								<br />
 								<h3>Commitment for A <span class="highlight highlight_image">Change</span>
 								</h3>
 							</div>

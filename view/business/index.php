@@ -36,9 +36,6 @@
 										<div class="section center">
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
-							<div class="column one column_column">
-								<h2 class="mb0">SUBSIDIARIES</h2>
-							</div>
 							<div class="column one column_clients">
 								<div class="clients parallaxclients">
 									<ul>

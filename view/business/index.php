@@ -44,7 +44,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Energi is a private power investment and development company. With the IPP (Independent Power Producer) scheme currently being upthrust by the state electricity company to accelerate more power plant procurement in various parts of Indonesia, Kakiatna Energi aims to be the biggest private power producer in Indonesia.<br/>
 										<div class="post-footer">
-											<a href="http://kakiatnaenergi.co.id/" class="post-more" target="_blank">View more</a>
+											<a href="http://kakiatnaenergi.co.id/" class="post-more" target="_blank">View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -55,7 +55,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Nusantara Energi Mandiri  is an engineering, procurement, and construction company yang secara khusus berkutat di dalam sektor power plant. Didirikan pada tahun 2008, Nusantara Energi Mandiri telah memiliki pengalaman dalam pengembangan PLTA Jatigede bersama dengan Sinohydro Co., Ltd.<br/>
 										<div class="post-footer">
-											<a href="http://kakiatna.co.id/" class="post-more" target="_blank">View more</a>
+											<a href="http://kakiatna.co.id/" class="post-more" target="_blank">View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -66,7 +66,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Energi Services is a power plant operation & maintenance company.<br/>
 										<div class="post-footer">
-											<a href="http://kakiatna.co.id/" class="post-more" target="_blank">View more</a>
+											<a href="http://kakiatna.co.id/" class="post-more" target="_blank">View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -82,7 +82,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Rise Infobisnis Semesta Ekasolusi is a retail consultant and IT solution company.<br/>
 										<div class="post-footer">
-											<a href="http://rise.biz.id/" class="post-more" target="_blank" >View more</a>
+											<a href="http://rise.biz.id/" class="post-more" target="_blank" >View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -93,7 +93,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Digita Media Utama (Digitama) is a digital media & content provider. Digitama memiliki produk digital antara lain Digishelf, sebuah e-book store, Digibeat, on-demand music streaming service, Digilive, live streaming concert platform, dan Digiumm, Islamic news and reference portal.<br/>
 										<div class="post-footer">
-											<a href="http://digitama.com/" class="post-more" target="_blank" >View more</a>
+											<a href="http://digitama.com/" class="post-more" target="_blank" >View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -104,7 +104,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Digitama Teknologi is a mobile app developer based in Cimahi, West Java. Digitama Teknologi has developed a child game for Android and iOS<br/>
 										<div class="post-footer">
-											<a href="http://digitamateknologi.co.id/" class="post-more" target="_blank" >View more</a>
+											<a href="http://digitamateknologi.co.id/" class="post-more" target="_blank" >View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -120,7 +120,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										PT. Energi Penta Medika is a healtchare company behind “The Djakarta Clinic”, a hemodialysis clinic slates to open in 2016.<br/>
 										<div class="post-footer">
-											<a href="http://thedjakartaclinic.co.id/" class="post-more" target="_blank" >View more</a>
+											<a href="http://thedjakartaclinic.co.id/" class="post-more" target="_blank" >View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -135,7 +135,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Retail Usaha Mandiri is a restaurant chain company with “Bebek Edan Cak Topa” as its flagship restaurant.<br/>
 										<div class="post-footer">
-											<a href="http://rumindonesia.com/" class="post-more" target="_blank" >View more</a>
+											<a href="http://rumindonesia.com/" class="post-more" target="_blank" >View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -150,7 +150,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kaninga Sinema Indonesia is an integrated entertainment & showbusiness company. It was founded as a production house for Indonesian films, but along the way it expanded its business into films distribution and theatres.<br/>
 										<div class="post-footer">
-											<a href="http://kaninga.co.id/" class="post-more" target="_blank" >View more</a>
+											<a href="http://kaninga.co.id/" class="post-more" target="_blank" >View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -165,7 +165,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Logistik is a freight forwarding company.<br/>
 										<div class="post-footer">
-											<a href="http://kakiatnalogistik.co.id/" class="post-more" target="_blank" >View more</a>
+											<a href="http://kakiatnalogistik.co.id/" class="post-more" target="_blank" >View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -180,7 +180,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Digitama is a property management company.<br/>
 										<div class="post-footer">
-											<a href="http://kakiatnadigitama.co.id/" class="post-more" target="_blank" >View more</a>
+											<a href="http://kakiatnadigitama.co.id/" class="post-more" target="_blank" >View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -195,7 +195,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Kakiatna Enjiniring is a technical consultant with expertise in power plant project consultation.<br/>
 										<div class="post-footer">
-											<a href="http://kakiatnaenjiniring.co.id/" class="post-more" target="_blank" >View more</a>
+											<a href="http://kakiatnaenjiniring.co.id/" class="post-more" target="_blank" >View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>
@@ -205,7 +205,7 @@
 										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
 										 PT. Cipta Kakiatna is a general construction company.<br/>
 										<div class="post-footer">
-											<a href="http://ciptakakiatna.co.id/" class="post-more" target="_blank" >View more</a>
+											<a href="http://ciptakakiatna.co.id/" class="post-more" target="_blank" >View website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>
 												</div>

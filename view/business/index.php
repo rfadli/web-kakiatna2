@@ -46,7 +46,7 @@
 										</li>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://rise.biz.id/" title="PT.Rise Infobisnis Semesta Ekasolusi"><img width="155" height="80" src="/public/images/logo/rise.png" class="scale-with-grid wp-post-image" alt="client_2"/></a>
+											<a target="_blank" href="http://rise.biz.id/" title="PT.Rise Infobisnis Semesta Ekasolusi"><img width="155" height="80" src="/public/images/logo/kakiatnaenergi.png" class="scale-with-grid wp-post-image" alt="client_2"/></a>
 										</div>
 										</li>
 										<li class=" last_row">

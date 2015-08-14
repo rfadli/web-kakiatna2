@@ -31,7 +31,7 @@
 										 - Logistic & SCM <br />
 										 - Food & Beverage <br />
 										 - Property Management <br />
-										 - Engineering & Construction <br/>
+										 - Engineering & Construction <br/><br/>
 										
 										<div class="section center">
 											<div class="section_wrapper clearfix">

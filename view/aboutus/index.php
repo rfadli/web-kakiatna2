@@ -22,7 +22,7 @@
 										foreach ($mhistory as $key) 
 										{
 											echo '<h3 style="color:#CD171E">'.$key['title'].'</h3><br/>';
-											echo '<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/><br/>';
+											echo '<img src="/public/media/Master_Logo_2015_.png" width="200" height="60">';
 											echo $key['content'];
 										}
 										?>

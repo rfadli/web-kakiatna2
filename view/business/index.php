@@ -33,6 +33,64 @@
 										 - Property Management <br />
 										 - Engineering & Construction <br/>
 										
+										<div class="section center">
+					<div class="section_wrapper clearfix">
+						<div class="items_group clearfix">
+							<div class="column one column_column">
+								<h2 class="mb0">SUBSIDIARIES</h2>
+							</div>
+							<div class="column one column_clients">
+								<div class="clients parallaxclients">
+									<ul>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a target="_blank" href="http://digitama.com/" title="PT.Digita Media Utama"><img width="155" height="80" src="/public/images/logo/Digitama.jpg" class="scale-with-grid wp-post-image" alt="client_1"/></a>
+										</div>
+										</li>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a target="_blank" href="http://rise.biz.id/" title="PT.Rise Infobisnis Semesta Ekasolusi"><img width="155" height="80" src="/public/images/logo/rise.png" class="scale-with-grid wp-post-image" alt="client_2"/></a>
+										</div>
+										</li>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a target="_blank" href="http://www.kakiatnaenergi.co.id/" title="PT.Kakiatna Energi"><img width="155" height="80" src="/public/images/logo/kakiatnaenergi.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
+										</div>
+										</li>
+										<li class=" last_row">
+										<div class="client_wrapper">
+											<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/images/logo/kakiatnalogistik.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+										</div>
+										</li>
+										<li class=" last_row last_row_mobile">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="PT.Nusantara Energi Mandiri"><img width="155" height="80" src="/public/images/logo/Nusantar.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
+										</div>
+										</li>
+										<li class="last_in_row last_row last_row_mobile">
+										<div class="client_wrapper">
+											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="155" height="80" src="/public/images/logo/RUM.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+										</div>
+										</li>
+										<div class="column one-third column_column"></div>
+											
+										<li class="last_in_row last_row last_row_mobile">
+										<div class="client_wrapper">
+											<a target="_blank" href="http://www.thedjakartaclinic.com/" title="PT.Energi Penta Medika"><img width="155" height="80" src="/public/images/logo/EPM.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+										</div>
+										</li>
+										<li class="last_in_row last_row last_row_mobile">
+										<div class="client_wrapper">
+											<a target="_blank" href="#" title="PT.Kaninga Sinema Indonesia"><img width="155" height="80" src="/public/images/logo/Kaninga.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+										</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+										
 									</div>
 									
 									

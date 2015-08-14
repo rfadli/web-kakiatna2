@@ -21,6 +21,7 @@
 										<?php
 										foreach ($mhistory as $key) 
 										{
+											echo '<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>';
 											echo '<h3 style="color:#CD171E">'.$key['title'].'</h3>';
 											echo $key['content'];
 										}

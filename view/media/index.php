@@ -14,7 +14,8 @@
 										<li><a href="#-5"><img width="50" height="50" src="/public/media/Blog.png"><br /> Blog</a></li>
 										<li><a href="#-7"><img width="50" height="50" src="/public/media/Press_Kit.png"><br />Press Kit</a></li>
 										<li><a href="#-6"><img width="50" height="50" src="/public/media/Press_Release.png"><br />Press Release</a></li>
-										
+										<div class="items_group clearfix">
+										</div>
 									</ul>
 									<div id="-4" style="border:0">
 										<?php

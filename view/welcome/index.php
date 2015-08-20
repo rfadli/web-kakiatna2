@@ -203,12 +203,12 @@
 										</li>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/subsidiaries/Kakiatna_Logostic.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+											<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/subsidiaries/Kakiatna_Logistic.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 										</div>
 										</li>
 										<li class=" last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="#" title="PT.Nusantara Energi Mandiri"><img width="155" height="80" src="/public/subsidiaries/Nusantar_Energi_Mandiri.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
+											<a target="_blank" href="#" title="PT.Nusantara Energi Mandiri"><img width="155" height="80" src="/public/subsidiaries/Nusantara_Energi_Mandiri.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
 										</div>
 										</li>
 										<li class="last_in_row last_row last_row_mobile">

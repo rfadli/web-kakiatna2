@@ -213,7 +213,7 @@
 										</li>
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="155" height="90" src="/public/subsidiaries/RUM.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="155" height="150" src="/public/subsidiaries/RUM.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
 										<div class="column one-third column_column"></div>

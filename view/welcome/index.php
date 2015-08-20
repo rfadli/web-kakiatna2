@@ -216,7 +216,7 @@
 											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="155" height="80" src="/public/subsidiaries/RUM.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
-										<div class="column one-fourth column_column"></div>
+										<div class="column one-third column_column"></div>
 											
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">

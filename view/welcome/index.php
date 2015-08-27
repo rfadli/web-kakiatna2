@@ -89,6 +89,62 @@
 						
 					</li>
 					
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="1"  data-saveperformance="off" >
+						<!-- MAIN IMAGE -->
+						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
+						<!-- LAYERS -->
+
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption tp-fade"
+							data-speed="20" 
+							data-start="600" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="0" 
+							data-endspeed="20" 
+
+							><img width="1500" height="750" src="/public/images/slide/lake.jpg" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 2 -->
+						
+
+						<!-- LAYER NR. 3 -->
+						
+
+						<!-- LAYER NR. 4 -->
+						
+					</li>
+					
+					<li data-transition="notransition" data-slotamount="1" data-masterspeed="1"  data-saveperformance="off" >
+						<!-- MAIN IMAGE -->
+						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
+						<!-- LAYERS -->
+
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption tp-fade"
+							data-speed="20" 
+							data-start="600" 
+							data-easing="Power3.easeInOut" 
+							data-elementdelay="0" 
+							data-endelementdelay="0" 
+							data-end="0" 
+							data-endspeed="20" 
+
+							><img width="1500" height="750" src="/public/images/slide/rice.jpg" alt=""> 
+						</div>
+
+						<!-- LAYER NR. 2 -->
+						
+
+						<!-- LAYER NR. 3 -->
+						
+
+						<!-- LAYER NR. 4 -->
+						
+					</li>
+					
 				</ul>
 				
 				<div class="tp-bannertimer tp-bottom" ></div>	
@@ -154,7 +210,6 @@
 								echo '</div>';
 							}
 							?>
-							
 							
 							<?php
 							foreach ($mnews as $key) 

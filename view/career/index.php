@@ -52,7 +52,8 @@
 															{
 																$url = $json['url'];
 															}
-															
+															//echo '<div class="answer">';
+															//echo '</div>';
 															echo '<div class="question">';
 															echo '<h5><span class="icon"><i class="icon-right-open"></i></span>'.$key['title'].'</h5>';
 															echo '<div class="answer">';

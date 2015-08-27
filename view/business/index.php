@@ -98,7 +98,7 @@
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="#" title=""><img width="155" height="80" src="/public/subsidiaries/Kakiatna_enjiniring.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="#" title="PT.Kakiatna Enjenering"><img width="155" height="80" src="/public/subsidiaries/Kakiatna_enjiniring.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 															</ul>

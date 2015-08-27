@@ -177,7 +177,7 @@
 				</div>
 				
 				<!-- clients -->
-				<div class="section center">
+				<!--div class="section center">
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
 							<div class="column one column_column">
@@ -233,7 +233,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div-->
 
 				<div class="section the_content">
 					<div class="section_wrapper">

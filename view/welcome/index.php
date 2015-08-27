@@ -4,146 +4,44 @@
 			<div id="rev_slider_4_1" class="rev_slider fullscreenbanner dnone">
 				<ul>	
 					<!-- SLIDE  -->
-					<li data-transition="notransition" data-slotamount="1" data-masterspeed="1"  data-saveperformance="off" >
-						<!-- MAIN IMAGE -->
-						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
-						<!-- LAYERS -->
-
-						<!-- LAYER NR. 1 -->
-						<div class="tp-caption tp-fade"
-							data-speed="20" 
-							data-start="600" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="0" 
-							data-endspeed="20" 
-
-							>
-							<img width="1500" height="750" src="/public/images/slide/HOME1.jpg" alt=""> 
-						</div>
-
-						<!-- LAYER NR. 2 -->
+					<?php
+					$curl = new Curl();
+					
+					foreach ($mslider as $key) 
+					{
+						$q = array(
+							'id' => trim($key['_id']),
+							'height' => 750,
+							'width' => 1500
+						);
 						
-
-						<!-- LAYER NR. 3 -->
+						$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);
+						$rest = $curl->response;
 						
-
-						<!-- LAYER NR. 4 -->
+						$json = json_decode($rest, TRUE);
 						
-					</li>
+						$url = '';
+						if($json['status'] == "OK")
+						{
+							$url = $json['url'];
+						}
+					
+						echo '<li data-transition="notransition" data-slotamount="1" data-masterspeed="1"  data-saveperformance="off" >';
+						echo '<div class="tp-caption tp-fade" data-speed="20" data-start="600" data-easing="Power3.easeInOut" data-elementdelay="0" data-endelementdelay="0" data-end="0" data-endspeed="20">';
+						echo '<img width="1500" height="750" src="'.$url.'" alt="">';
+						echo '</div>';
+						echo '</li>';
+					}
+					?>
+					
 					<!-- SLIDE  -->
-					<li data-transition="notransition" data-slotamount="1" data-masterspeed="1"  data-saveperformance="off" >
-						<!-- MAIN IMAGE -->
-						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
-						<!-- LAYERS -->
-
-						<!-- LAYER NR. 1 -->
-						<div class="tp-caption tp-fade"
-							data-speed="20" 
-							data-start="600" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="0" 
-							data-endspeed="20" 
-
-							><img width="1500" height="750" src="/public/images/slide/HOME2.jpg" alt=""> 
-						</div>
-
-						<!-- LAYER NR. 2 -->
-						
-
-						<!-- LAYER NR. 3 -->
-						
-
-						<!-- LAYER NR. 4 -->
-						
-					</li>
 					
-					<li data-transition="notransition" data-slotamount="1" data-masterspeed="1"  data-saveperformance="off" >
-						<!-- MAIN IMAGE -->
-						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
-						<!-- LAYERS -->
-
-						<!-- LAYER NR. 1 -->
-						<div class="tp-caption tp-fade"
-							data-speed="20" 
-							data-start="600" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="0" 
-							data-endspeed="20" 
-
-							><img width="1500" height="750" src="/public/images/slide/HOME3.jpg" alt=""> 
-						</div>
-
-						<!-- LAYER NR. 2 -->
-						
-
-						<!-- LAYER NR. 3 -->
-						
-
-						<!-- LAYER NR. 4 -->
-						
-					</li>
 					
-					<li data-transition="notransition" data-slotamount="1" data-masterspeed="1"  data-saveperformance="off" >
-						<!-- MAIN IMAGE -->
-						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
-						<!-- LAYERS -->
-
-						<!-- LAYER NR. 1 -->
-						<div class="tp-caption tp-fade"
-							data-speed="20" 
-							data-start="600" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="0" 
-							data-endspeed="20" 
-
-							><img width="1500" height="750" src="/public/images/slide/lake.jpg" alt=""> 
-						</div>
-
-						<!-- LAYER NR. 2 -->
-						
-
-						<!-- LAYER NR. 3 -->
-						
-
-						<!-- LAYER NR. 4 -->
-						
-					</li>
 					
-					<li data-transition="notransition" data-slotamount="1" data-masterspeed="1"  data-saveperformance="off" >
-						<!-- MAIN IMAGE -->
-						<!--img src="/public/upload/corporate_bgd.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"-->
-						<!-- LAYERS -->
-
-						<!-- LAYER NR. 1 -->
-						<div class="tp-caption tp-fade"
-							data-speed="20" 
-							data-start="600" 
-							data-easing="Power3.easeInOut" 
-							data-elementdelay="0" 
-							data-endelementdelay="0" 
-							data-end="0" 
-							data-endspeed="20" 
-
-							><img width="1500" height="750" src="/public/images/slide/rice.jpg" alt=""> 
-						</div>
-
-						<!-- LAYER NR. 2 -->
-						
-
-						<!-- LAYER NR. 3 -->
-						
-
-						<!-- LAYER NR. 4 -->
-						
-					</li>
+					
+					
+					
+					
 					
 				</ul>
 				

@@ -10,7 +10,7 @@ define('BASEPATH', realpath(dirname(__FILE__)).DIRECTORY_SEPARATOR);
 define('DOCVIEW', DOCROOT."view".DIRECTORY_SEPARATOR);
 define('CLIENT_ID', '555c40751295956e3d8b4568'); //contibutor_id
 define('SLIDER_ID', '55b5b4a4129595f7368b45e8'); //category_content //test
-define('SLIDER', '55b8515c129595f7368b45e9');
+//define('SLIDER', '55b8515c129595f7368b45e9');
 define('SUBSIDIARIES', '55b8563a129595f8368b45d8');
 define('VISION', '55b86242129595f7368b45f2');
 define('HISTORY', '55b86700129595f8368b45de');
@@ -22,6 +22,7 @@ define('BLOG', '55b88090129595f8368b45e2');
 define('PRESS_RELEASE', '55b9a7bf1295956e3d8b45c3');
 define('PRESS_KIT', '55b9a7ed1295956e3d8b45c4');
 define('PREFERENCES', '55b9b0a61295956e3d8b45c5');
+define('SLIDER', '55defa0f129595f8368b45fd');
 
 
 include_once(DOCROOT."lib/chilkat/chilkat_9_5_0.php");

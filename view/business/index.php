@@ -85,6 +85,11 @@
 																	<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="155" height="80" src="/public/subsidiaries/RUM.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
+																<li class=" last_row">
+																<div class="client_wrapper">
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/images/logo/kakiatnalogistik.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																</div>
+																</li>
 															</ul>
 														</div>
 													</div>

@@ -125,17 +125,17 @@
 																<!-- -->
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Energy Service"><img width="155" height="80" src="/public/images/logo/Kakiatna_Energy_service.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Energy Service"><img width="155" height="80" src="/public/subsidiaries/Kakiatna_Energy_services.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Cipta Kakiatna"><img width="155" height="80" src="/public/images/logo/Cipta_kakiatna.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Cipta Kakiatna"><img width="155" height="80" src="/public/subsidiaries/Cipta_kakiatna.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Nusantara Energi Mandiri"><img width="155" height="80" src="/public/images/logo/Nusantara_Energi_Mandiri.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Nusantara Energi Mandiri"><img width="155" height="80" src="/public/subsidiaries/Nusantara_Energi_Mandiri.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 															</ul>

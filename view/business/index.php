@@ -62,22 +62,22 @@
 																<!-- -->
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="" title=""><img width="155" height="80" src="" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/images/logo/kakiatnalogistik.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="" title=""><img width="155" height="80" src="" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/images/logo/kakiatnalogistik.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="" title=""><img width="155" height="80" src="" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/images/logo/kakiatnalogistik.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="" title=""><img width="155" height="80" src="" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/images/logo/kakiatnalogistik.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<!-- -->
@@ -104,22 +104,22 @@
 																<!-- -->
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="" title=""><img width="155" height="80" src="" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/images/logo/kakiatnalogistik.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="" title=""><img width="155" height="80" src="" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/images/logo/kakiatnalogistik.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="" title=""><img width="155" height="80" src="" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/images/logo/kakiatnalogistik.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="" title=""><img width="155" height="80" src="" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/images/logo/kakiatnalogistik.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<!-- -->

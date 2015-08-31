@@ -39,6 +39,7 @@
 													<div class="column one column_clients">
 														<div class="clients parallaxclients">
 															<ul>
+															
 																<li class=" last_row">
 																<div class="client_wrapper">
 																	<a target="_blank" href="http://www.kakiatnaenergi.co.id/" title="PT.Kakiatna Energi"><img width="155" height="80" src="/public/subsidiaries/Kakiatna_energi.png" class="scale-with-grid wp-post-image" alt="client_1"/></a>

@@ -31,15 +31,14 @@
 												<div class="mfn-acc accordion_wrapper">
 													<?php
 													$curl = new Curl();
-													
 													foreach ($mjobs as $key) 
 													{
 														if(isset($key['content']))
 														{
-																$q = array(
-																'id' => trim($key['_id']),
-																'height' => 120,
-																'width' => 120
+															$q = array(
+																		'id' => trim($key['_id']),
+																		'height' => 120,
+																		'width' => 120
 															);
 															
 															$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);

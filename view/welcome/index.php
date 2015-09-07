@@ -161,7 +161,7 @@
 										</li>
 										<li class=" last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="#" title="PT.Nusantara Energi Mandiri"><img width="155" height="500" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-09.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
+											<a target="_blank" href="#" title="PT.Nusantara Energi Mandiri"><img width="500" height="500" src="/public/subsidiaries/nusantara500.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
 										</div>
 										</li>
 										<li class="last_in_row last_row last_row_mobile">

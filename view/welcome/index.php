@@ -151,7 +151,7 @@
 										</li>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.kakiatnaenergi.co.id/" title="PT.Kakiatna Energi"><img width="155" height="500" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-10.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
+											<a target="_blank" href="http://www.kakiatnaenergi.co.id/" title="PT.Kakiatna Energi"><img width="500" height="500" src="/public/subsidiaries/energi500.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
 										</div>
 										</li>
 										<li class=" last_row">

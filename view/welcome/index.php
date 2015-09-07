@@ -178,7 +178,7 @@
 										</li>
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.kaningapictures.com/" title="PT.Kaninga Sinema Indonesia"><img width="155" height="500" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-05.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+											<a target="_blank" href="http://www.kaningapictures.com/" title="PT.Kaninga Sinema Indonesia"><img width="500" height="500" src="/public/subsidiaries/kaninga500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
 									</ul>

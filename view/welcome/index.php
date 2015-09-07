@@ -151,34 +151,34 @@
 										</li>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.kakiatnaenergi.co.id/" title="PT.Kakiatna Energi"><img width="155" height="80" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-10.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
+											<a target="_blank" href="http://www.kakiatnaenergi.co.id/" title="PT.Kakiatna Energi"><img width="155" height="500" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-10.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
 										</div>
 										</li>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-07.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+											<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="500" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-07.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 										</div>
 										</li>
 										<li class=" last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="#" title="PT.Nusantara Energi Mandiri"><img width="155" height="80" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-09.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
+											<a target="_blank" href="#" title="PT.Nusantara Energi Mandiri"><img width="155" height="500" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-09.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
 										</div>
 										</li>
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="155" height="150" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-03.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="155" height="500" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-03.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
 										<div class="column one-third column_column"></div>
 										<div class="column one-third column_column"></div>
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.thedjakartaclinic.com/" title="PT.Energi Penta Medika"><img width="155" height="80" src="/public/subsidiaries/energi_penta_MEDIKA.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+											<a target="_blank" href="http://www.thedjakartaclinic.com/" title="PT.Energi Penta Medika"><img width="155" height="500" src="/public/subsidiaries/energi_penta_MEDIKA.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.kaningapictures.com/" title="PT.Kaninga Sinema Indonesia"><img width="155" height="80" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-05.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+											<a target="_blank" href="http://www.kaningapictures.com/" title="PT.Kaninga Sinema Indonesia"><img width="155" height="500" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-05.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
 									</ul>

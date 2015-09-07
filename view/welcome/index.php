@@ -173,7 +173,7 @@
 										<div class="column one-third column_column"></div>
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.thedjakartaclinic.com/" title="PT.Energi Penta Medika"><img width="155" height="500" src="/public/subsidiaries/energi_penta_MEDIKA.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+											<a target="_blank" href="http://www.thedjakartaclinic.com/" title="PT.Energi Penta Medika"><img width="500" height="500" src="/public/subsidiaries/medika500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
 										<li class="last_in_row last_row last_row_mobile">

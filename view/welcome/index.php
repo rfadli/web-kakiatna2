@@ -130,7 +130,7 @@
 				</div>
 				
 				<!-- clients -->
-				<!--div class="section center">
+				<div class="section center">
 					<div class="section_wrapper clearfix">
 						<div class="items_group clearfix">
 							<div class="column one column_column">
@@ -141,32 +141,32 @@
 									<ul>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://digitama.com/" title="PT.Digita Media Utama"><img width="155" height="80" src="/public/subsidiaries/DIGITAMA.png" class="scale-with-grid wp-post-image" alt="client_1"/></a>
+											<a target="_blank" href="http://digitama.com/" title="PT.Digita Media Utama"><img width="155" height="80" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-01.png" class="scale-with-grid wp-post-image" alt="client_1"/></a>
 										</div>
 										</li>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://rise.biz.id/" title="PT.Rise Infobisnis Semesta Ekasolusi"><img width="155" height="80" src="/public/subsidiaries/Rise.png" class="scale-with-grid wp-post-image" alt="client_2"/></a>
+											<a target="_blank" href="http://rise.biz.id/" title="PT.Rise Infobisnis Semesta Ekasolusi"><img width="155" height="80" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-02.png" class="scale-with-grid wp-post-image" alt="client_2"/></a>
 										</div>
 										</li>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.kakiatnaenergi.co.id/" title="PT.Kakiatna Energi"><img width="155" height="80" src="/public/subsidiaries/Kakiatna_energi.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
+											<a target="_blank" href="http://www.kakiatnaenergi.co.id/" title="PT.Kakiatna Energi"><img width="155" height="80" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-10.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
 										</div>
 										</li>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/subsidiaries/Kakiatna_Logistic.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+											<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-07.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 										</div>
 										</li>
 										<li class=" last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="#" title="PT.Nusantara Energi Mandiri"><img width="155" height="80" src="/public/subsidiaries/Nusantara_Energi_Mandiri.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
+											<a target="_blank" href="#" title="PT.Nusantara Energi Mandiri"><img width="155" height="80" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-09.png" class="scale-with-grid wp-post-image" alt="client_5"/></a>
 										</div>
 										</li>
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="155" height="150" src="/public/subsidiaries/RUM.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="155" height="150" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-03.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
 										<div class="column one-third column_column"></div>
@@ -178,7 +178,7 @@
 										</li>
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.kaningapictures.com/" title="PT.Kaninga Sinema Indonesia"><img width="155" height="80" src="/public/subsidiaries/Kaninga_sinema.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+											<a target="_blank" href="http://www.kaningapictures.com/" title="PT.Kaninga Sinema Indonesia"><img width="155" height="80" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-05.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
 									</ul>
@@ -186,7 +186,7 @@
 							</div>
 						</div>
 					</div>
-				</div-->
+				</div>
 
 				<div class="section the_content">
 					<div class="section_wrapper">

@@ -27,6 +27,7 @@
 										}
 										?>
 									</div>
+									
 									<div id="-11" style="border:0">
 										<?php
 										foreach ($mwordsceo as $key) 
@@ -36,6 +37,7 @@
 										}
 										?>
 									</div>
+									
 									<div id="-12" style="border:0">
 										<?php
 										foreach ($mvision as $key) 

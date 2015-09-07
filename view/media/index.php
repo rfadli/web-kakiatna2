@@ -34,6 +34,7 @@
 										?>
 										<?php echo $pagination;?>
 									</div>
+									
 									<div id="-5" style="border:0">
 										<?php
 										foreach ($mblog as $key ) 
@@ -51,8 +52,8 @@
 										
 										?>
 										<?php echo $pagination;?>
-									
 									</div>
+									
 									<div id="-6" style="border:0">
 										<?php
 										echo '<h5 style="color:#CD171E">';
@@ -61,6 +62,7 @@
 										echo $mpress_release['content'];
 										?>
 									</div>
+									
 									<div id="-7" style="border:0">
 										
 										<?php
@@ -71,6 +73,7 @@
 										echo $mpress_kit['content'];
 										?>
 									</div>
+									
 								</div>
 							</div>
 						</div>

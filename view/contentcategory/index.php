@@ -11,12 +11,13 @@
 									<!-- blog Item -->
 									<?php
 									$curl = new Curl();
+									
 									foreach ($mcontent as $key) 
 									{
 										$q = array(
-												'id' => trim($key['_id']),
-												'height' => 521,
-												'width' => 1065
+											'id' => trim($key['_id']),
+											'height' => 521,
+											'width' => 1065
 										);
 										
 										$curl->get('http://admin.cms.deboxs.com:8055/api/getimagecontent', $q);

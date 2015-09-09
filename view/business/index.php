@@ -164,7 +164,7 @@
 										<br/><br/>
 										
 										<h5 style="color:#CD171E">Nusantara Energi Mandiri</h5>
-										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/Nusantara_Energi_Mandiri.png" width="200" height="60"><br/>
 										 PT. Nusantara Energi Mandiri  is an engineering, procurement, and construction company yang secara khusus berkutat di dalam sektor power plant. Didirikan pada tahun 2008, Nusantara Energi Mandiri telah memiliki pengalaman dalam pengembangan PLTA Jatigede bersama dengan Sinohydro Co., Ltd.<br/>
 										<div class="post-footer">
 											<a href="http://kakiatna.co.id/" class="post-more" target="_blank">View website</a>

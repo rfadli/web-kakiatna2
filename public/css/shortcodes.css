@@ -19,7 +19,7 @@
 
 /* Clients */
 .clients ul li { float:left; width:16.666%; }
-.clients ul li .client_wrapper { padding: 20px 10px; margin: 10px; background: rgba(0, 0, 0, .02); text-align:center; line-height: 0;  }
+.clients ul li .client_wrapper { padding: 20px 10px; margin: 10px; background: rgba(0, 0, 0, 0); text-align:center; line-height: 0;  }
 .clients ul li .client_wrapper:hover { background: rgba(0, 0, 0, .08); }
 .clients ul li .client_wrapper a { display: block; }
 

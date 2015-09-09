@@ -202,7 +202,7 @@
 										<br/><br/>
 										
 										<h5 style="color:#CD171E">Digita Media Utama</h5>
-										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/DIGITAMA.png" width="200" height="60"><br/>
 										 PT. Digita Media Utama (Digitama) is a digital media & content provider. Digitama memiliki produk digital antara lain Digishelf, sebuah e-book store, Digibeat, on-demand music streaming service, Digilive, live streaming concert platform, dan Digiumm, Islamic news and reference portal.<br/>
 										<div class="post-footer">
 											<a href="http://digitama.com/" class="post-more" target="_blank" >View website</a>

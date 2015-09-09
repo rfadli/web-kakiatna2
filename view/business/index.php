@@ -202,7 +202,7 @@
 										<br/><br/>
 										
 										<h5 style="color:#CD171E">Digita Media Utama</h5>
-										<img src="/public/subsidiaries/DIGITAMA.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/DIGITAMA.png" width="200" height="90"><br/>
 										 PT. Digita Media Utama (Digitama) is a digital media & content provider. Digitama memiliki produk digital antara lain Digishelf, sebuah e-book store, Digibeat, on-demand music streaming service, Digilive, live streaming concert platform, dan Digiumm, Islamic news and reference portal.<br/>
 										<div class="post-footer">
 											<a href="http://digitama.com/" class="post-more" target="_blank" >View website</a>
@@ -229,7 +229,7 @@
 										<br />
 										
 										<h5 style="color:#CD171E">Energi Penta Medika </h5>
-										<img src="/public/subsidiaries/energi_penta_MEDIKA.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/energi_penta_MEDIKA.png" width="200" height="90"><br/>
 										PT. Energi Penta Medika is a healtchare company behind “The Djakarta Clinic”, a hemodialysis clinic slates to open in 2016.<br/>
 										<div class="post-footer">
 											<a href="http://thedjakartaclinic.co.id/" class="post-more" target="_blank" >View website</a>

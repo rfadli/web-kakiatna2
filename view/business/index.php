@@ -244,7 +244,7 @@
 										<br />
 										
 										<h5 style="color:#CD171E">Retail Usaha Mandiri</h5>
-										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/RUM.png" width="200" height="60"><br/>
 										 PT. Retail Usaha Mandiri is a restaurant chain company with “Bebek Edan Cak Topa” as its flagship restaurant.<br/>
 										<div class="post-footer">
 											<a href="http://rumindonesia.com/" class="post-more" target="_blank" >View website</a>

@@ -22,7 +22,7 @@
 									
 									<div id="-4" style="border:0">
 										<h5 style="color:#CD171E">OVERVIEW</h5>
-										 Kakiatna Indonesia subsidiaries consist of 13 companies of various business sectors, from Energy to IT & Digital Services. Through these wide range of sectors, Kakiatna Indonesia hopes to bring a real and significant improvement to the people of Indonesia.
+										 Kakiatna Indonesia subsidiaries consist of 11 companies of various business sectors, from Energy to IT & Digital Services. Through these wide range of sectors, Kakiatna Indonesia hopes to bring a real and significant improvement to the people of Indonesia.
 										 Kakiatna Indonesia business areas includes:<br /><br />
 										 - Energy <br />
 										 - IT & Digital Service <br />
@@ -244,7 +244,7 @@
 										<br />
 										
 										<h5 style="color:#CD171E">Retail Usaha Mandiri</h5>
-										<img src="/public/subsidiaries/RUM.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/RUM.png" width="200" height="90"><br/>
 										 PT. Retail Usaha Mandiri is a restaurant chain company with “Bebek Edan Cak Topa” as its flagship restaurant.<br/>
 										<div class="post-footer">
 											<a href="http://rumindonesia.com/" class="post-more" target="_blank" >View website</a>
@@ -259,7 +259,7 @@
 										<br />
 										
 										<h5 style="color:#CD171E">Kaninga Sinema Indonesia</h5>
-										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/Kaninga_sinema.png" width="200" height="90"><br/>
 										 PT. Kaninga Sinema Indonesia is an integrated entertainment & showbusiness company. It was founded as a production house for Indonesian films, but along the way it expanded its business into films distribution and theatres.<br/>
 										<div class="post-footer">
 											<a href="http://kaninga.co.id/" class="post-more" target="_blank" >View website</a>
@@ -274,7 +274,7 @@
 										<br />
 										
 										<h5 style="color:#CD171E">Kakiatna Logistik</h5>
-										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/Kakiatna_Logistic.png" width="200" height="90"><br/>
 										 PT. Kakiatna Logistik is a freight forwarding company.<br/>
 										<div class="post-footer">
 											<a href="http://kakiatnalogistik.co.id/" class="post-more" target="_blank" >View website</a>
@@ -304,7 +304,7 @@
 										<br />
 										
 										<h5 style="color:#CD171E">Kakiatna Enjiniring</h5>
-										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/Kakiatna_enjiniring.png" width="200" height="90"><br/>
 										 PT. Kakiatna Enjiniring is a technical consultant with expertise in power plant project consultation.<br/>
 										<div class="post-footer">
 											<a href="http://kakiatnaenjiniring.co.id/" class="post-more" target="_blank" >View website</a>
@@ -314,7 +314,7 @@
 										</div>
 										<br/><br/>
 										<h5 style="color:#CD171E">Cipta Kakiatna</h5>
-										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/Cipta_kakiatna.png" width="200" height="90"><br/>
 										 PT. Cipta Kakiatna is a general construction company.<br/>
 										<div class="post-footer">
 											<a href="http://ciptakakiatna.co.id/" class="post-more" target="_blank" >View website</a>

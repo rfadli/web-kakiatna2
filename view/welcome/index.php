@@ -181,7 +181,8 @@
 										<!--div class="column one-fourth column_column"></div-->
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="500" height="500" src="/public/subsidiaries/usaha500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+											<a target="_blank" href="http://rise.biz.id/" title="PT.Rise Infobisnis Semesta Ekasolusi"><img width="155" height="80" src="/public/subsidiaries/fwdlogorevisi/Kakiatna-02.png" class="scale-with-grid wp-post-image" alt="client_2"/></a>
+											<!--a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="500" height="500" src="/public/subsidiaries/usaha500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a-->
 										</div>
 										</li>
 										<li class="last_in_row last_row last_row_mobile">

@@ -169,8 +169,13 @@
 											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="500" height="500" src="/public/subsidiaries/usaha500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 										</div>
 										</li>
-										<div class="column one-second column_column"></div>
+										<div class="column one-fourth column_column"></div>
 										<!--div class="column one-third column_column"></div-->
+										<li class="last_in_row last_row last_row_mobile">
+										<div class="client_wrapper">
+											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="500" height="500" src="/public/subsidiaries/usaha500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+										</div>
+										</li>
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
 											<a target="_blank" href="http://www.thedjakartaclinic.com/" title="PT.Energi Penta Medika"><img width="500" height="500" src="/public/subsidiaries/medika500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>

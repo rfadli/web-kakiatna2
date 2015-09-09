@@ -175,7 +175,7 @@
 										<br/><br/>
 										
 										<h5 style="color:#CD171E">Kakiatna Energi Services</h5>
-										<img src="/public/media/Master_Logo_2015_.png" width="200" height="90"><br/>
+										<img src="/public/subsidiaries/Kakiatna_Energy_services.png" width="200" height="90"><br/>
 										 PT. Kakiatna Energi Services is a power plant operation & maintenance company.<br/>
 										<div class="post-footer">
 											<a href="http://kakiatna.co.id/" class="post-more" target="_blank">View website</a>

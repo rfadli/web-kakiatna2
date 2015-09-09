@@ -171,6 +171,7 @@
 										</li>
 										<div class="column one-one column_column"></div>
 										<div class="column one-one column_column"></div>
+										<div class="column one-one column_column"></div>
 										<!--div class="column one-fourth column_column"></div-->
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">

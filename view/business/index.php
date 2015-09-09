@@ -229,7 +229,7 @@
 										<br />
 										
 										<h5 style="color:#CD171E">Energi Penta Medika </h5>
-										<img src="/public/media/Master_Logo_2015_.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/energi_penta_MEDIKA.png" width="200" height="60"><br/>
 										PT. Energi Penta Medika is a healtchare company behind “The Djakarta Clinic”, a hemodialysis clinic slates to open in 2016.<br/>
 										<div class="post-footer">
 											<a href="http://thedjakartaclinic.co.id/" class="post-more" target="_blank" >View website</a>

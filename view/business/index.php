@@ -42,7 +42,7 @@
 															
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a href="#-5"><img width="80" height="80" src="/public/media/Power_Plant.png" class="scale-with-grid wp-post-image" alt="client_1"/></a>
+																	<img width="80" height="80" src="/public/media/Power_Plant.png" class="scale-with-grid wp-post-image" alt="client_1"/>
 																</div>
 																</li>
 																<li class=" last_row">

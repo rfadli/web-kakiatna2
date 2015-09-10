@@ -42,17 +42,17 @@
 															
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<img width="155" height="80" src="/public/media/Power_Plant.png" class="scale-with-grid wp-post-image" alt="client_1"/>
+																	<img width="80" height="80" src="/public/media/Power_Plant.png" class="scale-with-grid wp-post-image" alt="client_1"/>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<img width="155" height="80" src="/public/media/IT _Digital Service.png" class="scale-with-grid wp-post-image" alt="client_2"/>
+																	<img width="80" height="80" src="/public/media/IT _Digital Service.png" class="scale-with-grid wp-post-image" alt="client_2"/>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<img width="155" height="80" src="/public/media/Healthcare.png" class="scale-with-grid wp-post-image" alt="client_3"/>
+																	<img width="80" height="80" src="/public/media/Healthcare.png" class="scale-with-grid wp-post-image" alt="client_3"/>
 																</div>
 																</li>
 																<li class=" last_row">

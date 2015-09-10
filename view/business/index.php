@@ -57,7 +57,7 @@
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.kaningapictures.com/" title="PT.Kaninga Sinema Indonesia"><img width="155" height="80" src="/public/subsidiaries/Kaninga_sinema.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<img width="80" height="80" src="/public/media/Food_Beverage.png" class="scale-with-grid wp-post-image" alt="client_4"/>
 																</div>
 																</li>
 																<!--start--> 
@@ -84,22 +84,22 @@
 																<!--end--> 
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="155" height="80" src="/public/subsidiaries/RUM.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<img width="80" height="80" src="/public/media/Entertainment.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Logistik"><img width="155" height="80" src="/public/subsidiaries/Kakiatna_Logistic.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<img width="80" height="80" src="/public/media/Logistic_SCM.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="155" height="80" src="/public/subsidiaries/RUM.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<img width="80" height="80" src="/public/media/Property_Management.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="#" title="PT.Kakiatna Enjiniring"><img width="155" height="80" src="/public/subsidiaries/Kakiatna_enjiniring.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
+																	<img width="80" height="80" src="/public/media/Engineering_Construction.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																</div>
 																</li>
 																<!--start-->
@@ -124,21 +124,6 @@
 																</div>
 																</li>
 																<!--end-->
-																<li class=" last_row">
-																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Kakiatna Energy Service"><img width="155" height="80" src="/public/subsidiaries/Kakiatna_Energy_services.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
-																</div>
-																</li>
-																<li class=" last_row">
-																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Cipta Kakiatna"><img width="155" height="80" src="/public/subsidiaries/Cipta_kakiatna.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
-																</div>
-																</li>
-																<li class=" last_row">
-																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.kakiatnalogistik.co.id/" title="PT.Nusantara Energi Mandiri"><img width="155" height="80" src="/public/subsidiaries/Nusantara_Energi_Mandiri.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
-																</div>
-																</li>
 															</ul>
 														</div>
 													</div>

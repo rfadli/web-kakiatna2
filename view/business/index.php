@@ -42,17 +42,17 @@
 															
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.kakiatnaenergi.co.id/" title="PT.Kakiatna Energi"><img width="155" height="80" src="/public/subsidiaries/Kakiatna_energi.png" class="scale-with-grid wp-post-image" alt="client_1"/></a>
+																	<img width="155" height="80" src="/public/media/Power_Plant.png" class="scale-with-grid wp-post-image" alt="client_1"/>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="http://digitama.com/" title="PT.Digita Media Utama"><img width="155" height="80" src="/public/subsidiaries/DIGITAMA.png" class="scale-with-grid wp-post-image" alt="client_2"/></a>
+																	<img width="155" height="80" src="/public/media/IT _Digital Service.png" class="scale-with-grid wp-post-image" alt="client_2"/>
 																</div>
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a target="_blank" href="http://www.thedjakartaclinic.com/" title="PT.Energi Penta Medika"><img width="155" height="80" src="/public/subsidiaries/energi_penta_MEDIKA.png" class="scale-with-grid wp-post-image" alt="client_3"/></a>
+																	<img width="155" height="80" src="/public/media/Healthcare.png" class="scale-with-grid wp-post-image" alt="client_3"/>
 																</div>
 																</li>
 																<li class=" last_row">

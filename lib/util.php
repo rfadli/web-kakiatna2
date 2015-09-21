@@ -12,7 +12,7 @@ class util
 		return false;
 	}
 	
-	public static function limitString($string, $limit = 100) 
+	public static function limitString($string, $limit = 150) 
 	{
 	    // Return early if the string is already shorter than the limit
 	    if(strlen($string) < $limit) {return $string;}

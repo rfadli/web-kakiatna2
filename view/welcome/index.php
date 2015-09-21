@@ -102,7 +102,7 @@
 								echo '<hr class="hr_left">';
 								echo '<h6>'.$key['title'].'</h6>';
 								echo '<p>';
-								echo $key['content'];
+								echo util::limitString($key['content']);
 								echo '</p>';
 								echo '<a href="/contentdetil/index?id='.$key['_id'].'">Read more ...</a>';
 								echo '</div>';
@@ -118,7 +118,7 @@
 								echo '<hr class="hr_left">';
 								echo '<h6>'.$key['title'].'</h6>';
 								echo '<p>';
-								echo $key['content'];
+								echo util::limitString($key['content']);
 								echo '</p>';
 								echo '<a href="/contentdetil/index?id='.$key['_id'].'">Read more ...</a>';
 								echo '</div>';

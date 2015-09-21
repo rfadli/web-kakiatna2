@@ -36,7 +36,7 @@ class aboutus_controller extends controller
 			'mcontent' => $mcontent,
 			'mvision' => $mvision,
 			'mhistory' => $mhistory,
-			'mwordsceo' => $mwordsceo
+			'mwordsceo' => $mwordsceo 
 			
 		);
 		$content = $this->getView(DOCVIEW.'aboutus/index.php', $p);

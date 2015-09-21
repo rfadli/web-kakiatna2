@@ -12,7 +12,17 @@ class util
 		return false;
 	}
 	
-	public static function limitString($string, $limit = 250) 
+	public static function limitString($string, $limit = 100) 
+	{
+	    // Return early if the string is already shorter than the limit
+	    if(strlen($string) < $limit) {return $string;}
+	
+	    $regex = "/(.{1,$limit})\b/";
+	    preg_match($regex, $string, $matches);
+	    return $matches[1].'...';
+	}
+	
+	public static function limitFront($string, $limit = 250) 
 	{
 	    // Return early if the string is already shorter than the limit
 	    if(strlen($string) < $limit) {return $string;}

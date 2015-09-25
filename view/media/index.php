@@ -59,7 +59,8 @@
 										echo '<h5 style="color:#CD171E">';
 										echo $mpress_release['title'];
 										echo '</h5>';
-										echo $mpress_release['content'];
+										echo "Comming Soon";
+										//echo $mpress_release['content'];
 										?>
 									</div>
 									
@@ -69,7 +70,7 @@
 										echo '<h5 style="color:#CD171E">';
 										echo $mpress_kit['title'];
 										echo '</h5>';
-										echo '<a href="/public/images/bg_subheader.png" download> test</a>';
+										//echo '<a href="/public/images/bg_subheader.png" download> test</a>';
 										echo $mpress_kit['content'];
 										?>
 									</div>

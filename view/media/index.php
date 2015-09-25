@@ -63,7 +63,7 @@
 										?>
 									</div>
 									
-									<!--<div id="-7" style="border:0">
+									<div id="-7" style="border:0">
 										
 										<?php
 										echo '<h5 style="color:#CD171E">';
@@ -72,7 +72,7 @@
 										echo '<a href="/public/images/bg_subheader.png" download> test</a>';
 										echo $mpress_kit['content'];
 										?>
-									</div>!-->
+									</div>
 									
 								</div>
 							</div>

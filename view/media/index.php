@@ -59,7 +59,7 @@
 										echo '<h5 style="color:#CD171E">';
 										echo $mpress_release['title'];
 										echo '</h5>';
-										echo "Comming Soon";
+										echo "Coming Soon";
 										//echo $mpress_release['content'];
 										?>
 									</div>

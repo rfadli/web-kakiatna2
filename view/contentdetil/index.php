@@ -73,7 +73,7 @@
 								<div class="column one author-box">
 									<div class="author-box-wrapper">
 										<div class="avatar-wrapper">
-											<img alt="Max Themes" src="/public/upload/gravatar.png"  class="avatar avatar-64 photo" height="64" width="64">
+											<img alt="Max Themes" src="/public/upload/latepost.png"  class="avatar avatar-64 photo" height="64" width="64">
 										</div>
 										<div class="desc-wrapper">
 											<h6><a href="#">Latest Post</a></h6>

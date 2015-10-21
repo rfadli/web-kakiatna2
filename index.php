@@ -26,7 +26,7 @@ define('SLIDER', '55defa0f129595f8368b45fd');
 
 
 include_once(DOCROOT."lib/chilkat/chilkat_9_5_0.php");
-//include_once 'WideImage/WideImage.php';
+include_once 'WideImage/WideImage.php';
 
 function __autoload($class_name) {
 	$s = explode("_", $class_name);

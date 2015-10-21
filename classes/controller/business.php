@@ -17,6 +17,7 @@ class business_controller extends controller
 			'mcontent' => $mcontent,
 		);
 		$this->css->add("/public/css/submenu.css");
+		$this->js->add("/public/js/submenuoveriew.js");
 		$content = $this->getView(DOCVIEW.'business/index.php', $p);
 		$this->addView('content', $content);
 		

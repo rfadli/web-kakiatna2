@@ -134,11 +134,12 @@
 				<!-- clients -->
 				<div class="section center">
 					<div class="section_wrapper clearfix">
-						<div class="items_group clearfix">
+						<div class="items_group clearfix" >
 							<div class="column one column_column">
 								<h2 class="mb0">SUBSIDIARIES</h2>
 							</div>
-							<div class="column one column_clients">
+							
+							<div class="column one column_clients" style="margin-left:90px ">
 								<div class="clients parallaxclients">
 									<ul>
 										<li class=" last_row">
@@ -170,10 +171,13 @@
 											<!--a target="_blank" href="#" title="PT.Nusantara Energi Mandiri"><img width="500" height="500" src="/public/subsidiaries/nusantara500.png" class="scale-with-grid wp-post-image" alt="client_5"/></a-->
 										</div>
 										</li>
-										<div class="column one-one column_column"></div>
-										<div class="column one-one column_column"></div>
-										<div class="column one-one column_column"></div>
-										<div class="column one-one column_column"></div>
+																
+									</ul>
+								</div>
+							</div>
+							<div class="column one column_clients" style="margin-left:305px; ">
+								<div class="clients parallaxclients" >
+									<ul >
 										<!--div class="column one-fourth column_column"></div-->
 										<li class="last_in_row last_row last_row_mobile">
 										<div class="client_wrapper">
@@ -193,12 +197,10 @@
 											<!--a target="_blank" href="http://www.kaningapictures.com/" title="PT.Kaninga Sinema Indonesia"><img width="500" height="500" src="/public/subsidiaries/kaninga500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a-->
 										</div>
 										</li>
-										
-										
-										
 									</ul>
 								</div>
 							</div>
+							
 						</div>
 					</div>
 				</div>

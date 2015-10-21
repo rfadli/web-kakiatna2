@@ -50,7 +50,7 @@
 															<ul>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a href="javascript:;" id="submenu">
+																	<a href="javascript:;" class="submenu" id="a" onclick="click()">
 																	<img width="80" height="80" src="/public/media/Power_Plant.png" class="scale-with-grid wp-post-image" alt="client_1"/>
 																	<br />Energy
 																	</a>
@@ -58,7 +58,7 @@
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a href="javascript:;"  id="submenu">
+																	<a href="javascript:;"  class="submenu" id="-2">
 																	<img width="80" height="80" src="/public/media/IT _Digital Service.png" class="scale-with-grid wp-post-image" alt="client_2"/>
 																	<br />IT & Digital Services
 																	</a>
@@ -66,7 +66,7 @@
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a href="javascript:;" id="submenu">
+																	<a href="javascript:;" class="submenu">
 																	<img width="80" height="80" src="/public/media/Healthcare.png" class="scale-with-grid wp-post-image" alt="client_3"/>
 																	<br />Health Care
 																	</a>
@@ -74,7 +74,7 @@
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a href="javascript:;" id="submenu">
+																	<a href="javascript:;" class="submenu">
 																	<img width="80" height="80" src="/public/media/Food_Beverage.png" class="scale-with-grid wp-post-image" alt="client_4"/>
 																	<br>Food & Beverages
 																	</a>
@@ -104,7 +104,7 @@
 																<!--end--> 
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a href="javascript:;" id="submenu">
+																	<a href="javascript:;" class="submenu">
 																		<img width="80" height="80" src="/public/media/Entertainment.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																		<br />Entertaiment
 																	</a>
@@ -112,7 +112,7 @@
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a href="javascript:;" id="submenu">
+																	<a href="javascript:;" class="submenu">
 																		<img width="80" height="80" src="/public/media/Logistic_SCM.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																		<br>Logistic & SCM
 																	</a>
@@ -120,7 +120,7 @@
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a href="javascript:;" id="submenu">
+																	<a href="javascript:;" class="submenu">
 																	<img width="80" height="80" src="/public/media/Property_Management.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																	<br>Propety Management
 																	</a>
@@ -128,7 +128,7 @@
 																</li>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a href="javascript:;" id="submenu">
+																	<a href="javascript:;" class="submenu">
 																		<img width="80" height="80" src="/public/media/Engineering_Construction.png" class="scale-with-grid wp-post-image" alt="client_4"/></a>
 																		<br>Engineering
 																	</a>

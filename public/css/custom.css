@@ -375,3 +375,10 @@ width:16.667%;
 .answer img {
 	float: left; margin: 0px 20px 0 0
 }
+pre
+{
+	background:none;
+	border: none;
+	margin : 0px;
+	padding: 0px; 
+}

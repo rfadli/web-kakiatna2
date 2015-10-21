@@ -16,6 +16,7 @@ class business_controller extends controller
 			'page_description' => "Dashboard",
 			'mcontent' => $mcontent,
 		);
+		$this->css->add("/public/css/submenu.css");
 		$content = $this->getView(DOCVIEW.'business/index.php', $p);
 		$this->addView('content', $content);
 		

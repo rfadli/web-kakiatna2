@@ -77,12 +77,14 @@
 							<div class="column one column_column">
 								<!--h4></h4-->
 								<span class="dropcap">K</span>
-								Akiatna Group is a conglomerate of companies whose range of operations span in various industries such as
-								Energy, Food & Beverages, IT, Mobile Applications, Healthcare, Independent Power Producer, Engineering and
-								Construction and Logistic. Kakiatna Group is managed under the parent company of PT. Kakiatna Indonesia, a
-								Jakarta based company. PT. Kakiatna Indonesia was founded in 2009 under a different name, PT. Gizania Group.
-								In 2014, we decided to change our name into PT. Kakiatna Indonesia. kakiatna itself means strong and solid in
-								Sundanese. Therefore, we hope our business will grow as strong and solid as ever.
+								akiatna Indonesia is the holding company of Kakiatna Group, 
+								a conglomerate of companies whose range of operations span in various industries from 
+								Energy, Food & Beverages, Retail, Movie Production, Healthcare, Music Streaming Service, 
+								Independent Power Producer, Engineering and Construction, to Freight Forwarding. 
+								Kakiatna Indonesia was founded in 2009 under a different name of Gizania Group. In 2014, 
+								we decided to change our name into Kakiatna Indonesia, meaning strong and solid in Sundanese. 
+								As the name implies, we are committing ourselves for a change in Indonesia through a strong and solid business 
+								foundation.
 							</div>
 						</div>
 					</div>
@@ -152,7 +154,7 @@
 										</li>
 										<li class=" last_row">
 										<div class="client_wrapper">
-											<a target="_blank" href="http://www.kaningapictures.com/" title="PT.Kaninga Sinema Indonesia"><img width="500" height="500" src="/public/subsidiaries/kaninga500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
+											<a target="_blank" href="http://www.kaninga.com/" title="PT.Kaninga Sinema Indonesia"><img width="500" height="500" src="/public/subsidiaries/kaninga500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 											<!--a target="_blank" href="http://www.kakiatnaenergi.co.id/" title="PT.Kakiatna Energi"><img width="500" height="500" src="/public/subsidiaries/energi500.png" class="scale-with-grid wp-post-image" alt="client_3"/></a-->
 										</div>
 										</li>
@@ -166,12 +168,6 @@
 										<div class="client_wrapper">
 											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="500" height="500" src="/public/subsidiaries/usaha500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
 											<!--a target="_blank" href="#" title="PT.Nusantara Energi Mandiri"><img width="500" height="500" src="/public/subsidiaries/nusantara500.png" class="scale-with-grid wp-post-image" alt="client_5"/></a-->
-										</div>
-										</li>
-										<li class="last_in_row last_row last_row_mobile">
-										<div class="client_wrapper">
-											<a target="_blank" href="http://www.rumindonesia.com/" title="PT.Cipta Kakiatna"><img width="500" height="500" src="/public/subsidiaries/cipta500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
-											<!--a target="_blank" href="http://www.rumindonesia.com/" title="PT.Retail Usaha Mandiri"><img width="500" height="500" src="/public/subsidiaries/usaha500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a-->
 										</div>
 										</li>
 										<div class="column one-one column_column"></div>
@@ -198,16 +194,8 @@
 										</div>
 										</li>
 										
-										<li class="last_in_row last_row last_row_mobile">
-										<div class="client_wrapper">
-											<a target="_blank" href="#" title="PT.Kakiatna Energy Services"><img width="500" height="500" src="/public/subsidiaries/service500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
-										</div>
-										</li>
-										<li class="last_in_row last_row last_row_mobile">
-										<div class="client_wrapper">
-											<a target="_blank" href="#" title="PT.Kakiatana Enjiniring"><img width="500" height="500" src="/public/subsidiaries/enjinering500.png" class="scale-with-grid wp-post-image" alt="client_6"/></a>
-										</div>
-										</li>
+										
+										
 									</ul>
 								</div>
 							</div>

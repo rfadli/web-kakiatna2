@@ -1,4 +1,5 @@
 </header>
+
 <div id="Content">
 		<div class="content_wrapper clearfix">
 			<!-- .sections_group -->
@@ -10,14 +11,14 @@
 								<div class="jq-tabs tabs_wrapper tabs_vertical tabs_big_icon">
 									<ul>
 										<li><a href="#-4" style="color:#CD171E">Overview</a></li>
-										<li><a href="#-5"><img width="50" height="50" src="/public/media/Power_Plant.png"><br />Energy</a></li>
-										<li><a href="#-6"><img width="50" height="50" src="/public/media/IT _Digital Service.png"><br />IT & Digital Services</a></li>
-										<li><a href="#-7"><img width="50" height="50" src="/public/media/Healthcare.png"><br />Healthcare</a></li>
-										<li><a href="#-8"><img width="50" height="50" src="/public/media/Food_Beverage.png"><br />Food & Beverages</a></li>
-										<li><a href="#-9"><img width="50" height="50" src="/public/media/Entertainment.png"><br />Entertainment</a></li>
-										<li><a href="#-10"><img width="50" height="50" src="/public/media/Logistic_SCM.png"><br />Logistic & SCM</a></li>
-										<li><a href="#-11"><img width="50" height="50" src="/public/media/Property_Management.png"><br />Property Management</a></li>
-										<li><a href="#-12"><img width="50" height="50" src="/public/media/Engineering_Construction.png"><br />Engineering & Construction</a></li>
+										<li><a href="#-5" onclick="document.body.scrollTop = document.documentElement.scrollTop = 0;"><img width="50" height="50" src="/public/media/Power_Plant.png"><br />Energy</a></li>
+										<li><a href="#-6" onclick="document.body.scrollTop = document.documentElement.scrollTop = 0;"><img width="50" height="50" src="/public/media/IT _Digital Service.png"><br />IT & Digital Services</a></li>
+										<li><a href="#-7" onclick="document.body.scrollTop = document.documentElement.scrollTop = 0;"><img width="50" height="50" src="/public/media/Healthcare.png"><br />Healthcare</a></li>
+										<li><a href="#-8" onclick="document.body.scrollTop = document.documentElement.scrollTop = 0;"><img width="50" height="50" src="/public/media/Food_Beverage.png"><br />Food & Beverages</a></li>
+										<li><a href="#-9" onclick="document.body.scrollTop = document.documentElement.scrollTop = 0;"><img width="50" height="50" src="/public/media/Entertainment.png"><br />Entertainment</a></li>
+										<li><a href="#-10" onclick="document.body.scrollTop = document.documentElement.scrollTop = 0;"><img width="50" height="50" src="/public/media/Logistic_SCM.png"><br />Logistic & SCM</a></li>
+										<li><a href="#-11" onclick="document.body.scrollTop = document.documentElement.scrollTop = 0;"><img width="50" height="50" src="/public/media/Property_Management.png"><br />Property Management</a></li>
+										<li><a href="#-12" onclick="document.body.scrollTop = document.documentElement.scrollTop = 0;"><img width="50" height="50" src="/public/media/Engineering_Construction.png"><br />Engineering & Construction</a></li>
 									</ul>
 									
 									<div id="-4" style="border:0">
@@ -50,7 +51,7 @@
 															<ul>
 																<li class=" last_row">
 																<div class="client_wrapper">
-																	<a href="javascript:;" class="submenu" id="a" onclick="click()">
+																	<a href="javascript:;" class="submenu" id="a">
 																	<img width="80" height="80" src="/public/media/Power_Plant.png" class="scale-with-grid wp-post-image" alt="client_1"/>
 																	<br />Energy
 																	</a>
@@ -209,7 +210,7 @@
 										<br />
 										
 										<h5 style="color:#CD171E">Rise Infobisnis Semesta Ekasolusi</h5>
-										<img src="/public/subsidiaries/fwdlogorevisi/Kakiatna-02.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/PT Rise.png" width="200" height="60"><br/>
 										 PT. Rise Infobisnis Semesta Ekasolusi is a retail consultant and IT solution company.<br/>
 										<div class="post-footer">
 											<a href="http://rise.biz.id/" class="post-more" target="_blank" >Visit website</a>
@@ -239,7 +240,7 @@
 										<br/><br/>
 										
 										<h5 style="color:#CD171E">Digitama Teknologi</h5>
-										<img src="/public/images/logo/Digitama.jpg" width="200" height="40"><br/>
+										<img src="/public/subsidiaries/Digitama Teknologi.png" width="200" height="40"><br/>
 										 PT. Digitama Teknologi is a mobile app developer based in Cimahi, West Java. Digitama Teknologi has developed children games for Android and iOS.
 										 <div class="post-footer">
 											<a href="http://digitamateknologi.co.id/" class="post-more" target="_blank" >Visit Website</a>
@@ -319,7 +320,7 @@
 										<br />
 										
 										<h5 style="color:#CD171E">Kakiatna Digitama</h5>
-										<img src="/public/images/logo/kakiatna-03.png" width="200" height="60"><br/>
+										<img src="/public/subsidiaries/Kakiatna Digitama.png" width="200" height="60"><br/>
 										 PT. Kakiatna Digitama is a property management company.<br/>
 										<div class="post-footer">
 											<a href="http://kakiatnadigitama.co.id/" class="post-more" target="_blank" >Visit Website</a>

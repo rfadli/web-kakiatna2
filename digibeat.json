@@ -7,13 +7,7 @@
 		"password":""
 	},
 	
-	"mongodb":{
-		"host":"localhost",
-		
-		"port":"27017",
-		"username":"",
-		"password":""
-	},
+	
 	"mysql":{
 		"host":"localhost",
 		"port":"3306",

@@ -183,7 +183,7 @@
 										
 										<h5 style="color:#CD171E">Nusantara Energi Mandiri</h5>
 										<img src="/public/subsidiaries/Nusantara_Energi_Mandiri.png" width="200" height="90"><br/>
-										 PT. Nusantara Energi Mandiri is an engineering, procurement, and construction company with specialization in power plant projects. Established in 2008, Nusantara Energi Mandiri is now developing a hydro power plant in Jatigede, West Java and a coal fired power plant in Pangkalan Susu, Norh Sumatera.ing upthrust by the state electricity company to accelerate more power plant procurement in various parts of Indonesia, Kakiatna Energi aims to be the biggest private power producer in Indonesia.<br/>
+										 PT. Nusantara Energi Mandiri is an engineering, procurement, and construction company with specialization in power plant projects. Established in 2008, Nusantara Energi Mandiri is now developing a hydro power plant in Jatigede, West Java and a coal fired power plant in Pangkalan Susu, Norh Sumatera <br/>
 										 <div class="post-footer">
 											<a href="http://kakiatna.co.id/" class="post-more" target="_blank">Visit website</a>
 												<div class="button-comments">

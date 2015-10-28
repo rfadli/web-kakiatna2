@@ -172,7 +172,7 @@
 										
 										<h5 style="color:#CD171E">Kakiatna Energi</h5>
 										<img src="/public/subsidiaries/Kakiatna_energi.png" width="200" height="90"><br/>
-										 PT. Nusantara Energi Mandiri is an engineering, procurement, and construction company with specialization in power plant projects. Established in 2008, Nusantara Energi Mandiri is now developing a hydro power plant in Jatigede, West Java and a coal fired power plant in Pangkalan Susu, Norh Sumatera.ing upthrust by the state electricity company to accelerate more power plant procurement in various parts of Indonesia, Kakiatna Energi aims to be the biggest private power producer in Indonesia.<br/>
+										 PT. Kakiatna Energi is a private power investment and development company. With the IPP (Independent Power Producer) scheme currently being upthrust by the state electricity company to accelerate more power plant procurement in various parts of Indonesia, Kakiatna Energi aims to be the biggest private power producer in Indonesia.<br />
 										<div class="post-footer">
 											<a href="http://kakiatnaenergi.co.id/" class="post-more" target="_blank">Visit website</a>
 												<div class="button-comments">
@@ -183,8 +183,8 @@
 										
 										<h5 style="color:#CD171E">Nusantara Energi Mandiri</h5>
 										<img src="/public/subsidiaries/Nusantara_Energi_Mandiri.png" width="200" height="90"><br/>
-										 PT. Nusantara Energi Mandiri  is an engineering, procurement, and construction company yang secara khusus berkutat di dalam sektor power plant. Didirikan pada tahun 2008, Nusantara Energi Mandiri telah memiliki pengalaman dalam pengembangan PLTA Jatigede bersama dengan Sinohydro Co., Ltd.<br/>
-										<div class="post-footer">
+										 PT. Nusantara Energi Mandiri is an engineering, procurement, and construction company with specialization in power plant projects. Established in 2008, Nusantara Energi Mandiri is now developing a hydro power plant in Jatigede, West Java and a coal fired power plant in Pangkalan Susu, Norh Sumatera.ing upthrust by the state electricity company to accelerate more power plant procurement in various parts of Indonesia, Kakiatna Energi aims to be the biggest private power producer in Indonesia.<br/>
+										 <div class="post-footer">
 											<a href="http://kakiatna.co.id/" class="post-more" target="_blank">Visit website</a>
 												<div class="button-comments">
 													<a href=""><span class="icons-wrapper"><i class="icon-comment-empty-fa"></i></span></a>

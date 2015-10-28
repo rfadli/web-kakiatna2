@@ -98,6 +98,7 @@ body {
 	#Header a:hover.responsive-menu-toggle { text-decoration: none; }
 
 	/* main menu 1st level */
+	
 	#Header #menu > ul { width:100%; float: left; }
 	#Header #menu ul li	{ width: 100%; padding-bottom: 0; border-right: 0; position: relative; overflow:hidden; }
 	#Header #menu ul li em, #Header #menu .menu-arr-bottom, #Header #menu .menu-arr-top	{ display: none !important; }
@@ -108,7 +109,7 @@ body {
 	#Header #menu ul li.hover a { border-bottom: 0; }
 	
 	#Header #menu ul.mfn-megamenu li .menu-toggle { display:none;}
-
+	
 	/* main menu 2nd level */
 	#Header #menu ul li	ul { position:relative !important; left:0 !important; top:0; padding: 0; margin-left: 0 !important; border:none;}
 	#Header #menu ul li	ul li { width:100% !important;}

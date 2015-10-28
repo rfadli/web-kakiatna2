@@ -61,7 +61,7 @@ window.mfn_slider_portfolio 	= { autoPlay:0 };
 <link rel='stylesheet' id='images-green-css'  href='/public/css/skins/green/images.css' type='text/css' media='all' />
 
 <link rel='stylesheet' id='Ubuntu-css'  href='http://fonts.googleapis.com/css?family=Ubuntu%3A100%2C300%2C400%2C400italic%2C700&amp;ver=4.2' type='text/css' media='all' />
-
+<link rel="stylesheet" href="/public/css/customresponsive.css"  />
 
 	
 <style>

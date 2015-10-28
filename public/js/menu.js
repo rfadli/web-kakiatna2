@@ -24,6 +24,7 @@ $(function(){
   $('#navbtn').on('click', function(e){
     e.preventDefault();
     $(".header-section .main-menu").slideToggle(350);
+  
   });
   
 });
